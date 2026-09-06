@@ -481,7 +481,7 @@ icon:"🧅",
 image:"পেঁয়াজ.jpg",    
 variants:[    
 {brand:"দেশি",size:"১ কেজি",price:0},  
-{brand:"ইন্ডিয়ান",size:"১ কেজি",price:60}  
+{brand:"ইন্ডিয়ান",size:"১ কেজি",price:50}  
   
 ]  
 },  
@@ -503,7 +503,7 @@ icon:"🫚",
 image:"আদা.jpg",    
 variants:[  
 {brand:"দেশি",size:"১ কেজি",price:0},  
-{brand:"ইমপোর্টেড",size:"১ কেজি",price:130}  
+{brand:"ইমপোর্টেড",size:"১ কেজি",price:140}  
      
 ]  
 },  
@@ -560,7 +560,7 @@ icon:"🥚",
 image:"ডিম.jpg",    
 variants:[    
 {brand:"দেশি",size:"১ ডজন",price:0},  
-{brand:"ফার্ম",size:"১ ডজন",price:140}  
+{brand:"ফার্ম",size:"১ ডজন",price:145}  
   
 ]  
 },  
@@ -877,8 +877,9 @@ name:"কাপড় ধোয়ার সাবান",
 icon:"🧼",  
 image:"কাপড়-ধোয়ার-সাবান.jpg",    
 variants:[    
-{brand:"Tibet",size:"পিস",price:0},  
-{brand:"Wheel",size:"পিস",price:0}  
+{brand:"Tibet",size:"১ পিস",price:0},
+{brand:"Tibet ৫৭০",size:"১ পিস",price:0},   
+{brand:"Wheel",size:"১ পিস",price:0}  
   
 ]  
 },  
