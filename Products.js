@@ -180,7 +180,7 @@ variants:[
 {brand:"রাঁধুনী",size:"২০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"১ কেজি",price:0},  
-{brand:"ধনিয়া",size:"১ কেজি",price:0}  
+{brand:"সাধারণ",size:"১ কেজি",price:0}  
   
 ]  
 },  
@@ -198,7 +198,7 @@ variants:[
 {brand:"রাঁধুনী",size:"২০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"১ কেজি",price:0},  
-{brand:"জিরা",size:"১ কেজি",price:650}  
+{brand:"সাধারণ",size:"১ কেজি",price:650}  
   
 ]  
 },  
@@ -284,11 +284,11 @@ name:"বাদাম",
 icon:"🥜",
 image:"বাদাম.jpg",
 variants:[
-{brand:"সাধারণ",size:"১০০ গ্রাম",price:140},
-{brand:"সাধারণ",size:"২০০ গ্রাম",price:280},
-{brand:"সাধারণ",size:"২৫০ গ্রাম",price:325},
-{brand:"সাধারণ",size:"৫০০ গ্রাম",price:650},
-{brand:"সাধারণ",size:"১ কেজি",price:1300}
+{brand:"সাধারণ",size:"১০০ গ্রাম",price:20},
+{brand:"সাধারণ",size:"২০০ গ্রাম",price:40},
+{brand:"সাধারণ",size:"২৫০ গ্রাম",price:50},
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:95},
+{brand:"সাধারণ",size:"১ কেজি",price:190}
 ]
 },    
   
