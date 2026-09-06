@@ -365,7 +365,19 @@ variants:[
   
 ]  
 },  
+
+{  
+name:"পায়েস প্যাকেট",  
+icon:"🥣",  
+image:"পায়েস.jpg",    
+variants:[    
+{brand:"সজীব",size:"৫০০ গ্রাম",price:45},  
+{brand:"তীর",size:"৫০০ গ্রাম",price:0},  
+{brand:"ফ্রেশ",size:"৫০০ গ্রাম",price:0}  
   
+]  
+},  
+   
 {  
 name:"চিনি",  
 icon:"🍬",  
