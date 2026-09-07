@@ -877,9 +877,11 @@ name:"কাপড় ধোয়ার সাবান",
 icon:"🧼",  
 image:"কাপড়-ধোয়ার-সাবান.jpg",    
 variants:[    
-{brand:"Tibet",size:"১ পিস",price:0},
-{brand:"Tibet ৫৭০",size:"১ পিস",price:0},   
-{brand:"Wheel",size:"১ পিস",price:0}  
+{brand:"Tibet",size:"১২৫ গ্রাম",price:28},
+{brand:"Tibet Ball",size:"১২৫ গ্রাম",price:26},
+{brand:"Chaka Ball",size:"১২৫ গ্রাম",price:26},   
+{brand:"Tibet ৫৭০",size:"১২৫ গ্রাম",price:28},   
+{brand:"Wheel",size:"১২৫ গ্রাম",price:35}  
   
 ]  
 },  
@@ -890,7 +892,23 @@ icon:"🧼",
 image:"গোসলের-সাবান.jpg",    
 variants:[    
 {brand:"Lux",size:"১০০ গ্রাম",price:0},  
-{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},  
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},   
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},   
 {brand:"Dettol",size:"১০০ গ্রাম",price:0}  
   
 ]  
