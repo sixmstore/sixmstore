@@ -1323,6 +1323,11 @@ font-size:28px
 .status-pill{display:inline-block;padding:4px 9px;border-radius:999px;background:#e8f7ee;color:#16833b;font-weight:800;font-size:11px}
 .bottom-nav{display:none;position:fixed;left:10px;right:10px;bottom:10px;z-index:6000;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border:1px solid #e4eaf2;border-radius:18px;box-shadow:0 8px 30px rgba(0,0,0,.18);padding:7px;grid-template-columns:repeat(4,1fr);gap:5px}
 .bottom-nav button{border:0;background:transparent;border-radius:12px;padding:7px 3px;font-size:11px;font-weight:800;color:#334155}.bottom-nav button span{display:block;font-size:20px;line-height:1.1;margin-bottom:2px}
+
+.quick-feature{font-family:inherit;border:1px solid #e7edf5;cursor:pointer;width:100%;transition:transform .18s ease,box-shadow .18s ease}
+.quick-feature:hover{transform:translateY(-2px);box-shadow:0 7px 18px rgba(0,0,0,.10)}
+.quick-feature:active{transform:scale(.98)}
+
 @media(max-width:700px){.quick-features{grid-template-columns:repeat(2,1fr);margin-top:10px}.bottom-nav{display:grid}.order-floating{bottom:82px!important}.recent-order-box{margin:15px 10px}.recent-order-row{align-items:flex-start;flex-direction:column}}
 
 </style>
@@ -1483,10 +1488,10 @@ id="liveProductTrack">
      PREMIUM QUICK FEATURES
 ========================= -->
 <div class="quick-features">
-  <div class="quick-feature"><span>🔥</span>বিশেষ অফার</div>
-  <div class="quick-feature"><span>🏷️</span>নতুন পণ্য</div>
-  <div class="quick-feature"><span>📦</span>অর্ডার স্ট্যাটাস</div>
-  <div class="quick-feature"><span>❤️</span>পছন্দের পণ্য</div>
+  <button type="button" class="quick-feature" onclick="showSpecialOffers()"><span>🔥</span>বিশেষ অফার</button>
+  <button type="button" class="quick-feature" onclick="showNewProducts()"><span>🏷️</span>নতুন পণ্য</button>
+  <button type="button" class="quick-feature" onclick="showOrderStatus()"><span>📦</span>অর্ডার স্ট্যাটাস</button>
+  <button type="button" class="quick-feature" onclick="showWishlist()"><span>❤️</span>পছন্দের পণ্য</button>
 </div>
 
 <div class="recent-order-box" id="recentOrderBox">
@@ -1848,9 +1853,7 @@ SIX M STORE
      PRODUCTS.JS
 ========================= -->
 
-<script src="Products.js">renderRecentOrders();
-renderOrder();
-</script>
+<script src="Products.js"></script>
 
 
 <script>
@@ -2594,6 +2597,48 @@ function renderRecentOrders(){
   if(!box||!list||!orderHistory.length)return;
   box.style.display="block";list.innerHTML="";
   orderHistory.slice(0,3).forEach(o=>{list.innerHTML+=`<div class="recent-order-row"><div><strong>${escapeHTML(o.id)}</strong><br><small>${escapeHTML(o.date)}</small></div><span class="status-pill">${escapeHTML(o.status)}</span></div>`})
+}
+
+/* =========================================================
+   QUICK FEATURE ACTIONS
+========================================================= */
+function scrollToProducts(){
+  const el=document.getElementById("productsContainer");
+  if(el) el.scrollIntoView({behavior:"smooth",block:"start"});
+}
+function filterByBadge(type){
+  const all=categories.flatMap(c=>c.products||[]);
+  const wanted=all.filter(p=>{
+    const b=String(p.badge||p.label||"").toLowerCase();
+    if(type==="offer") return b.includes("offer")||b.includes("অফার")||p.oldPrice||p.discount;
+    if(type==="new") return b.includes("new")||b.includes("নতুন");
+    return false;
+  });
+  if(!wanted.length){
+    alert(type==="offer" ? "এই মুহূর্তে কোনো বিশেষ অফার যোগ করা হয়নি।" : "এই মুহূর্তে নতুন পণ্য হিসেবে কোনো পণ্য চিহ্নিত করা হয়নি।");
+    return;
+  }
+  const names=wanted.map(p=>p.name);
+  const box=document.getElementById("productsContainer");
+  if(!box)return;
+  displayProducts();
+  setTimeout(()=>{
+    box.querySelectorAll(".product").forEach(card=>{
+      const title=card.querySelector("h3");
+      card.style.display=title && names.includes(title.textContent.trim()) ? "" : "none";
+    });
+    scrollToProducts();
+  },0);
+}
+function showSpecialOffers(){filterByBadge("offer")}
+function showNewProducts(){filterByBadge("new")}
+function showOrderStatus(){
+  if(orderHistory && orderHistory.length){
+    renderRecentOrders();
+    document.getElementById("recentOrderBox")?.scrollIntoView({behavior:"smooth",block:"center"});
+  }else{
+    alert("এখনও কোনো অর্ডার হিস্টোরি নেই। অর্ডার করার পর এখানে স্ট্যাটাস দেখা যাবে।");
+  }
 }
 
 /* =========================================================
