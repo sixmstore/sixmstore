@@ -16,9 +16,7 @@ products:[
 name:"সিদ্ধ/হাফ সিদ্ধ চাল",  
 icon:"🍚",  
 image:"চাল.jpg",    
-  
-variants:[    
-  
+variants:[     
 {brand:"নুরজাহান মিনিকেট",size:"১ কেজি",price:60},  
 {brand:"নুরজাহান মিনিকেট",size:"৫ কেজি",price:300},  
 {brand:"নুরজাহান মিনিকেট",size:"১০ কেজি",price:580},
@@ -50,9 +48,7 @@ variants:[
 name:"আতপ/চিনিগুড়া চাল",  
 icon:"🍚",  
 image:"চিনিগুড়া-চাল.jpg",  
-  
 variants:[  
-  
 {brand:"লিচু মিনিকেট আতপ",size:"১ কেজি",price:70},  
 {brand:"লিচু মিনিকেট আতপ",size:"৫ কেজি",price:350},  
 {brand:"লিচু মিনিকেট আতপ",size:"১০ কেজি",price:690},  
@@ -73,9 +69,7 @@ variants:[
 name:"ডাল",  
 icon:"🫘",  
 image:"ডাল.jpg",  
-  
 variants:[  
-  
 {brand:"মসুর ডাল মোটা",size:"১ কেজি",price:90},  
 {brand:"মসুর ডাল দেশি",size:"১ কেজি",price:150},  
   
@@ -94,8 +88,7 @@ variants:[
 {  
 name:"ছোলা/চনা বুট",  
 icon:"🫘",  
-image:"ছোলা.jpg",  
-  
+image:"ছোলা.jpg",   
 variants:[  
 {brand:"সাধারণ",size:"১ কেজি",price:95}  
 ]  
@@ -111,16 +104,13 @@ variants:[
   
 {  
 name:"🫙 তেল ও মসলা",  
-  
 products:[  
   
 {  
 name:"সয়াবিন তেল",  
 icon:"🫙",  
 image:"সয়াবিন-তেল.jpg",  
-  
 variants:[  
-  
 {brand:"ফ্রেশ",size:"১ লিটার",price:0},  
 {brand:"তীর",size:"১ লিটার",price:0},  
 {brand:"রূপচাঁদা",size:"১ লিটার",price:0},  
@@ -141,10 +131,8 @@ variants:[
 {  
 name:"সরিষার তেল",  
 icon:"🌻",  
-image:"সরিষার-তেল.jpg",  
-  
-variants:[  
-  
+image:"সরিষার-তেল.jpg",    
+variants:[   
 {brand:"রাঁধুনী",size:"৮০ গ্রাম",price:38},  
 {brand:"রাঁধুনী",size:"২৫০ গ্রাম",price:90},  
 {brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:180},  
@@ -171,16 +159,14 @@ variants:[
 {  
 name:"ধনিয়া/ধনিয়া গুঁড়া",  
 icon:"🌿",  
-image:"ধনিয়া.jpg",  
-  
-variants:[  
-  
+image:"ধনিয়া.jpg",   
+variants:[    
 {brand:"রাঁধুনী",size:"৫০ গ্রাম",price:30},  
 {brand:"রাঁধুনী",size:"১০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"২০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"১ কেজি",price:0},  
-{brand:"ধনিয়া",size:"১ কেজি",price:0}  
+{brand:"সাধারণ",size:"১ কেজি",price:0}  
   
 ]  
 },  
@@ -188,17 +174,15 @@ variants:[
 {  
 name:"জিরা/জিরা গুঁড়া",  
 icon:"🌿",  
-image:"জিরা.jpg",  
-  
-variants:[  
-  
+image:"জিরা.jpg",    
+variants:[    
 {brand:"রাঁধুনী",size:"১৫ গ্রাম",price:28},  
 {brand:"রাঁধুনী",size:"৫০ গ্রাম",price:85},  
 {brand:"রাঁধুনী",size:"১০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"২০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"১ কেজি",price:0},  
-{brand:"জিরা",size:"১ কেজি",price:650}  
+{brand:"সাধারণ",size:"১ কেজি",price:650}  
   
 ]  
 },  
@@ -206,10 +190,8 @@ variants:[
 {  
 name:"গরম মসলা গুঁড়া",  
 icon:"🧂",  
-image:"গরম-মসলা.jpg",  
-  
-variants:[  
-  
+image:"গরম-মসলা.jpg",    
+variants:[    
 {brand:"রাঁধুনী",size:"১৫ গ্রাম",price:38},  
 {brand:"রাঁধুনী",size:"৪০ গ্রাম",price:80},  
 {brand:"রাঁধুনী",size:"১০০ গ্রাম",price:0},  
@@ -223,10 +205,8 @@ variants:[
 {  
 name:"দারুচিনি",  
 icon:"🌿",  
-image:"দারুচিনি.jpg",  
-  
-variants:[  
-  
+image:"দারুচিনি.jpg",    
+variants:[    
 {brand:"সাধারণ",size:"২৫০ গ্রাম",price:130},  
 {brand:"সাধারণ",size:"৫০০ গ্রাম",price:250},  
 {brand:"সাধারণ",size:"১ কেজি",price:500}  
@@ -237,10 +217,8 @@ variants:[
 {  
 name:"এলাচ",  
 icon:"🌿",  
-image:"এলাচ.jpg",  
-  
-variants:[  
-  
+image:"এলাচ.jpg",    
+variants:[    
 {brand:"সাধারণ",size:"১০০ গ্রাম",price:500},  
 {brand:"সাধারণ",size:"২০০ গ্রাম",price:1000},  
 {brand:"সাধারণ",size:"২৫০ গ্রাম",price:1200},  
@@ -253,10 +231,8 @@ variants:[
 {  
 name:"লবঙ্গ",  
 icon:"🌿",  
-image:"লবঙ্গ.jpg",  
-  
-variants:[  
-  
+image:"লবঙ্গ.jpg",    
+variants:[    
 {brand:"সাধারণ",size:"১০০ গ্রাম",price:140},  
 {brand:"সাধারণ",size:"২০০ গ্রাম",price:280},  
 {brand:"সাধারণ",size:"২৫০ গ্রাম",price:325},  
@@ -265,7 +241,37 @@ variants:[
   
 ]  
 },  
-  
+
+{  
+name:"রাঁধুনী প্যাকেট মশলা",  
+icon:"🌿",  
+image:"প্যাকেট মশলা.jpg",    
+variants:[    
+{brand:"বিরিয়ানি মশলা",size:"৪০ গ্রাম",price:60},  
+{brand:"রোস্ট মশলা",size:"৩৫ গ্রাম",price:65},  
+{brand:"ফালুদা মিক্স",size:"২৫০ গ্রাম",price:120},  
+{brand:"ফিরনি মিক্স",size:"১৫০ গ্রাম",price:70},  
+{brand:"কালা ভুন",size:"৮০ গ্রাম",price:100},  
+{brand:"হালিম মিক্স",size:"২০০ গ্রাম",price:70},
+{brand:"ক্ষীর মিক্স",size:"১৫০ গ্রাম",price:70},   
+{brand:"মুরগির মাংসের মশলা",size:"১০০ গ্রাম",price:95},
+{brand:"মুরগির মাংসের মশলা",size:"২০ গ্রাম",price:20},   
+{brand:"হাঁসের মাংসের মশলা",size:"৩৩ গ্রাম",price:60},   
+{brand:"গরুর মাংসের মশলা",size:"২৫ গ্রাম",price:25},
+{brand:"গরুর মাংসের মশলা",size:"১০০ গ্রাম",price:90},
+{brand:"মাংসের মশলা",size:"১০০ গ্রাম",price:95},
+{brand:"মাংসের মশলা",size:"২০ গ্রাম",price:20},   
+{brand:"চটপটি মশলা",size:"৫০ গ্রাম",price:50},   
+{brand:"চিকেন তান্দুরি মশলা",size:"৫০ গ্রাম",price:80},
+{brand:"কাচ্চি বিরানী মশলা",size:"৪০ গ্রাম",price:70},
+{brand:"মাছের মশলা",size:"১০০ গ্রাম",price:80},   
+{brand:"মেজবানি গরুর মাংসের মশলা",size:"৬৮ গ্রাম",price:100},   
+{brand:"তেহরি মশলা",size:"৪০ গ্রাম",price:55},   
+{brand:"বোরহানি মশলা",size:"৫০ গ্রাম",price:40}   
+   
+]  
+},  
+     
 {  
 name:"কিসমিস",
 icon:"🍇",
@@ -284,21 +290,19 @@ name:"বাদাম",
 icon:"🥜",
 image:"বাদাম.jpg",
 variants:[
-{brand:"সাধারণ",size:"১০০ গ্রাম",price:140},
-{brand:"সাধারণ",size:"২০০ গ্রাম",price:280},
-{brand:"সাধারণ",size:"২৫০ গ্রাম",price:325},
-{brand:"সাধারণ",size:"৫০০ গ্রাম",price:650},
-{brand:"সাধারণ",size:"১ কেজি",price:1300}
+{brand:"সাধারণ",size:"১০০ গ্রাম",price:20},
+{brand:"সাধারণ",size:"২০০ গ্রাম",price:40},
+{brand:"সাধারণ",size:"২৫০ গ্রাম",price:50},
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:95},
+{brand:"সাধারণ",size:"১ কেজি",price:190}
 ]
 },    
   
 {  
 name:"তেজপাতা",  
 icon:"🍃",  
-image:"তেজপাতা.jpg",  
-  
-variants:[  
-  
+image:"তেজপাতা.jpg",    
+variants:[    
 {brand:"সাধারণ",size:"৫০ গ্রাম",price:20},  
 {brand:"সাধারণ",size:"১০০ গ্রাম",price:30},  
 {brand:"সাধারণ",size:"২৫০ গ্রাম",price:50},  
@@ -317,17 +321,14 @@ variants:[
 ========================= */  
   
 {  
-name:"🛒 নিত্যপ্রয়োজনীয় পণ্য",  
-  
+name:"🛒 নিত্যপ্রয়োজনীয় পণ্য",    
 products:[  
   
 {  
 name:"আটা",  
 icon:"🌾",  
-image:"আটা.jpg",  
-  
-variants:[  
-  
+image:"আটা.jpg",    
+variants:[    
 {brand:"সাধারণ",size:"১ কেজি",price:50},  
 {brand:"ফ্রেশ",size:"১ কেজি",price:55},  
 {brand:"ফ্রেশ",size:"৫ কেজি",price:0},  
@@ -342,10 +343,8 @@ variants:[
 {  
 name:"ময়দা",  
 icon:"🥣",  
-image:"ময়দা.jpg",  
-  
-variants:[  
-  
+image:"ময়দা.jpg",    
+variants:[    
 {brand:"সাধারণ",size:"১ কেজি",price:65},  
 {brand:"ফ্রেশ",size:"১ কেজি",price:0},  
 {brand:"ফ্রেশ",size:"৫ কেজি",price:0},  
@@ -360,24 +359,31 @@ variants:[
 {  
 name:"সুজির প্যাকেট",  
 icon:"🥣",  
-image:"সুজি.jpg",  
-  
-variants:[  
-  
+image:"সুজি.jpg",    
+variants:[    
 {brand:"সজীব",size:"৫০০ গ্রাম",price:45},  
 {brand:"তীর",size:"৫০০ গ্রাম",price:0},  
 {brand:"ফ্রেশ",size:"৫০০ গ্রাম",price:0}  
   
 ]  
 },  
+
+{  
+name:"ফ্রেন্ডস পায়েস & হালুয়া",  
+icon:"🥣",  
+image:"পায়েস ও হালুয়া.jpg",    
+variants:[    
+{brand:"পায়েস রাইস পুডিং",size:"১৫০ গ্রাম",price:55},  
+{brand:"চায়না গ্রাস মিল্ক হালুয়া",size:"১২০ গ্রাম",price:60}  
   
+]  
+},  
+   
 {  
 name:"চিনি",  
 icon:"🍬",  
-image:"চিনি.jpg",  
-  
-variants:[  
-  
+image:"চিনি.jpg",    
+variants:[    
 {brand:"চিনি খোলা",size:"১ কেজি",price:105},  
 {brand:"চিনি প্যাকেট",size:"১ কেজি",price:110}  
   
@@ -387,10 +393,8 @@ variants:[
 {  
 name:"লবণ",  
 icon:"🧂",  
-image:"লবণ.jpg",  
-  
-variants:[  
-  
+image:"লবণ.jpg",    
+variants:[    
 {brand:"ফ্রেশ",size:"৫০০ গ্রাম",price:20},  
 {brand:"ফ্রেশ",size:"১ কেজি",price:40},  
   
@@ -415,8 +419,7 @@ variants:[
 {  
 name:"গুড়",  
 icon:"🍯",  
-image:"গুড়.jpg",  
-  
+image:"গুড়.jpg",    
 variants:[  
 {brand:"সাধারণ",size:"১ কেজি",price:0}  
 ]  
@@ -425,10 +428,8 @@ variants:[
 {  
 name:"সেমাই",  
 icon:"🍜",  
-image:"সেমাই.jpg",  
-  
-variants:[  
-  
+image:"সেমাই.jpg",    
+variants:[    
 {brand:"বনফুল লাচ্ছা",size:"প্যাকেট",price:40},  
 {brand:"বনফুল বাংলা",size:"প্যাকেট",price:45}  
   
@@ -438,8 +439,7 @@ variants:[
 {  
 name:"চিড়া",  
 icon:"🌾",  
-image:"চিড়া.jpg",  
-  
+image:"চিড়া.jpg",    
 variants:[  
 {brand:"সাধারণ",size:"১ কেজি",price:0}  
 ]  
@@ -448,8 +448,7 @@ variants:[
 {  
 name:"মুড়ি",  
 icon:"🍘",  
-image:"মুড়ি.jpg",  
-  
+image:"মুড়ি.jpg",    
 variants:[  
 {brand:"সাধারণ",size:"১ কেজি",price:70}  
 ]  
@@ -464,16 +463,13 @@ variants:[
 ========================= */  
   
 {  
-name:"🥔 সবজি ও রান্নার উপকরণ",  
-  
+name:"🥔 সবজি ও রান্নার উপকরণ",    
 products:[  
   
 {  
 name:"আলু",  
-weightBased:true,
 icon:"🥔",  
-image:"আলু.jpg",  
-  
+image:"আলু.jpg",    
 variants:[  
 {brand:"সাধারণ",size:"১ কেজি",price:25}  
 ]  
@@ -481,26 +477,20 @@ variants:[
   
 {  
 name:"পেঁয়াজ",  
-weightBased:true,
 icon:"🧅",  
-image:"পেঁয়াজ.jpg",  
-  
-variants:[  
-  
+image:"পেঁয়াজ.jpg",    
+variants:[    
 {brand:"দেশি",size:"১ কেজি",price:0},  
-{brand:"ইন্ডিয়ান",size:"১ কেজি",price:60}  
+{brand:"ইন্ডিয়ান",size:"১ কেজি",price:50}  
   
 ]  
 },  
   
 {  
 name:"রসুন",  
-weightBased:true,
 icon:"🧄",  
-image:"রসুন.jpg",  
-  
-variants:[  
-  
+image:"রসুন.jpg",    
+variants:[    
 {brand:"দেশি",size:"১ কেজি",price:150},  
 {brand:"ইমপোর্টেড",size:"১ কেজি",price:0}  
   
@@ -509,13 +499,11 @@ variants:[
   
 {  
 name:"আদা",  
-weightBased:true,
 icon:"🫚",  
-image:"আদা.jpg",  
-  
+image:"আদা.jpg",    
 variants:[  
 {brand:"দেশি",size:"১ কেজি",price:0},  
-{brand:"ইমপোর্টেড",size:"১ কেজি",price:130}  
+{brand:"ইমপোর্টেড",size:"১ কেজি",price:140}  
      
 ]  
 },  
@@ -523,10 +511,8 @@ variants:[
 {  
 name:"হলুদ গুঁড়া",  
 icon:"🌕",  
-image:"হলুদ.jpg",  
-  
-variants:[  
-  
+image:"হলুদ.jpg",    
+variants:[    
 {brand:"রাঁধুনী",size:"২৫ গ্রাম",price:20},  
 {brand:"রাঁধুনী",size:"৫০ গ্রাম",price:40},  
 {brand:"রাঁধুনী",size:"১০০ গ্রাম",price:75},  
@@ -541,10 +527,8 @@ variants:[
 {  
 name:"মরিচ গুঁড়া/শুকনা মরিচ",  
 icon:"🌶️",  
-image:"মরিচ.jpg",  
-  
-variants:[  
-  
+image:"মরিচ.jpg",    
+variants:[    
 {brand:"রাঁধুনী",size:"২৫ গ্রাম",price:20},  
 {brand:"রাঁধুনী",size:"৫০ গ্রাম",price:40},  
 {brand:"রাঁধুনী",size:"১০০ গ্রাম",price:75},  
@@ -567,19 +551,16 @@ variants:[
 ========================= */  
   
 {  
-name:"🥛 ডেইরি ও খাদ্যপণ্য",  
-  
+name:"🥛 ডেইরি ও খাদ্যপণ্য",    
 products:[  
   
 {  
 name:"ডিম",  
 icon:"🥚",  
-image:"ডিম.jpg",  
-  
-variants:[  
-  
+image:"ডিম.jpg",    
+variants:[    
 {brand:"দেশি",size:"১ ডজন",price:0},  
-{brand:"ফার্ম",size:"১ ডজন",price:140}  
+{brand:"ফার্ম",size:"১ ডজন",price:145}  
   
 ]  
 },  
@@ -587,10 +568,8 @@ variants:[
 {  
 name:"দুধ",  
 icon:"🥛",  
-image:"দুধ.jpg",  
-  
-variants:[  
-  
+image:"দুধ.jpg",    
+variants:[    
 {brand:"Milk Vita",size:"৫০০ গ্রাম",price:55},  
 {brand:"Milk Vita",size:"১ লিটার",price:110},  
   
@@ -611,8 +590,7 @@ variants:[
 {  
 name:"ঘি",  
 icon:"🧈",  
-image:"ঘি.jpg",  
-  
+image:"ঘি.jpg",    
 variants:[  
 {brand:"সাধারণ",size:"কৌটা",price:0}  
 ]  
@@ -621,10 +599,8 @@ variants:[
 {  
 name:"মাখন",  
 icon:"🧈",  
-image:"মাখন.jpg",  
-  
-variants:[  
-  
+image:"মাখন.jpg",    
+variants:[    
 {brand:"Aarong",size:"প্যাকেট",price:0},  
 {brand:"Pran",size:"প্যাকেট",price:0}  
   
@@ -634,8 +610,7 @@ variants:[
 {  
 name:"দই",  
 icon:"🥛",  
-image:"দই.jpg",  
-  
+image:"দই.jpg",    
 variants:[  
 {brand:"Aarong",size:"মিনি কৌটা",price:30}  
 ]  
@@ -650,17 +625,14 @@ variants:[
 ========================= */  
   
 {  
-name:"☕ চা ও পানীয়",  
-  
+name:"☕ চা ও পানীয়",    
 products:[  
   
 {  
 name:"চা পাতা",  
 icon:"🍵",  
-image:"চা-পাতা.jpg",  
-  
-variants:[  
-  
+image:"চা-পাতা.jpg",    
+variants:[    
 {brand:"সাধারণ",size:"১ কেজি",price:360},  
 {brand:"সাধারণ",size:"৫০০ গ্রাম",price:180},  
   
@@ -687,10 +659,8 @@ variants:[
 {  
 name:"কফি",  
 icon:"☕",  
-image:"কফি.jpg",  
-  
-variants:[  
-  
+image:"কফি.jpg",    
+variants:[    
 {brand:"Nescafe",size:"০.৯ গ্রাম",price:5},  
 {brand:"Nescafe",size:"৮ গ্রাম",price:10},  
 {brand:"Nescafe",size:"১৪ গ্রাম",price:15},  
@@ -708,10 +678,8 @@ variants:[
 {  
 name:"হরলিক্স",  
 icon:"🥛",  
-image:"হরলিক্স.jpg",  
-  
-variants:[  
-  
+image:"হরলিক্স.jpg",    
+variants:[    
 {brand:"Horlicks",size:"গ্রাম",price:0},  
 {brand:"Horlicks",size:"২৫০ গ্রাম",price:250},  
 {brand:"Horlicks",size:"৫০০ গ্রাম",price:490},  
@@ -723,10 +691,8 @@ variants:[
 {  
 name:"ল্যাকটোজেন",  
 icon:"🥛",  
-image:"ল্যাকটোজেন.jpg",  
-  
-variants:[  
-    
+image:"ল্যাকটোজেন.jpg",    
+variants:[      
 {brand:"Lactogen 1",size:"২০০ গ্রাম",price:0},  
 {brand:"Lactogen 1",size:"৩৫০ গ্রাম",price:640},  
 {brand:"Lactogen 1",size:"৪০০ গ্রাম",price:0},  
@@ -747,8 +713,7 @@ variants:[
 {  
 name:"কমপ্লান",  
 icon:"🥛",  
-image:"কমপ্লান.jpg",  
-  
+image:"কমপ্লান.jpg",    
 variants:[  
 {brand:"Complan",size:"কৌটা",price:0}  
 ]  
@@ -763,17 +728,14 @@ variants:[
 ========================= */  
   
 {  
-name:"🍪 বিস্কুট ও স্ন্যাকস",  
-  
+name:"🍪 বিস্কুট ও স্ন্যাকস",    
 products:[  
   
 {  
 name:"বিস্কুট/Dry Cake",  
 icon:"🍪",  
-image:"বিস্কুট.jpg",  
-  
-variants:[  
-  
+image:"বিস্কুট.jpg",    
+variants:[    
 {brand:"Olympic Lexus",size:"প্যাকেট",price:80},  
 {brand:"Olympic Energy",size:"প্যাকেট",price:50},  
 {brand:"Olympic Nutty",size:"প্যাকেট",price:50},  
@@ -797,10 +759,8 @@ variants:[
 {  
 name:"টোস্ট বিস্কুট",  
 icon:"🍞",  
-image:"টোস্ট-বিস্কুট.jpg",  
-  
-variants:[  
-  
+image:"টোস্ট-বিস্কুট.jpg",    
+variants:[    
 {brand:"Olympic Pre- Toast",size:"প্যাকেট",price:60},  
 {brand:"Kishwan Spe-Toast",size:"প্যাকেট",price:80},  
 {brand:"Kishwan T Toast",size:"প্যাকেট",price:50},  
@@ -813,10 +773,8 @@ variants:[
 {  
 name:"নুডলস",  
 icon:"🍜",  
-image:"নুডলস.jpg",  
-  
-variants:[  
-  
+image:"নুডলস.jpg",    
+variants:[    
 {brand:"Maggi",size:"৪ প্যাকেট",price:90},  
 {brand:"Maggi",size:"৮ প্যাকেট",price:170},  
 {brand:"Maggi",size:"১২ প্যাকেট",price:255},  
@@ -846,10 +804,8 @@ variants:[
 {  
 name:"চানাচুর",  
 icon:"🥜",  
-image:"চানাচুর.jpg",  
-  
-variants:[  
-  
+image:"চানাচুর.jpg",    
+variants:[    
 {brand:"রুচি বারবিকিউ",size:"মিনি প্যাকেট",price:10},  
 {brand:"রুচি বারবিকিউ",size:"১৫০ গ্রাম",price:50},  
 {brand:"রুচি বারবিকিউ",size:"৩০০ গ্রাম",price:100},  
@@ -876,17 +832,14 @@ variants:[
 ========================= */  
   
 {  
-name:"🧹 পরিষ্কার-পরিচ্ছন্নতা",  
-  
+name:"🧹 পরিষ্কার-পরিচ্ছন্নতা",    
 products:[  
   
 {  
 name:"কাপড় ধোয়ার পাউডার",  
 icon:"🧺",  
-image:"কাপড়-ধোয়ার-পাউডার.jpg",  
-  
-variants:[  
-  
+image:"কাপড়-ধোয়ার-পাউডার.jpg",    
+variants:[    
 {brand:"Wheel",size:"২০০ গ্রাম",price:30},  
 {brand:"Wheel",size:"৫০০ গ্রাম",price:75},  
 {brand:"Wheel",size:"১ কেজি",price:0},  
@@ -922,12 +875,13 @@ variants:[
 {  
 name:"কাপড় ধোয়ার সাবান",  
 icon:"🧼",  
-image:"কাপড়-ধোয়ার-সাবান.jpg",  
-  
-variants:[  
-  
-{brand:"Tibet",size:"পিস",price:0},  
-{brand:"Wheel",size:"পিস",price:0}  
+image:"কাপড়-ধোয়ার-সাবান.jpg",    
+variants:[    
+{brand:"Tibet",size:"১২৫ গ্রাম",price:28},
+{brand:"Tibet Ball",size:"১২৫ গ্রাম",price:26},
+{brand:"Chaka Ball",size:"১২৫ গ্রাম",price:26},   
+{brand:"Tibet ৫৭০",size:"১২৫ গ্রাম",price:28},   
+{brand:"Wheel",size:"১২৫ গ্রাম",price:35}  
   
 ]  
 },  
@@ -935,12 +889,26 @@ variants:[
 {  
 name:"গোসলের সাবান",  
 icon:"🧼",  
-image:"গোসলের-সাবান.jpg",  
-  
-variants:[  
-  
+image:"গোসলের-সাবান.jpg",    
+variants:[    
 {brand:"Lux",size:"১০০ গ্রাম",price:0},  
-{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},  
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},   
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
+{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},   
 {brand:"Dettol",size:"১০০ গ্রাম",price:0}  
   
 ]  
@@ -949,10 +917,8 @@ variants:[
 {  
 name:"শ্যাম্পু",  
 icon:"🧴",  
-image:"শ্যাম্পু.jpg",  
-  
-variants:[  
-  
+image:"শ্যাম্পু.jpg",    
+variants:[    
 {brand:"Sunsilk",size:"প্যাকেট",price:0},  
 {brand:"Clear",size:"প্যাকেট",price:0},  
 {brand:"Pantene",size:"প্যাকেট",price:0},  
@@ -964,10 +930,8 @@ variants:[
 {  
 name:"টুথপেস্ট",  
 icon:"🪥",  
-image:"টুথপেস্ট.jpg",  
-  
-variants:[  
-  
+image:"টুথপেস্ট.jpg",    
+variants:[    
 {brand:"Colgate",size:"পিস",price:0},  
 {brand:"Closeup",size:"পিস",price:0},  
 {brand:"Pepsodent",size:"পিস",price:0}  
@@ -978,10 +942,8 @@ variants:[
 {  
 name:"টুথব্রাশ",  
 icon:"🪥",  
-image:"টুথব্রাশ.jpg",  
-  
-variants:[  
-  
+image:"টুথব্রাশ.jpg",    
+variants:[    
 {brand:"Colgate",size:"পিস",price:0},  
 {brand:"Closeup",size:"পিস",price:0}  
   
@@ -991,10 +953,8 @@ variants:[
 {  
 name:"ডিশওয়াশ বার",  
 icon:"🧽",  
-image:"ডিশওয়াশ-বার.jpg",  
-  
-variants:[  
-  
+image:"ডিশওয়াশ-বার.jpg",    
+variants:[    
 {brand:"Vim",size:"পিস",price:0},  
 {brand:"Tibet",size:"পিস",price:0}  
   
@@ -1004,8 +964,7 @@ variants:[
 {  
 name:"গ্লাস ক্লিনার",  
 icon:"🌸",  
-image:"গ্লাস ক্লিনার.jpg",  
-  
+image:"গ্লাস ক্লিনার.jpg",    
 variants:[  
 {brand:"সাধারণ",size:"পিস",price:0}  
 ]  
@@ -1014,8 +973,7 @@ variants:[
 {  
 name:"ব্লিচিং পাউডার",  
 icon:"🧹",  
-image:"ব্লিচিং-পাউডার.jpg",  
-  
+image:"ব্লিচিং-পাউডার.jpg",    
 variants:[  
 {brand:"সাধারণ",size:"প্যাকেট",price:0}  
 ]  
@@ -1030,15 +988,13 @@ variants:[
 ========================= */  
   
 {  
-name:"🛍️ অন্যান্য প্রয়োজনীয় পণ্য",  
-  
+name:"🛍️ অন্যান্য প্রয়োজনীয় পণ্য",    
 products:[  
   
 {  
-name:"ম্যাচ",  
+name:"ম্যাচ বক্স",  
 icon:"🔥",  
-image:"ম্যাচ.jpg",  
-  
+image:"ম্যাচ.jpg",    
 variants:[  
 {brand:"সাধারণ",size:"বক্স",price:0}  
 ]  
@@ -1047,8 +1003,7 @@ variants:[
 {  
 name:"মোমবাতি",  
 icon:"🕯️",  
-image:"মোমবাতি.jpg",  
-  
+image:"মোমবাতি.jpg",    
 variants:[  
 {brand:"সাধারণ",size:"প্যাকেট",price:0}  
 ]  
@@ -1057,10 +1012,8 @@ variants:[
 {  
 name:"টিস্যু",  
 icon:"🧻",  
-image:"টিস্যু.jpg",  
-  
-variants:[  
-  
+image:"টিস্যু.jpg",    
+variants:[    
 {brand:"Bashundhara",size:"প্যাকেট",price:0},  
 {brand:"Fresh",size:"প্যাকেট",price:0}  
   
@@ -1070,8 +1023,7 @@ variants:[
 {  
 name:"অ্যালুমিনিয়াম ফয়েল",  
 icon:"📦",  
-image:"অ্যালুমিনিয়াম-ফয়েল.jpg",  
-  
+image:"অ্যালুমিনিয়াম-ফয়েল.jpg",    
 variants:[  
 {brand:"সাধারণ",size:"রোল",price:0}  
 ]  
@@ -1086,17 +1038,14 @@ variants:[
 ========================= */  
   
 {  
-name:"💄 প্রসাধনী ও পার্সোনাল কেয়ার",  
-  
+name:"💄 প্রসাধনী ও পার্সোনাল কেয়ার",    
 products:[  
   
 {  
 name:"ফেসওয়াশ",  
 icon:"🧴",  
-image:"ফেসওয়াশ.jpg",  
-  
-variants:[  
-  
+image:"ফেসওয়াশ.jpg",    
+variants:[    
 {brand:"Pond's",size:"পিস",price:0},  
 {brand:"Garnier",size:"পিস",price:0},  
 {brand:"Himalaya",size:"পিস",price:0}  
@@ -1107,10 +1056,8 @@ variants:[
 {  
 name:"হেয়ার অয়েল",  
 icon:"🧴",  
-image:"হেয়ার-অয়েল.jpg",  
-  
-variants:[  
-  
+image:"হেয়ার-অয়েল.jpg",    
+variants:[    
 {brand:"Parachute",size:"বোতল",price:0},  
 {brand:"Bajaj",size:"বোতল",price:0}  
   
@@ -1120,8 +1067,7 @@ variants:[
 {  
 name:"পারফিউম",  
 icon:"🌸",  
-image:"পারফিউম.jpg",  
-  
+image:"পারফিউম.jpg",    
 variants:[  
 {brand:"সাধারণ",size:"পিস",price:0}  
 ]  
@@ -1130,8 +1076,7 @@ variants:[
 {  
 name:"রুম স্প্রে",  
 icon:"🌸",  
-image:"রুম স্প্রে.jpg",  
-  
+image:"রুম স্প্রে.jpg",    
 variants:[  
 {brand:"সাধারণ",size:"পিস",price:0}  
 ]  
@@ -1140,10 +1085,8 @@ variants:[
 {  
 name:"বডি লোশন",  
 icon:"🧴",  
-image:"বডি-লোশন.jpg",  
-  
-variants:[  
-  
+image:"বডি-লোশন.jpg",    
+variants:[    
 {brand:"Vaseline",size:"বোতল",price:0},  
 {brand:"Nivea",size:"বোতল",price:0}  
   
@@ -1153,8 +1096,7 @@ variants:[
 {  
 name:"ঘামাচি পাউডার",  
 icon:"🌸",  
-image:"পাউডার.jpg",  
-  
+image:"পাউডার.jpg",    
 variants:[  
 {brand:"সাধারণ",size:"পিস",price:0}  
 ]  
@@ -1169,17 +1111,14 @@ variants:[
 ========================= */  
   
 {  
-name:"🥤 বেভারেজ ও পানীয়",  
-  
+name:"🥤 বেভারেজ ও পানীয়",    
 products:[  
   
 {  
 name:"কোল্ড ড্রিংকস",  
 icon:"🥤",  
-image:"কোল্ড-ড্রিংকস.jpg",  
-  
-variants:[  
-  
+image:"কোল্ড-ড্রিংকস.jpg",    
+variants:[    
 {brand:"Coca-Cola",size:"250ml",price:25},  
 {brand:"Coca-Cola",size:"500ml",price:50},  
 {brand:"Coca-Cola",size:"1 liter",price:80},  
@@ -1228,10 +1167,8 @@ variants:[
 {  
 name:"মিনারেল ওয়াটার",  
 icon:"💧",  
-image:"পানি.jpg",  
-  
-variants:[  
-  
+image:"পানি.jpg",    
+variants:[    
 {brand:"Sun",size:"500ml",price:20},     
 {brand:"Mum",size:"500ml",price:20},  
 {brand:"Mum",size:"২ লিটার",price:40},  
@@ -1253,10 +1190,8 @@ variants:[
 {  
 name:"জুস",  
 icon:"🧃",  
-image:"জুস.jpg",  
-  
-variants:[  
-  
+image:"জুস.jpg",    
+variants:[    
 {brand:"Frutika",size:"200ml",price:20},  
 {brand:"Frutika",size:"500ml",price:50},  
 {brand:"Frutika",size:"1 liter",price:80},  
@@ -1281,10 +1216,8 @@ variants:[
 {  
 name:"এনার্জি ড্রিংক",  
 icon:"⚡",  
-image:"এনার্জি-ড্রিংক.jpg",  
-  
-variants:[  
-  
+image:"এনার্জি-ড্রিংক.jpg",    
+variants:[    
 {brand:"Speed Can",size:"250ml",price:50},  
 {brand:"Speed",size:"250ml",price:30},  
 {brand:"Power",size:"250ml",price:30},  
