@@ -47,6 +47,7 @@ variants:[
   
 {  
 name:"আতপ/চিনিগুড়া চাল",  
+bestSeller:true,   
 icon:"🍚",  
 image:"চিনিগুড়া-চাল.jpg",  
 variants:[  
@@ -67,7 +68,8 @@ variants:[
 },  
   
 {  
-name:"ডাল",  
+name:"ডাল",
+bestSeller:true,   
 icon:"🫘",  
 image:"ডাল.jpg",  
 variants:[  
@@ -88,6 +90,7 @@ variants:[
   
 {  
 name:"ছোলা/চনা বুট",  
+bestSeller:true,   
 icon:"🫘",  
 image:"ছোলা.jpg",   
 variants:[  
@@ -246,6 +249,7 @@ variants:[
 
 {  
 name:"রাঁধুনী প্যাকেট মশলা",  
+bestSeller:true,   
 icon:"🌿",  
 image:"প্যাকেট মশলা.jpg",    
 variants:[    
@@ -328,6 +332,7 @@ products:[
   
 {  
 name:"আটা",  
+bestSeller:true,   
 icon:"🌾",  
 image:"আটা.jpg",    
 variants:[    
@@ -344,6 +349,7 @@ variants:[
   
 {  
 name:"ময়দা",  
+bestSeller:true,   
 icon:"🥣",  
 image:"ময়দা.jpg",    
 variants:[    
@@ -564,6 +570,7 @@ products:[
   
 {  
 name:"ডিম",  
+bestSeller:true,   
 icon:"🥚",  
 image:"ডিম.jpg",    
 variants:[    
@@ -741,6 +748,7 @@ products:[
   
 {  
 name:"বিস্কুট/Dry Cake",  
+bestSeller:true,   
 icon:"🍪",  
 image:"বিস্কুট.jpg",    
 variants:[    
@@ -844,7 +852,8 @@ name:"🧹 পরিষ্কার-পরিচ্ছন্নতা",
 products:[  
   
 {  
-name:"কাপড় ধোয়ার পাউডার",  
+name:"কাপড় ধোয়ার পাউডার", 
+bestSeller:true,   
 icon:"🧺",  
 image:"কাপড়-ধোয়ার-পাউডার.jpg",    
 variants:[    
@@ -898,7 +907,8 @@ variants:[
 },  
   
 {  
-name:"গোসলের সাবান",  
+name:"গোসলের সাবান", 
+bestSeller:true,   
 icon:"🧼",  
 image:"গোসলের-সাবান.jpg",    
 variants:[    
@@ -1127,6 +1137,7 @@ products:[
   
 {  
 name:"কোল্ড ড্রিংকস",  
+bestSeller:true,   
 icon:"🥤",  
 image:"কোল্ড-ড্রিংকস.jpg",    
 variants:[    
@@ -1225,7 +1236,8 @@ variants:[
 },  
   
 {  
-name:"এনার্জি ড্রিংক",  
+name:"এনার্জি ড্রিংক",
+bestSeller:true,   
 icon:"⚡",  
 image:"এনার্জি-ড্রিংক.jpg",    
 variants:[    
