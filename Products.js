@@ -329,8 +329,8 @@ name:"আটা",
 icon:"🌾",  
 image:"আটা.jpg",    
 variants:[    
-{brand:"সাধারণ",size:"১ কেজি",price:50},  
-{brand:"ফ্রেশ",size:"১ কেজি",price:55},  
+{brand:"সাধারণ",size:"১ কেজি",price:55},  
+{brand:"ফ্রেশ",size:"১ কেজি",price:60},  
 {brand:"ফ্রেশ",size:"৫ কেজি",price:0},  
 {brand:"বসুন্ধরা",size:"১ কেজি",price:0},  
 {brand:"বসুন্ধরা",size:"৫ কেজি",price:0},  
@@ -345,7 +345,7 @@ name:"ময়দা",
 icon:"🥣",  
 image:"ময়দা.jpg",    
 variants:[    
-{brand:"সাধারণ",size:"১ কেজি",price:65},  
+{brand:"সাধারণ",size:"১ কেজি",price:70},  
 {brand:"ফ্রেশ",size:"১ কেজি",price:0},  
 {brand:"ফ্রেশ",size:"৫ কেজি",price:0},  
 {brand:"বসুন্ধরা",size:"১ কেজি",price:0},  
@@ -880,7 +880,10 @@ variants:[
 {brand:"Tibet",size:"১২৫ গ্রাম",price:28},
 {brand:"Tibet Ball",size:"১২৫ গ্রাম",price:26},
 {brand:"Chaka Ball",size:"১২৫ গ্রাম",price:26},   
-{brand:"Tibet ৫৭০",size:"১২৫ গ্রাম",price:28},   
+{brand:"Tibet ৫৭০",size:"১২৫ গ্রাম",price:28},
+{brand:"বাংলা ৩৭",size:"৫০০ গ্রাম",price:60},
+{brand:"বাংলা ১৯৩৭",size:"৫০০ গ্রাম",price:80},
+{brand:"সুগন্ধি",size:"১ কেজি",price:100},   
 {brand:"Wheel",size:"১২৫ গ্রাম",price:35}  
   
 ]  
