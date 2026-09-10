@@ -13,7 +13,8 @@ const categories=[
 name:"🍚 চাল ও ডাল",   
 products:[    
 {  
-name:"সিদ্ধ/হাফ সিদ্ধ চাল",  
+name:"সিদ্ধ/হাফ সিদ্ধ চাল",
+bestSeller:true,  
 icon:"🍚",  
 image:"চাল.jpg",    
 variants:[     
@@ -107,7 +108,8 @@ name:"🫙 তেল ও মসলা",
 products:[  
   
 {  
-name:"সয়াবিন তেল",  
+name:"সয়াবিন তেল",
+bestSeller:true,  
 icon:"🫙",  
 image:"সয়াবিন-তেল.jpg",  
 variants:[  
@@ -380,7 +382,8 @@ variants:[
 },  
    
 {  
-name:"চিনি",  
+name:"চিনি",
+bestSeller:true,  
 icon:"🍬",  
 image:"চিনি.jpg",    
 variants:[    
@@ -391,7 +394,8 @@ variants:[
 },  
   
 {  
-name:"লবণ",  
+name:"লবণ",
+bestSeller:true,  
 icon:"🧂",  
 image:"লবণ.jpg",    
 variants:[    
@@ -467,7 +471,8 @@ name:"🥔 সবজি ও রান্নার উপকরণ",
 products:[  
   
 {  
-name:"আলু",  
+name:"আলু",
+bestSeller:true,  
 icon:"🥔",  
 image:"আলু.jpg",    
 variants:[  
@@ -476,7 +481,8 @@ variants:[
 },  
   
 {  
-name:"পেঁয়াজ",  
+name:"পেঁয়াজ",
+bestSeller:true,  
 icon:"🧅",  
 image:"পেঁয়াজ.jpg",    
 variants:[    
@@ -487,7 +493,8 @@ variants:[
 },  
   
 {  
-name:"রসুন",  
+name:"রসুন",
+bestSeller:true,  
 icon:"🧄",  
 image:"রসুন.jpg",    
 variants:[    
@@ -498,7 +505,8 @@ variants:[
 },  
   
 {  
-name:"আদা",  
+name:"আদা",
+bestSeller:true,  
 icon:"🫚",  
 image:"আদা.jpg",    
 variants:[  
