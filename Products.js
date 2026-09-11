@@ -964,18 +964,21 @@ name:"টুথপেস্ট",
 icon:"🪥",  
 image:"টুথপেস্ট.jpg",    
 variants:[    
-{brand:"Colgate",size:"পিস",price:0},   
-{brand:"Colgate",size:"পিস",price:0},  
-{brand:"Colgate",size:"পিস",price:0},     
-{brand:"Closeup",size:"পিস",price:0},
-{brand:"Closeup",size:"পিস",price:0},  
-{brand:"Closeup",size:"পিস",price:0},
-{brand:"Mediplus DS",size:"পিস",price:0}
-{brand:"Mediplus DS",size:"পিস",price:0}
-{brand:"Mediplus DS",size:"পিস",price:0}   
-{brand:"Pepsodent",size:"পিস",price:0},  
-{brand:"Pepsodent",size:"পিস",price:0},     
-{brand:"Pepsodent",size:"পিস",price:0}  
+{brand:"Colgate",size:"৬০ গ্ৰাম",price:80},   
+{brand:"Colgate",size:"১০০ গ্ৰাম",price:135},  
+{brand:"Colgate",size:"পিস",price:0},
+   
+{brand:"Closeup",size:"৩৮ গ্ৰাম ",price:50},
+{brand:"Closeup",size:"৮৫ গ্ৰাম",price:100},  
+{brand:"Closeup",size:"১৫০ গ্ৰাম",price:160},
+   
+{brand:"Mediplus DS",size:"৪০ গ্ৰাম",price:48}
+{brand:"Mediplus DS",size:"৯০ গ্ৰাম",price:90}
+{brand:"Mediplus DS",size:"১৪০ গ্ৰাম",price:135} 
+   
+{brand:"Pepsodent",size:"৩৮ গ্ৰাম",price:50},  
+{brand:"Pepsodent",size:"৮৫ গ্ৰাম",price:100},     
+{brand:"Pepsodent",size:"১৫০ গ্ৰাম",price:160}  
   
 ]  
 },  
