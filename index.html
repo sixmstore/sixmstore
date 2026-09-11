@@ -1318,6 +1318,56 @@ font-size:28px
 .product-badge.new{background:#0875d1}.product-badge.best{background:#8e44ad}.product-badge.offer{background:#e67e22}
 .wishlist-btn{position:absolute;top:10px;right:10px;z-index:5;width:38px;height:38px;border:0;border-radius:50%;background:#fff;box-shadow:0 3px 10px rgba(0,0,0,.15);font-size:20px;cursor:pointer}
 .wishlist-btn.active{background:#fff0f2}
+
+.wishlist-view-bar{
+  max-width:1150px;
+  margin:0 auto 14px;
+  padding:12px 14px;
+  border-radius:14px;
+  background:#fff;
+  border:1px solid #e3eaf3;
+  box-shadow:0 3px 12px rgba(0,0,0,.06);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+
+.wishlist-view-title{
+  color:#063b8f;
+  font-weight:900;
+  font-size:17px;
+}
+
+.wishlist-back-btn{
+  border:0;
+  border-radius:999px;
+  padding:9px 15px;
+  background:linear-gradient(135deg,#063b8f,#20b858);
+  color:#fff;
+  font-weight:800;
+  cursor:pointer;
+  white-space:nowrap;
+  box-shadow:0 3px 10px rgba(0,0,0,.12);
+}
+
+.wishlist-back-btn:active{
+  transform:scale(.98);
+}
+
+@media(max-width:600px){
+  .wishlist-view-bar{
+    margin:0 10px 12px;
+    padding:10px 11px;
+  }
+  .wishlist-view-title{
+    font-size:14px;
+  }
+  .wishlist-back-btn{
+    padding:8px 11px;
+    font-size:12px;
+  }
+}
 .recent-order-box{max-width:1150px;margin:20px auto;padding:16px;border-radius:16px;background:#fff;border:1px solid #e7edf5;box-shadow:0 3px 12px rgba(0,0,0,.05);display:none}
 .recent-order-box h3{color:#063b8f;margin-bottom:8px}.recent-order-row{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:10px 0;border-bottom:1px solid #eef2f7;font-size:13px}.recent-order-row:last-child{border-bottom:0}
 .status-pill{display:inline-block;padding:4px 9px;border-radius:999px;background:#e8f7ee;color:#16833b;font-weight:800;font-size:11px}
@@ -2250,7 +2300,8 @@ function showBestSellers(){
 ========================================================= */
 
 function displayProducts(
-searchValue=null
+searchValue=null,
+wishlistNames=null
 ){
 
 const container=
@@ -2292,6 +2343,16 @@ categorySelect.value;
 
 let found=false;
 
+if(Array.isArray(wishlistNames)){
+  container.innerHTML = `
+    <div class="wishlist-view-bar">
+      <div class="wishlist-view-title">❤️ আপনার পছন্দের পণ্য</div>
+      <button type="button" class="wishlist-back-btn" onclick="exitWishlist()">
+        ← সব পণ্য দেখুন
+      </button>
+    </div>
+  `;
+}
 
 categories.forEach(
 (category,categoryIndex)=>{
@@ -2311,6 +2372,11 @@ return;
 const products=
 category.products.filter(
 product=>{
+
+if(Array.isArray(wishlistNames) &&
+   !wishlistNames.includes(product.name)){
+  return false;
+}
 
 const text=(
 
@@ -2588,6 +2654,8 @@ found
 /* =========================================================
    PREMIUM UPDATE HELPERS
 ========================================================= */
+let wishlistMode = false;
+
 function getWishlist(){
   try{return JSON.parse(localStorage.getItem("sixmWishlist")||"[]")}catch(e){return []}
 }
@@ -2596,23 +2664,73 @@ function isWishlisted(name){return getWishlist().includes(name)}
 function toggleWishlist(categoryIndex,productIndex,button){
   const product=categories[categoryIndex].products[productIndex];
   let list=getWishlist();
-  if(list.includes(product.name)){list=list.filter(x=>x!==product.name);button.innerText="🤍";button.classList.remove("active")}
-  else{list.push(product.name);button.innerText="❤️";button.classList.add("active")}
+
+  if(list.includes(product.name)){
+    list=list.filter(x=>x!==product.name);
+    button.innerText="🤍";
+    button.classList.remove("active");
+  }else{
+    list.push(product.name);
+    button.innerText="❤️";
+    button.classList.add("active");
+  }
+
   saveWishlist(list);
+
+  // If the user is currently viewing the wishlist, update it immediately.
+  if(wishlistMode){
+    if(list.length){
+      displayProducts(null,list);
+      scrollToProducts();
+    }else{
+      exitWishlist();
+    }
+  }
 }
+
 function showWishlist(){
+  const list=getWishlist();
+
+  if(!list.length){
+    alert("আপনার পছন্দের তালিকায় এখনো কোনো পণ্য নেই।");
+    return;
+  }
+
+  const wanted=categories
+    .flatMap(c=>c.products||[])
+    .filter(p=>list.includes(p.name));
+
+  if(!wanted.length){
+    alert("পছন্দের পণ্য পাওয়া যায়নি।");
+    return;
+  }
+
+  wishlistMode=true;
+
+  // Wishlist should always show all saved products, not only the first one.
+  if(categorySelect) categorySelect.value="all";
+  const searchInput=document.getElementById("headerSearchInput");
+  if(searchInput) searchInput.value="";
+
+  displayProducts(null,list);
+  scrollToProducts();
+}
+
+function exitWishlist(){
+  wishlistMode=false;
+
+  if(categorySelect) categorySelect.value="all";
+  const searchInput=document.getElementById("headerSearchInput");
+  if(searchInput) searchInput.value="";
+
   bestSellerMode=false;
   const bestBtn=document.getElementById("bestSellerBtn");
   if(bestBtn) bestBtn.classList.remove("active");
-  const list=getWishlist();
-  if(!list.length){alert("আপনার পছন্দের তালিকায় এখনো কোনো পণ্য নেই।");return}
-  const wanted=categories.flatMap((c,ci)=>c.products.map((p,pi)=>({p,ci,pi}))).filter(x=>list.includes(x.p.name));
-  if(!wanted.length){alert("পছন্দের পণ্য পাওয়া যায়নি।");return}
-  const first=wanted[0];
-  document.getElementById("headerSearchInput").value=first.p.name;
-  displayProducts(first.p.name);
-  document.getElementById("productsContainer").scrollIntoView({behavior:"smooth"});
+
+  displayProducts();
+  scrollToProducts();
 }
+
 function createProductBadge(product){
   const badge=product.badge||product.label||"";
   if(!badge)return "";
