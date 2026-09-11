@@ -101,6 +101,13 @@ header{padding:10px 10px 6px}.header-inner{flex-wrap:wrap;gap:9px}.logo{width:58
 .quick-feature{background:#fff;border:1px solid #e7edf5;border-radius:14px;padding:12px;text-align:center;box-shadow:0 3px 12px rgba(0,0,0,.05);font-weight:800;font-size:13px;font-family:inherit;cursor:pointer;width:100%;transition:transform .18s ease,box-shadow .18s ease}
 .quick-feature span{display:block;font-size:22px;margin-bottom:3px}.quick-feature:hover{transform:translateY(-2px);box-shadow:0 7px 18px rgba(0,0,0,.10)}.quick-feature:active{transform:scale(.98)}
 .quick-feature.active{background:linear-gradient(135deg,#fff8e1,#ffffff);border-color:#f0b400;box-shadow:0 6px 18px rgba(240,180,0,.18);color:#8a5a00}
+.quick-feature.active-wishlist{
+  background:linear-gradient(135deg,#fff0f3,#ffffff);
+  border-color:#e91e63;
+  box-shadow:0 6px 18px rgba(233,30,99,.18);
+  color:#c2185b;
+}
+
 .product-badge{position:absolute;top:10px;left:10px;z-index:4;padding:5px 9px;border-radius:999px;background:#e53935;color:#fff;font-size:11px;font-weight:900;box-shadow:0 3px 8px rgba(0,0,0,.15)}
 .product-badge.new{background:#0875d1}.product-badge.best{background:#8e44ad}.product-badge.offer{background:#e67e22}
 .wishlist-btn{position:absolute;top:10px;right:10px;z-index:5;width:38px;height:38px;border:0;border-radius:50%;background:#fff;box-shadow:0 3px 10px rgba(0,0,0,.15);font-size:20px;cursor:pointer}.wishlist-btn.active{background:#fff0f2}
@@ -153,7 +160,7 @@ header{padding:10px 10px 6px}.header-inner{flex-wrap:wrap;gap:9px}.logo{width:58
 <button type="button" class="quick-feature" onclick="showSpecialOffers()"><span>🔥</span>বিশেষ অফার</button>
 <button type="button" class="quick-feature" onclick="showNewProducts()"><span>🏷️</span>নতুন পণ্য</button>
 <button type="button" id="bestSellerBtn" class="quick-feature" onclick="showBestSellers()"><span>🏆</span>বেস্ট সেলার</button>
-<button type="button" class="quick-feature" onclick="showWishlist()"><span>❤️</span>পছন্দের পণ্য</button>
+<button type="button" id="wishlistFeatureBtn" class="quick-feature" onclick="showWishlist()"><span>❤️</span>পছন্দের পণ্য</button>
 </div>
 
 <div class="container">
