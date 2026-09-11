@@ -1,7 +1,6 @@
 /* =========================================================
    SIX M STORE
-   COMPLETE PRODUCT DATABASE
-   brand + size + price SYSTEM
+   PRODUCT DATABASE
 ========================================================= */
 
 const categories = [
