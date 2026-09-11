@@ -997,9 +997,9 @@ variants:[
 {brand:"Closeup",size:"৮৫ গ্ৰাম",price:100},  
 {brand:"Closeup",size:"১৫০ গ্ৰাম",price:160},
    
-{brand:"Mediplus DS",size:"৪০ গ্ৰাম",price:48}
-{brand:"Mediplus DS",size:"৯০ গ্ৰাম",price:90}
-{brand:"Mediplus DS",size:"১৪০ গ্ৰাম",price:135} 
+{brand:"Mediplus DS",size:"৪০ গ্ৰাম",price:48},
+{brand:"Mediplus DS",size:"৯০ গ্ৰাম",price:90},
+{brand:"Mediplus DS",size:"১৪০ গ্ৰাম",price:135}, 
    
 {brand:"Pepsodent",size:"৩৮ গ্ৰাম",price:50},  
 {brand:"Pepsodent",size:"৮৫ গ্ৰাম",price:100},     
