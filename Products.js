@@ -979,7 +979,7 @@ variants:[
 {brand:"Sunsilk",size:"৩৪০ গ্ৰাম",price:0},
 {brand:"Dove",size:"মিনি",price:5},    
 {brand:"Dove",size:"১৭০ গ্ৰাম",price:0},
-{brand:"Dove",size:"৩৩০ গ্ৰাম",price:0},    
+{brand:"Dove",size:"৩৩০ গ্ৰাম",price:0}    
   
 ]  
 },  
