@@ -983,9 +983,9 @@ variants:[
 },  
 
 {  
-name:"হ্যান্ডওয়াশ",  
+name:"হ্যান্ড ওয়াশ লিকুইড",  
 icon:"🧽",  
-image:"হ্যান্ডওয়াশ.jpg",    
+image:"হ্যান্ড ওয়াশ.jpg",    
 variants:[    
 {brand:"Savlon",size:"পিস",price:0},  
 {brand:"Sepnil",size:"পিস",price:0},  
