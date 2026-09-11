@@ -535,7 +535,8 @@ variants:[
 },  
   
 {  
-name:"দুধ",  
+name:"দুধ", 
+bestSeller:true,   
 icon:"🥛",  
 image:"দুধ.jpg",    
 variants:[    
