@@ -757,7 +757,7 @@ products:[
 {
 name:"চা পাতা",
 icon:"☕",
-image:"চা.jpg",
+image:"চা-পাতা.jpg",
 variants:[
 {brand:"সাধারণ",size:"1kg",price:360},
 {brand:"সাধারণ",size:"500g",price:180},
@@ -889,7 +889,7 @@ variants:[
 {
 name:"টোস্ট বিস্কুট",
 icon:"🍞",
-image:"টোস্ট.jpg",
+image:"টোস্ট-বিস্কুট.jpg",
 variants:[
 {brand:"Olympic Pre-Toast",size:"packet",price:60},
 {brand:"Kishwan Spe-Toast",size:"packet",price:80},
@@ -974,7 +974,7 @@ products:[
 {
 name:"কাপড় ধোয়ার পাউডার",
 icon:"🧺",
-image:"ডিটারজেন্ট.jpg",
+image:"কাপড়-ধোয়ার-পাউডার.jpg",
 variants:[
 {brand:"Wheel",size:"200g",price:30},
 {brand:"Wheel",size:"500g",price:75},
@@ -1013,7 +1013,7 @@ variants:[
 {
 name:"কাপড় ধোয়ার সাবান",
 icon:"🧼",
-image:"কাপড়ের সাবান.jpg",
+image:"কাপড়-ধোয়ার-সাবান.jpg",
 variants:[
 {brand:"Tibet",size:"125g",price:28},
 {brand:"Tibet 570",size:"125g",price:28},
@@ -1031,7 +1031,7 @@ variants:[
 {
 name:"গোসলের সাবান",
 icon:"🧼",
-image:"সাবান.jpg",
+image:"গোসলের-সাবান.jpg",
 variants:[
 {brand:"Lux",size:"35g",price:15},
 {brand:"Lux",size:"75g",price:50},
@@ -1131,7 +1131,7 @@ variants:[
 {
 name:"শ্যাম্পু+কন্ডিশনার",
 icon:"🧴",
-image:"শ্যাম্পু.jpg",
+image:"শ্যাম্পু+কন্ডিশনার যে.jpg",
 variants:[
 {brand:"Sunsilk",size:"170g",price:0},
 {brand:"Sunsilk",size:"340g",price:0},
@@ -1266,7 +1266,7 @@ variants:[
 {
 name:"ডিশওয়াশ বার",
 icon:"🧼",
-image:"ডিশওয়াশ.jpg",
+image:"ডিশওয়াশ-বার.jpg",
 variants:[
 {brand:"Vim",size:"piece",price:0},
 {brand:"Tibet",size:"piece",price:0},
@@ -1290,7 +1290,7 @@ variants:[
 {
 name:"ব্লিচিং পাউডার",
 icon:"🧹",
-image:"ব্লিচিং পাউডার.jpg",
+image:"ব্লিচিং-পাউডার.jpg",
 variants:[
 {brand:"সাধারণ",size:"packet",price:0},
 {brand:"সাধারণ",size:"500g",price:0},
@@ -1348,7 +1348,7 @@ variants:[
 {
 name:"অ্যালুমিনিয়াম ফয়েল",
 icon:"🧻",
-image:"ফয়েল.jpg",
+image:"অ্যালুমিনিয়াম-ফয়েল.jpg",
 variants:[
 {brand:"সাধারণ",size:"roll",price:0},
 {brand:"সাধারণ",size:"5m",price:0},
@@ -1385,7 +1385,7 @@ variants:[
 {
 name:"হেয়ার অয়েল",
 icon:"🧴",
-image:"হেয়ার অয়েল.jpg",
+image:"হেয়ার-অয়েল.jpg",
 variants:[
 {brand:"Parachute",size:"bottle",price:0},
 {brand:"Bajaj",size:"bottle",price:0},
@@ -1424,7 +1424,7 @@ variants:[
 {
 name:"বডি লোশন",
 icon:"🧴",
-image:"বডি লোশন.jpg",
+image:"বডি-লোশন.jpg",
 variants:[
 {brand:"Vaseline",size:"bottle",price:0},
 {brand:"Nivea",size:"bottle",price:0},
@@ -1438,7 +1438,7 @@ variants:[
 {
 name:"ঘামাচি পাউডার",
 icon:"🧴",
-image:"ঘামাচি পাউডার.jpg",
+image:"পাউডার.jpg",
 variants:[
 {brand:"সাধারণ",size:"piece",price:0},
 {brand:"Meril",size:"piece",price:0},
@@ -1462,7 +1462,7 @@ products:[
 {
 name:"কোল্ড ড্রিংকস",
 icon:"🥤",
-image:"কোল্ড ড্রিংকস.jpg",
+image:"কোল্ড-ড্রিংকস.jpg",
 variants:[
 
 {brand:"Coca-Cola",size:"250ml",price:25},
@@ -1576,7 +1576,7 @@ variants:[
 {
 name:"এনার্জি ড্রিংক",
 icon:"⚡",
-image:"এনার্জি ড্রিংক.jpg",
+image:"এনার্জি-ড্রিংক.jpg",
 variants:[
 {brand:"Speed Can",size:"250ml",price:50},
 {brand:"Speed",size:"piece",price:30},
