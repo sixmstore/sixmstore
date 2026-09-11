@@ -85,7 +85,7 @@ variants:[
 {
 name:"আতপ/চিনিগুড়া চাল",
 icon:"🍚",
-image:"চিনিগুড়া.jpg",
+image:"চিনিগুড়া-চাল.jpg",
 variants:[
 
 {brand:"লিচু মিনিকেট আতপ",size:"১kg",price:70},
@@ -200,7 +200,7 @@ products:[
 {
 name:"সয়াবিন তেল",
 icon:"🫙",
-image:"তেল.jpg",
+image:"সয়াবিন-তেল.jpg",
 variants:[
 
 {brand:"ফ্রেশ",size:"১L",price:0},
@@ -228,7 +228,7 @@ variants:[
 {
 name:"সরিষার তেল",
 icon:"🫙",
-image:"সরিষার তেল.jpg",
+image:"সরিষার-তেল.jpg",
 variants:[
 
 {brand:"রাঁধুনী",size:"80g",price:38},
@@ -292,7 +292,7 @@ variants:[
 {
 name:"গরম মসলা গুঁড়া",
 icon:"🌶️",
-image:"গরম মসলা.jpg",
+image:"গরম-মসলা.jpg",
 variants:[
 {brand:"রাঁধুনী",size:"15g",price:38},
 {brand:"রাঁধুনী",size:"40g",price:80},
@@ -476,7 +476,7 @@ variants:[
 {
 name:"ফ্রেন্ডস পায়েস & হালুয়া",
 icon:"🍮",
-image:"ফ্রেন্ডস.jpg",
+image:"পায়েস & হালুয়া.jpg",
 variants:[
 {brand:"পায়েস রাইস পুডিং",size:"150g",price:55},
 {brand:"চায়না গ্রাস মিল্ক হালুয়া",size:"120g",price:60}
