@@ -891,7 +891,23 @@ variants:[
 {brand:"Sunsilk",size:"মিনি",price:4}, 
 {brand:"Sunsilk",size:"১৭০ গ্ৰাম",price:0},   
 {brand:"Sunsilk",size:"৩৪০ গ্ৰাম",price:0},
+{brand:"Head & Shoulders",size:"গ্ৰাম",price:0},
+{brand:"Head & Shoulders",size:"গ্ৰাম",price:0},   
 {brand:"Dove",size:"মিনি",price:5},    
+{brand:"Dove",size:"১৭০ গ্ৰাম",price:0},
+{brand:"Dove",size:"৩৩০ গ্ৰাম",price:0}      
+]  
+},  
+
+{  
+name:"শ্যাম্পু+কন্ডিশনার",  
+icon:"🧴",  
+image:"শ্যাম্পু+কন্ডিশনার.jpg",    
+variants:[     
+{brand:"Sunsilk",size:"১৭০ গ্ৰাম",price:0},   
+{brand:"Sunsilk",size:"৩৪০ গ্ৰাম",price:0},
+{brand:"Head & Shoulders",size:"১৭০ গ্ৰাম",price:0},
+{brand:"Head & Shoulders",size:"৩৩০ গ্ৰাম",price:0},   
 {brand:"Dove",size:"১৭০ গ্ৰাম",price:0},
 {brand:"Dove",size:"৩৩০ গ্ৰাম",price:0}      
 ]  
