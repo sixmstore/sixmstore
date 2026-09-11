@@ -938,9 +938,6 @@ variants:[
 {brand:"Bactrol",size:"৭৫ গ্রাম",price:0},
 {brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
 {brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
-{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
-{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
-{brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
 {brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},   
 {brand:"Cosco",size:"৩০ গ্রাম",price:15},  
 {brand:"Cosco",size:"৮০ গ্রাম",price:60}  
@@ -984,7 +981,19 @@ variants:[
   
 ]  
 },  
-  
+
+{  
+name:"হ্যান্ডওয়াশ",  
+icon:"🧽",  
+image:"হ্যান্ডওয়াশ.jpg",    
+variants:[    
+{brand:"Savlon",size:"পিস",price:0},  
+{brand:"Sepnil",size:"পিস",price:0},  
+{brand:"Dettol",size:"পিস",price:0}
+   
+]  
+},  
+   
 {  
 name:"ডিশওয়াশ বার",  
 icon:"🧽",  
