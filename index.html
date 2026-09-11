@@ -1542,7 +1542,7 @@ id="liveProductTrack">
   <button type="button" class="quick-feature" onclick="showSpecialOffers()"><span>🔥</span>বিশেষ অফার</button>
   <button type="button" class="quick-feature" onclick="showNewProducts()"><span>🏷️</span>নতুন পণ্য</button>
   <button type="button" id="bestSellerBtn" class="quick-feature" onclick="showBestSellers()"><span>🏆</span>বেস্ট সেলার</button>
-  <button type="button" id="wishlistBtn" class="quick-feature" onclick="showWishlist()"><span>❤️</span>পছন্দের পণ্য</button>
+  <button type="button" class="quick-feature" onclick="showWishlist()"><span>❤️</span>পছন্দের পণ্য</button>
 </div>
 
 <div class="recent-order-box" id="recentOrderBox">
@@ -2255,12 +2255,6 @@ loadCart();
 ========================================================= */
 
 function syncHeaderSearch(){
-  wishlistMode=false;
-  bestSellerMode=false;
-  const bestBtn=document.getElementById("bestSellerBtn");
-  if(bestBtn) bestBtn.classList.remove("active");
-  const wishBtn=document.getElementById("wishlistBtn");
-  if(wishBtn) wishBtn.classList.remove("active");
 
 const input=
 document.getElementById(
@@ -2294,20 +2288,9 @@ function showBestSellers(){
     alert("এই মুহূর্তে কোনো Best Seller পণ্য চিহ্নিত করা হয়নি।");
     return;
   }
-
-  // Best Seller এবং Wishlist আলাদা বাটন, কিন্তু একই ধরনের dedicated view।
-  wishlistMode=false;
-  bestSellerMode=true;
-
-  if(categorySelect) categorySelect.value="all";
-  const searchInput=document.getElementById("headerSearchInput");
-  if(searchInput) searchInput.value="";
-
+  bestSellerMode=!bestSellerMode;
   const btn=document.getElementById("bestSellerBtn");
-  if(btn) btn.classList.add("active");
-  const wishBtn=document.getElementById("wishlistBtn");
-  if(wishBtn) wishBtn.classList.remove("active");
-
+  if(btn) btn.classList.toggle("active",bestSellerMode);
   displayProducts();
   scrollToProducts();
 }
@@ -2318,8 +2301,7 @@ function showBestSellers(){
 
 function displayProducts(
 searchValue=null,
-wishlistNames=null,
-viewMode=null
+wishlistNames=null
 ){
 
 const container=
@@ -2361,20 +2343,11 @@ categorySelect.value;
 
 let found=false;
 
-if(viewMode==="wishlist"){
+if(Array.isArray(wishlistNames)){
   container.innerHTML = `
     <div class="wishlist-view-bar">
       <div class="wishlist-view-title">❤️ আপনার পছন্দের পণ্য</div>
       <button type="button" class="wishlist-back-btn" onclick="exitWishlist()">
-        ← সব পণ্য দেখুন
-      </button>
-    </div>
-  `;
-}else if(viewMode==="bestSeller"){
-  container.innerHTML = `
-    <div class="wishlist-view-bar">
-      <div class="wishlist-view-title">🏆 বেস্ট সেলার পণ্য</div>
-      <button type="button" class="wishlist-back-btn" onclick="exitBestSellers()">
         ← সব পণ্য দেখুন
       </button>
     </div>
@@ -2418,7 +2391,7 @@ v=>v.brand
 ).toLowerCase();
 
 
-if(viewMode==="bestSeller"){
+if(bestSellerMode){
   const bestBadge=String(product.badge||product.label||"").toLowerCase();
   const isBestSeller=product.bestSeller===true || bestBadge.includes("best seller") || bestBadge.includes("best-seller") || bestBadge.includes("সেরা");
   if(!isBestSeller) return false;
@@ -2707,7 +2680,7 @@ function toggleWishlist(categoryIndex,productIndex,button){
   // If the user is currently viewing the wishlist, update it immediately.
   if(wishlistMode){
     if(list.length){
-      displayProducts(null,list,"wishlist");
+      displayProducts(null,list);
       scrollToProducts();
     }else{
       exitWishlist();
@@ -2716,10 +2689,6 @@ function toggleWishlist(categoryIndex,productIndex,button){
 }
 
 function showWishlist(){
-  bestSellerMode=false;
-  const bestBtn=document.getElementById("bestSellerBtn");
-  if(bestBtn) bestBtn.classList.remove("active");
-
   const list=getWishlist();
 
   if(!list.length){
@@ -2737,12 +2706,6 @@ function showWishlist(){
   }
 
   wishlistMode=true;
-  bestSellerMode=false;
-
-  const bestBtn2=document.getElementById("bestSellerBtn");
-  if(bestBtn2) bestBtn2.classList.remove("active");
-  const wishBtn=document.getElementById("wishlistBtn");
-  if(wishBtn) wishBtn.classList.add("active");
 
   // Wishlist should always show all saved products, not only the first one.
   if(categorySelect) categorySelect.value="all";
@@ -2755,12 +2718,6 @@ function showWishlist(){
 
 function exitWishlist(){
   wishlistMode=false;
-  bestSellerMode=false;
-
-  const bestBtn=document.getElementById("bestSellerBtn");
-  if(bestBtn) bestBtn.classList.remove("active");
-  const wishBtn=document.getElementById("wishlistBtn");
-  if(wishBtn) wishBtn.classList.remove("active");
 
   if(categorySelect) categorySelect.value="all";
   const searchInput=document.getElementById("headerSearchInput");
@@ -2769,23 +2726,6 @@ function exitWishlist(){
   bestSellerMode=false;
   const bestBtn=document.getElementById("bestSellerBtn");
   if(bestBtn) bestBtn.classList.remove("active");
-
-  displayProducts();
-  scrollToProducts();
-}
-
-function exitBestSellers(){
-  bestSellerMode=false;
-  wishlistMode=false;
-
-  const bestBtn=document.getElementById("bestSellerBtn");
-  if(bestBtn) bestBtn.classList.remove("active");
-  const wishBtn=document.getElementById("wishlistBtn");
-  if(wishBtn) wishBtn.classList.remove("active");
-
-  if(categorySelect) categorySelect.value="all";
-  const searchInput=document.getElementById("headerSearchInput");
-  if(searchInput) searchInput.value="";
 
   displayProducts();
   scrollToProducts();
@@ -2821,7 +2761,6 @@ function scrollToProducts(){
   if(el) el.scrollIntoView({behavior:"smooth",block:"start"});
 }
 function filterByBadge(type){
-  wishlistMode=false;
   bestSellerMode=false;
   const bestBtn=document.getElementById("bestSellerBtn");
   if(bestBtn) bestBtn.classList.remove("active");
