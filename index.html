@@ -1542,7 +1542,7 @@ id="liveProductTrack">
   <button type="button" class="quick-feature" onclick="showSpecialOffers()"><span>🔥</span>বিশেষ অফার</button>
   <button type="button" class="quick-feature" onclick="showNewProducts()"><span>🏷️</span>নতুন পণ্য</button>
   <button type="button" id="bestSellerBtn" class="quick-feature" onclick="showBestSellers()"><span>🏆</span>বেস্ট সেলার</button>
-  <button type="button" class="quick-feature" onclick="showWishlist()"><span>❤️</span>পছন্দের পণ্য</button>
+  <button type="button" id="wishlistBtn" class="quick-feature" onclick="showWishlist()"><span>❤️</span>পছন্দের পণ্য</button>
 </div>
 
 <div class="recent-order-box" id="recentOrderBox">
@@ -2288,6 +2288,10 @@ function showBestSellers(){
     alert("এই মুহূর্তে কোনো Best Seller পণ্য চিহ্নিত করা হয়নি।");
     return;
   }
+  wishlistMode=false;
+  const wishlistBtn=document.getElementById("wishlistBtn");
+  if(wishlistBtn) wishlistBtn.classList.remove("active");
+
   bestSellerMode=!bestSellerMode;
   const btn=document.getElementById("bestSellerBtn");
   if(btn) btn.classList.toggle("active",bestSellerMode);
@@ -2705,15 +2709,27 @@ function showWishlist(){
     return;
   }
 
-  wishlistMode=true;
+  // Best Seller-এর মতো Wishlist-ও এখন একটি আলাদা View Mode।
+  // একসাথে দুইটি filter যাতে না চলে, তাই Best Seller বন্ধ করা হচ্ছে।
+  bestSellerMode=false;
+  const bestBtn=document.getElementById("bestSellerBtn");
+  if(bestBtn) bestBtn.classList.remove("active");
 
-  // Wishlist should always show all saved products, not only the first one.
-  if(categorySelect) categorySelect.value="all";
-  const searchInput=document.getElementById("headerSearchInput");
-  if(searchInput) searchInput.value="";
+  wishlistMode=!wishlistMode;
+  const wishlistBtn=document.getElementById("wishlistBtn");
+  if(wishlistBtn) wishlistBtn.classList.toggle("active",wishlistMode);
 
-  displayProducts(null,list);
-  scrollToProducts();
+  if(wishlistMode){
+    // Wishlist View-তে category/search কোনো filter দেবে না।
+    if(categorySelect) categorySelect.value="all";
+    const searchInput=document.getElementById("headerSearchInput");
+    if(searchInput) searchInput.value="";
+
+    displayProducts(null,list);
+    scrollToProducts();
+  }else{
+    exitWishlist();
+  }
 }
 
 function exitWishlist(){
@@ -2722,6 +2738,9 @@ function exitWishlist(){
   if(categorySelect) categorySelect.value="all";
   const searchInput=document.getElementById("headerSearchInput");
   if(searchInput) searchInput.value="";
+
+  const wishlistBtn=document.getElementById("wishlistBtn");
+  if(wishlistBtn) wishlistBtn.classList.remove("active");
 
   bestSellerMode=false;
   const bestBtn=document.getElementById("bestSellerBtn");
