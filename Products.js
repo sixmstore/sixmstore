@@ -951,14 +951,39 @@ name:"শ্যাম্পু",
 icon:"🧴",  
 image:"শ্যাম্পু.jpg",    
 variants:[    
-{brand:"Sunsilk",size:"প্যাকেট",price:0},  
-{brand:"Clear",size:"প্যাকেট",price:0},  
-{brand:"Pantene",size:"প্যাকেট",price:0},  
-{brand:"Head & Shoulders",size:"প্যাকেট",price:0}  
+{brand:"Sunsilk",size:"মিনি",price:3}, 
+{brand:"Sunsilk",size:"১৭০ গ্ৰাম",price:170},   
+{brand:"Sunsilk",size:"৩৪০ গ্ৰাম",price:340},
+{brand:"P.Naturale",size:"১৬০ গ্ৰাম",price:140},
+{brand:"P.Naturale",size:"মিনি",price:2},   
+{brand:"Clear Men",size:"১৭০ গ্ৰাম",price:260},
+{brand:"Clear Men",size:"৮০ গ্ৰাম",price:115},
+{brand:"Clear Men",size:"মিনি",price:5},  
+{brand:"Clear",size:"মিনি",price:4},     
+{brand:"Dove",size:"১৭০ গ্ৰাম",price:280},
+{brand:"Dove",size:"৩৩০ গ্ৰাম",price:430},  
+{brand:"Dove",size:"মিনি",price:4},  
+{brand:"Pantene",size:"গ্ৰাম",price:0},  
+{brand:"Head & Shoulders",size:"গ্ৰাম",price:0}  
   
 ]  
 },  
+
+{  
+name:"কন্ডিশনার",  
+icon:"🧴",  
+image:"কন্ডিশনার.jpg",    
+variants:[    
+{brand:"Sunsilk",size:"মিনি",price:4}, 
+{brand:"Sunsilk",size:"১৭০ গ্ৰাম",price:0},   
+{brand:"Sunsilk",size:"৩৪০ গ্ৰাম",price:0},
+{brand:"Dove",size:"মিনি",price:5},    
+{brand:"Dove",size:"১৭০ গ্ৰাম",price:0},
+{brand:"Dove",size:"৩৩০ গ্ৰাম",price:0},    
   
+]  
+},  
+   
 {  
 name:"টুথপেস্ট",  
 icon:"🪥",  
