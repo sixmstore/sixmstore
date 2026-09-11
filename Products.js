@@ -964,8 +964,17 @@ name:"টুথপেস্ট",
 icon:"🪥",  
 image:"টুথপেস্ট.jpg",    
 variants:[    
+{brand:"Colgate",size:"পিস",price:0},   
 {brand:"Colgate",size:"পিস",price:0},  
+{brand:"Colgate",size:"পিস",price:0},     
+{brand:"Closeup",size:"পিস",price:0},
 {brand:"Closeup",size:"পিস",price:0},  
+{brand:"Closeup",size:"পিস",price:0},
+{brand:"Mediplus DS",size:"পিস",price:0}
+{brand:"Mediplus DS",size:"পিস",price:0}
+{brand:"Mediplus DS",size:"পিস",price:0}   
+{brand:"Pepsodent",size:"পিস",price:0},  
+{brand:"Pepsodent",size:"পিস",price:0},     
 {brand:"Pepsodent",size:"পিস",price:0}  
   
 ]  
