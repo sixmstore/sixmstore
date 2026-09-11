@@ -20,28 +20,22 @@ image:"চাল.jpg",
 variants:[     
 {brand:"নুরজাহান মিনিকেট",size:"১ কেজি",price:60},  
 {brand:"নুরজাহান মিনিকেট",size:"৫ কেজি",price:300},  
-{brand:"নুরজাহান মিনিকেট",size:"১০ কেজি",price:580},
-  
+{brand:"নুরজাহান মিনিকেট",size:"১০ কেজি",price:580}, 
 {brand:"মামনি মিনিকেট",size:"১ কেজি",price:60},  
 {brand:"মামনি মিনিকেট",size:"৫ কেজি",price:300},  
-{brand:"মামনি মিনিকেট",size:"১০ কেজি",price:590},
-  
+{brand:"মামনি মিনিকেট",size:"১০ কেজি",price:590},  
 {brand:"বক মার্কা মিনিকেট",size:"১ কেজি",price:80},  
 {brand:"বক মার্কা মিনিকেট",size:"৫ কেজি",price:400},  
-{brand:"বক মার্কা মিনিকেট",size:"১০ কেজি",price:780},  
-  
+{brand:"বক মার্কা মিনিকেট",size:"১০ কেজি",price:780},    
 {brand:"নাজিরশাইল হাফ সিদ্ধ",size:"১ কেজি",price:90},  
 {brand:"নাজিরশাইল হাফ সিদ্ধ",size:"৫ কেজি",price:450},  
-{brand:"নাজিরশাইল হাফ সিদ্ধ",size:"১০ কেজি",price:890},  
-  
+{brand:"নাজিরশাইল হাফ সিদ্ধ",size:"১০ কেজি",price:890},    
 {brand:"জিরা চাউল",size:"১ কেজি",price:85},  
 {brand:"জিরা চাউল",size:"৫ কেজি",price:425},  
-{brand:"জিরা চাউল",size:"১০ কেজি",price:830},  
-  
+{brand:"জিরা চাউল",size:"১০ কেজি",price:830},    
 {brand:"গুটি স্বর্ণা",size:"১ কেজি",price:55},  
 {brand:"গুটি স্বর্ণা",size:"৫ কেজি",price:275},  
-{brand:"গুটি স্বর্ণা",size:"১০ কেজি",price:530}  
-  
+{brand:"গুটি স্বর্ণা",size:"১০ কেজি",price:530}    
 ]  
 },  
   
@@ -53,17 +47,14 @@ image:"চিনিগুড়া-চাল.jpg",
 variants:[  
 {brand:"লিচু মিনিকেট আতপ",size:"১ কেজি",price:70},  
 {brand:"লিচু মিনিকেট আতপ",size:"৫ কেজি",price:350},  
-{brand:"লিচু মিনিকেট আতপ",size:"১০ কেজি",price:690},  
-  
+{brand:"লিচু মিনিকেট আতপ",size:"১০ কেজি",price:690},    
 {brand:"কাটারি আতপ",size:"১ কেজি",price:95},  
 {brand:"কাটারি আতপ",size:"৫ কেজি",price:470},  
-{brand:"কাটারি আতপ",size:"১০ কেজি",price:930},  
-  
+{brand:"কাটারি আতপ",size:"১০ কেজি",price:930},    
 {brand:"চিনিগুড়া চাষী",size:"১ কেজি",price:220},  
 {brand:"চিনিগুড়া",size:"১ কেজি",price:195},  
 {brand:"চিনিগুড়া",size:"৫ কেজি",price:970},  
-{brand:"চিনিগুড়া",size:"১০ কেজি",price:1940}  
-  
+{brand:"চিনিগুড়া",size:"১০ কেজি",price:1940}    
 ]  
 },  
   
@@ -74,17 +65,13 @@ icon:"🫘",
 image:"ডাল.jpg",  
 variants:[  
 {brand:"মসুর ডাল মোটা",size:"১ কেজি",price:90},  
-{brand:"মসুর ডাল দেশি",size:"১ কেজি",price:150},  
-  
+{brand:"মসুর ডাল দেশি",size:"১ কেজি",price:150},    
 {brand:"মুগ ডাল মোটা",size:"১ কেজি",price:0},  
-{brand:"মুগ ডাল দেশি",size:"১ কেজি",price:160},  
-  
+{brand:"মুগ ডাল দেশি",size:"১ কেজি",price:160},    
 {brand:"মটর ডাল",size:"১ কেজি",price:60},  
-{brand:"মটর ডাল",size:"৫ কেজি",price:275},  
-  
+{brand:"মটর ডাল",size:"৫ কেজি",price:275},    
 {brand:"মটর",size:"১ কেজি",price:55},  
-{brand:"মটর",size:"৫ কেজি",price:250}  
-  
+{brand:"মটর",size:"৫ কেজি",price:250}    
 ]  
 },  
   
@@ -119,17 +106,14 @@ variants:[
 {brand:"ফ্রেশ",size:"১ লিটার",price:0},  
 {brand:"তীর",size:"১ লিটার",price:0},  
 {brand:"রূপচাঁদা",size:"১ লিটার",price:0},  
-{brand:"বসুন্ধরা",size:"১ লিটার",price:0},  
-  
+{brand:"বসুন্ধরা",size:"১ লিটার",price:0},    
 {brand:"স্টারসিপ",size:"১ লিটার",price:199},  
 {brand:"স্টারসিপ",size:"২ লিটার",price:398},  
 {brand:"স্টারসিপ",size:"৩ লিটার",price:0},  
-{brand:"স্টারসিপ",size:"৫ লিটার",price:975},  
-  
+{brand:"স্টারসিপ",size:"৫ লিটার",price:975},    
 {brand:"সয়াবিন",size:"১ কেজি",price:215},  
 {brand:"সুপর",size:"১ কেজি",price:195},  
-{brand:"পাম",size:"১ কেজি",price:195}  
-  
+{brand:"পাম",size:"১ কেজি",price:195}    
 ]  
 },  
   
@@ -141,23 +125,19 @@ variants:[
 {brand:"রাঁধুনী",size:"৮০ গ্রাম",price:38},  
 {brand:"রাঁধুনী",size:"২৫০ গ্রাম",price:90},  
 {brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:180},  
-{brand:"রাঁধুনী",size:"১ লিটার",price:370},  
-  
+{brand:"রাঁধুনী",size:"১ লিটার",price:370},    
 {brand:"ফ্রেশ",size:"৮০ গ্রাম",price:0},  
 {brand:"ফ্রেশ",size:"২৫০ গ্রাম",price:0},  
 {brand:"ফ্রেশ",size:"৫০০ গ্রাম",price:0},  
-{brand:"ফ্রেশ",size:"১ লিটার",price:0},  
-  
+{brand:"ফ্রেশ",size:"১ লিটার",price:0},    
 {brand:"তীর",size:"৮০ গ্রাম",price:0},  
 {brand:"তীর",size:"২৫০ গ্রাম",price:0},  
 {brand:"তীর",size:"৫০০ গ্রাম",price:0},  
-{brand:"তীর",size:"১ লিটার",price:0},  
-  
+{brand:"তীর",size:"১ লিটার",price:0},    
 {brand:"বসুন্ধরা",size:"৮০ গ্রাম",price:0},  
 {brand:"বসুন্ধরা",size:"২৫০ গ্রাম",price:0},  
 {brand:"বসুন্ধরা",size:"৫০০ গ্রাম",price:0},  
-{brand:"বসুন্ধরা",size:"১ লিটার",price:0}  
-  
+{brand:"বসুন্ধরা",size:"১ লিটার",price:0}    
 ]  
 },  
   
@@ -171,8 +151,7 @@ variants:[
 {brand:"রাঁধুনী",size:"২০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"১ কেজি",price:0},  
-{brand:"সাধারণ",size:"১ কেজি",price:0}  
-  
+{brand:"সাধারণ",size:"১ কেজি",price:0}    
 ]  
 },  
   
@@ -187,8 +166,7 @@ variants:[
 {brand:"রাঁধুনী",size:"২০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"১ কেজি",price:0},  
-{brand:"সাধারণ",size:"১ কেজি",price:650}  
-  
+{brand:"সাধারণ",size:"১ কেজি",price:650}    
 ]  
 },  
   
@@ -202,8 +180,7 @@ variants:[
 {brand:"রাঁধুনী",size:"১০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"২০০ গ্রাম",price:0},  
 {brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:0},  
-{brand:"রাঁধুনী",size:"১ কেজি",price:0}  
-  
+{brand:"রাঁধুনী",size:"১ কেজি",price:0}    
 ]  
 },  
   
@@ -214,8 +191,7 @@ image:"দারুচিনি.jpg",
 variants:[    
 {brand:"সাধারণ",size:"২৫০ গ্রাম",price:130},  
 {brand:"সাধারণ",size:"৫০০ গ্রাম",price:250},  
-{brand:"সাধারণ",size:"১ কেজি",price:500}  
-  
+{brand:"সাধারণ",size:"১ কেজি",price:500}    
 ]  
 },  
   
@@ -228,8 +204,7 @@ variants:[
 {brand:"সাধারণ",size:"২০০ গ্রাম",price:1000},  
 {brand:"সাধারণ",size:"২৫০ গ্রাম",price:1200},  
 {brand:"সাধারণ",size:"৫০০ গ্রাম",price:2400},  
-{brand:"সাধারণ",size:"১ কেজি",price:4800}  
-  
+{brand:"সাধারণ",size:"১ কেজি",price:4800}    
 ]  
 },  
   
@@ -242,8 +217,7 @@ variants:[
 {brand:"সাধারণ",size:"২০০ গ্রাম",price:280},  
 {brand:"সাধারণ",size:"২৫০ গ্রাম",price:325},  
 {brand:"সাধারণ",size:"৫০০ গ্রাম",price:650},  
-{brand:"সাধারণ",size:"১ কেজি",price:1300}  
-  
+{brand:"সাধারণ",size:"১ কেজি",price:1300}    
 ]  
 },  
 
@@ -273,8 +247,7 @@ variants:[
 {brand:"মাছের মশলা",size:"১০০ গ্রাম",price:80},   
 {brand:"মেজবানি গরুর মাংসের মশলা",size:"৬৮ গ্রাম",price:100},   
 {brand:"তেহরি মশলা",size:"৪০ গ্রাম",price:55},   
-{brand:"বোরহানি মশলা",size:"৫০ গ্রাম",price:40}   
-   
+{brand:"বোরহানি মশলা",size:"৫০ গ্রাম",price:40}      
 ]  
 },  
      
@@ -313,8 +286,7 @@ variants:[
 {brand:"সাধারণ",size:"১০০ গ্রাম",price:30},  
 {brand:"সাধারণ",size:"২৫০ গ্রাম",price:50},  
 {brand:"সাধারণ",size:"৫০০ গ্রাম",price:90},  
-{brand:"সাধারণ",size:"১ কেজি",price:180}  
-  
+{brand:"সাধারণ",size:"১ কেজি",price:180}    
 ]  
 }  
   
@@ -342,8 +314,7 @@ variants:[
 {brand:"বসুন্ধরা",size:"১ কেজি",price:0},  
 {brand:"বসুন্ধরা",size:"৫ কেজি",price:0},  
 {brand:"তীর",size:"১ কেজি",price:0},  
-{brand:"তীর",size:"৫ কেজি",price:0}  
-  
+{brand:"তীর",size:"৫ কেজি",price:0}    
 ]  
 },  
   
@@ -359,8 +330,7 @@ variants:[
 {brand:"বসুন্ধরা",size:"১ কেজি",price:0},  
 {brand:"বসুন্ধরা",size:"৫ কেজি",price:0},  
 {brand:"তীর",size:"১ কেজি",price:0},  
-{brand:"তীর",size:"৫ কেজি",price:0}  
-  
+{brand:"তীর",size:"৫ কেজি",price:0}    
 ]  
 },  
   
@@ -371,8 +341,7 @@ image:"সুজি.jpg",
 variants:[    
 {brand:"সজীব",size:"৫০০ গ্রাম",price:45},  
 {brand:"তীর",size:"৫০০ গ্রাম",price:0},  
-{brand:"ফ্রেশ",size:"৫০০ গ্রাম",price:0}  
-  
+{brand:"ফ্রেশ",size:"৫০০ গ্রাম",price:0}    
 ]  
 },  
 
@@ -382,8 +351,7 @@ icon:"🥣",
 image:"পায়েস ও হালুয়া.jpg",    
 variants:[    
 {brand:"পায়েস রাইস পুডিং",size:"১৫০ গ্রাম",price:55},  
-{brand:"চায়না গ্রাস মিল্ক হালুয়া",size:"১২০ গ্রাম",price:60}  
-  
+{brand:"চায়না গ্রাস মিল্ক হালুয়া",size:"১২০ গ্রাম",price:60}    
 ]  
 },  
    
@@ -394,8 +362,7 @@ icon:"🍬",
 image:"চিনি.jpg",    
 variants:[    
 {brand:"চিনি খোলা",size:"১ কেজি",price:105},  
-{brand:"চিনি প্যাকেট",size:"১ কেজি",price:110}  
-  
+{brand:"চিনি প্যাকেট",size:"১ কেজি",price:110}    
 ]  
 },  
   
@@ -406,23 +373,17 @@ icon:"🧂",
 image:"লবণ.jpg",    
 variants:[    
 {brand:"ফ্রেশ",size:"৫০০ গ্রাম",price:20},  
-{brand:"ফ্রেশ",size:"১ কেজি",price:40},  
-  
+{brand:"ফ্রেশ",size:"১ কেজি",price:40},    
 {brand:"তীর",size:"৫০০ গ্রাম",price:20},  
-{brand:"তীর",size:"১ কেজি",price:40},  
-  
+{brand:"তীর",size:"১ কেজি",price:40},    
 {brand:"No.1",size:"৫০০ গ্রাম",price:20},  
-{brand:"No.1",size:"১ কেজি",price:40},  
-  
+{brand:"No.1",size:"১ কেজি",price:40},    
 {brand:"Confidence",size:"৫০০ গ্রাম",price:20},  
-{brand:"Confidence",size:"১ কেজি",price:40},  
-  
+{brand:"Confidence",size:"১ কেজি",price:40},    
 {brand:"ACI",size:"৫০০ গ্রাম",price:20},  
-{brand:"ACI",size:"১ কেজি",price:40},  
-  
+{brand:"ACI",size:"১ কেজি",price:40},    
 {brand:"মোটা লবণ",size:"৫০০ গ্রাম",price:10},  
-{brand:"মোটা লবণ",size:"১ কেজি",price:20}  
-  
+{brand:"মোটা লবণ",size:"১ কেজি",price:20}    
 ]  
 },  
   
@@ -441,8 +402,7 @@ icon:"🍜",
 image:"সেমাই.jpg",    
 variants:[    
 {brand:"বনফুল লাচ্ছা",size:"প্যাকেট",price:40},  
-{brand:"বনফুল বাংলা",size:"প্যাকেট",price:45}  
-  
+{brand:"বনফুল বাংলা",size:"প্যাকেট",price:45}    
 ]  
 },  
   
@@ -493,8 +453,7 @@ icon:"🧅",
 image:"পেঁয়াজ.jpg",    
 variants:[    
 {brand:"দেশি",size:"১ কেজি",price:0},  
-{brand:"ইন্ডিয়ান",size:"১ কেজি",price:50}  
-  
+{brand:"ইন্ডিয়ান",size:"১ কেজি",price:50}    
 ]  
 },  
   
@@ -505,8 +464,7 @@ icon:"🧄",
 image:"রসুন.jpg",    
 variants:[    
 {brand:"দেশি",size:"১ কেজি",price:150},  
-{brand:"ইমপোর্টেড",size:"১ কেজি",price:0}  
-  
+{brand:"ইমপোর্টেড",size:"১ কেজি",price:0}    
 ]  
 },  
   
@@ -517,8 +475,7 @@ icon:"🫚",
 image:"আদা.jpg",    
 variants:[  
 {brand:"দেশি",size:"১ কেজি",price:0},  
-{brand:"ইমপোর্টেড",size:"১ কেজি",price:140}  
-     
+{brand:"ইমপোর্টেড",size:"১ কেজি",price:140}       
 ]  
 },  
   
@@ -533,8 +490,7 @@ variants:[
 {brand:"রাঁধুনী",size:"২০০ গ্রাম",price:140},  
 {brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:290},  
 {brand:"রাঁধুনী",size:"১ কেজি",price:0},  
-{brand:"সাধারণ",size:"১ কেজি",price:320}  
-  
+{brand:"সাধারণ",size:"১ কেজি",price:320}    
 ]  
 },  
   
@@ -551,8 +507,7 @@ variants:[
 {brand:"রাঁধুনী",size:"১ কেজি",price:0},  
 {brand:"সাধারণ",size:"১ কেজি",price:420},  
 {brand:"শুকনা মরিচ",size:"৫০০ গ্রাম",price:200},  
-{brand:"শুকনা মরিচ",size:"১ কেজি",price:400}  
-  
+{brand:"শুকনা মরিচ",size:"১ কেজি",price:400}    
 ]  
 }  
   
@@ -575,8 +530,7 @@ icon:"🥚",
 image:"ডিম.jpg",    
 variants:[    
 {brand:"দেশি",size:"১ ডজন",price:0},  
-{brand:"ফার্ম",size:"১ ডজন",price:145}  
-  
+{brand:"ফার্ম",size:"১ ডজন",price:145}    
 ]  
 },  
   
@@ -586,19 +540,14 @@ icon:"🥛",
 image:"দুধ.jpg",    
 variants:[    
 {brand:"Milk Vita",size:"৫০০ গ্রাম",price:55},  
-{brand:"Milk Vita",size:"১ লিটার",price:110},  
-  
+{brand:"Milk Vita",size:"১ লিটার",price:110},    
 {brand:"Aarong",size:"৫০০ গ্রাম",price:50},  
-{brand:"Aarong",size:"১ লিটার",price:100},  
-  
+{brand:"Aarong",size:"১ লিটার",price:100},    
 {brand:"Pran UST",size:"২০০ গ্রাম",price:30},  
-{brand:"Pran UST",size:"৫০০ গ্রাম",price:60},  
-  
+{brand:"Pran UST",size:"৫০০ গ্রাম",price:60},    
 {brand:"Aarong UST",size:"২০০ গ্রাম",price:30},  
-{brand:"Aarong UST",size:"৫০০ গ্রাম",price:60},  
-  
-{brand:"Farm",size:"১ লিটার",price:100}  
-  
+{brand:"Aarong UST",size:"৫০০ গ্রাম",price:60},    
+{brand:"Farm",size:"১ লিটার",price:100}    
 ]  
 },  
   
@@ -617,8 +566,7 @@ icon:"🧈",
 image:"মাখন.jpg",    
 variants:[    
 {brand:"Aarong",size:"প্যাকেট",price:0},  
-{brand:"Pran",size:"প্যাকেট",price:0}  
-  
+{brand:"Pran",size:"প্যাকেট",price:0}    
 ]  
 },  
   
@@ -649,25 +597,20 @@ icon:"🍵",
 image:"চা-পাতা.jpg",    
 variants:[    
 {brand:"সাধারণ",size:"১ কেজি",price:360},  
-{brand:"সাধারণ",size:"৫০০ গ্রাম",price:180},  
-  
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:180},    
 {brand:"ইস্পাহানি",size:"৫০ গ্রাম প্যাকেট",price:30},  
 {brand:"ইস্পাহানি",size:"১০০ গ্রাম প্যাকেট",price:60},  
 {brand:"ইস্পাহানি",size:"২০০ গ্রাম প্যাকেট",price:120},  
-{brand:"ইস্পাহানি",size:"৫০০ গ্রাম প্যাকেট",price:230},  
-  
+{brand:"ইস্পাহানি",size:"৫০০ গ্রাম প্যাকেট",price:230},    
 {brand:"সিলন",size:"৫০ গ্রাম প্যাকেট",price:30},  
 {brand:"সিলন",size:"১০০ গ্রাম প্যাকেট",price:60},  
 {brand:"সিলন",size:"২০০ গ্রাম প্যাকেট",price:120},  
-{brand:"সিলন গোল্ড",size:"৫০০ গ্রাম প্যাকেট",price:230},  
-  
+{brand:"সিলন গোল্ড",size:"৫০০ গ্রাম প্যাকেট",price:230},    
 {brand:"তাজা",size:"৫০ গ্রাম প্যাকেট",price:30},  
 {brand:"তাজা",size:"১০০ গ্রাম প্যাকেট",price:60},  
 {brand:"তাজা",size:"২০০ গ্রাম প্যাকেট",price:120},  
-{brand:"তাজা",size:"৫০০ গ্রাম প্যাকেট",price:230},  
-  
-{brand:"মুসকান",size:"৫০০ গ্রাম প্যাকেট",price:190}  
-  
+{brand:"তাজা",size:"৫০০ গ্রাম প্যাকেট",price:230},    
+{brand:"মুসকান",size:"৫০০ গ্রাম প্যাকেট",price:190}    
 ]  
 },  
   
@@ -682,11 +625,9 @@ variants:[
 {brand:"Nescafe",size:"২৪ গ্রাম কৌটা",price:190},  
 {brand:"Nescafe",size:"৪৫ গ্রাম কৌটা",price:270},  
 {brand:"Nescafe",size:"১০০ গ্রাম কৌটা",price:0},  
-{brand:"Nescafe",size:"১৫০ গ্রাম কৌটা",price:0},  
-  
+{brand:"Nescafe",size:"১৫০ গ্রাম কৌটা",price:0},    
 {brand:"Amma Coffee",size:"১ গ্রাম",price:5},  
-{brand:"Amma Coffee",size:"১৪গ্রাম",price:10}  
-  
+{brand:"Amma Coffee",size:"১৪গ্রাম",price:10}    
 ]  
 },  
   
@@ -698,8 +639,7 @@ variants:[
 {brand:"Horlicks",size:"গ্রাম",price:0},  
 {brand:"Horlicks",size:"২৫০ গ্রাম",price:250},  
 {brand:"Horlicks",size:"৫০০ গ্রাম",price:490},  
-{brand:"Horlicks",size:"১ কেজি",price:880}  
-  
+{brand:"Horlicks",size:"১ কেজি",price:880}    
 ]  
 },  
   
@@ -710,18 +650,15 @@ image:"ল্যাকটোজেন.jpg",
 variants:[      
 {brand:"Lactogen 1",size:"২০০ গ্রাম",price:0},  
 {brand:"Lactogen 1",size:"৩৫০ গ্রাম",price:640},  
-{brand:"Lactogen 1",size:"৪০০ গ্রাম",price:0},  
-  
+{brand:"Lactogen 1",size:"৪০০ গ্রাম",price:0},    
 {brand:"Lactogen 2",size:"গ্রাম",price:0},  
 {brand:"Lactogen 2",size:"২০০ গ্রাম",price:0},  
 {brand:"Lactogen 2",size:"৩৫০ গ্রাম",price:670},  
-{brand:"Lactogen 2",size:"৪০০ গ্রাম",price:0},  
-  
+{brand:"Lactogen 2",size:"৪০০ গ্রাম",price:0},    
 {brand:"Lactogen 3",size:"গ্রাম",price:0},  
 {brand:"Lactogen 3",size:"২০০ গ্রাম",price:0},  
 {brand:"Lactogen 3",size:"৩৫০ গ্রাম",price:690},  
-{brand:"Lactogen 3",size:"৪০০ গ্রাম",price:0}     
-     
+{brand:"Lactogen 3",size:"৪০০ গ্রাম",price:0}          
 ]  
 },  
      
@@ -758,17 +695,14 @@ variants:[
 {brand:"Olympic Tip",size:"প্যাকেট",price:60},  
 {brand:"Olympic Milk Marie",size:"প্যাকেট",price:50},  
 {brand:"Olympic Orange",size:"প্যাকেট",price:40},  
-{brand:"Olympic Dry Cake",size:"প্যাকেট",price:145},  
-  
+{brand:"Olympic Dry Cake",size:"প্যাকেট",price:145},    
 {brand:"Kishwan Cho- Cookies",size:"প্যাকেট",price:90},  
 {brand:"Kishwan Magica",size:"প্যাকেট",price:140},  
 {brand:"Kishwan Horlicks",size:"প্যাকেট",price:70},  
-{brand:"Kishwan Dry Cake",size:"প্যাকেট",price:145},  
-  
+{brand:"Kishwan Dry Cake",size:"প্যাকেট",price:145},    
 {brand:"Banoful Cho- Cookies",size:"প্যাকেট",price:50},  
 {brand:"Banoful But- Cookies",size:"প্যাকেট",price:50},  
-{brand:"Bangas Ghee",size:"প্যাকেট",price:50}  
-  
+{brand:"Bangas Ghee",size:"প্যাকেট",price:50}    
 ]  
 },  
   
@@ -781,8 +715,7 @@ variants:[
 {brand:"Kishwan Spe-Toast",size:"প্যাকেট",price:80},  
 {brand:"Kishwan T Toast",size:"প্যাকেট",price:50},  
 {brand:"Kishwan Ghee Toast",size:"প্যাকেট",price:60},  
-{brand:"সাধারণ",size:"প্যাকেট",price:0}  
-  
+{brand:"সাধারণ",size:"প্যাকেট",price:0}    
 ]  
 },  
   
@@ -794,26 +727,21 @@ variants:[
 {brand:"Maggi",size:"৪ প্যাকেট",price:90},  
 {brand:"Maggi",size:"৮ প্যাকেট",price:170},  
 {brand:"Maggi",size:"১২ প্যাকেট",price:255},  
-{brand:"Maggi",size:"১৬ প্যাকেট",price:340},  
-  
+{brand:"Maggi",size:"১৬ প্যাকেট",price:340},    
 {brand:"Mr. Noodles",size:"৪ প্যাকেট",price:50},  
 {brand:"Mr. Noodles",size:"৮ প্যাকেট",price:160},  
 {brand:"Mr. Noodles",size:"১২ প্যাকেট",price:230},  
 {brand:"Mr. Noodles",size:"১৬ প্যাকেট",price:330},  
-{brand:"Mr. Noodles",size:"মিনি প্যাকেট",price:10},  
-  
+{brand:"Mr. Noodles",size:"মিনি প্যাকেট",price:10},    
 {brand:"Olympic Foodie",size:"৮ প্যাকেট",price:120},  
 {brand:"Olympic Foodie",size:"১২ প্যাকেট",price:180},  
-{brand:"Olympic Foodie",size:"১৬ প্যাকেট",price:300},  
-  
+{brand:"Olympic Foodie",size:"১৬ প্যাকেট",price:300},    
 {brand:"Olympic Ramen",size:"৪ প্যাকেট",price:100},  
-{brand:"Olympic Ramen",size:"৮ প্যাকেট",price:200},  
-  
+{brand:"Olympic Ramen",size:"৮ প্যাকেট",price:200},    
 {brand:"Cook",size:"ফ্যামিলি প্যাকেট",price:60},  
 {brand:"Chocola Stick",size:"ফ্যামিলি প্যাকেট",price:50},  
 {brand:"Chocola Stick",size:"মিনি প্যাকেট",price:25},  
-{brand:"Fresh",size:"মিনি প্যাকেট",price:20}  
-  
+{brand:"Fresh",size:"মিনি প্যাকেট",price:20}    
 ]  
 },  
   
@@ -825,17 +753,14 @@ variants:[
 {brand:"রুচি বারবিকিউ",size:"মিনি প্যাকেট",price:10},  
 {brand:"রুচি বারবিকিউ",size:"১৫০ গ্রাম",price:50},  
 {brand:"রুচি বারবিকিউ",size:"৩০০ গ্রাম",price:100},  
-{brand:"রুচি বারবিকিউ",size:"৫০০ গ্রাম",price:150},  
-  
+{brand:"রুচি বারবিকিউ",size:"৫০০ গ্রাম",price:150},    
 {brand:"রুচি ঝাল",size:"মিনি প্যাকেট",price:10},  
 {brand:"রুচি ঝাল",size:"১৫০ গ্রাম",price:50},  
 {brand:"রুচি ঝাল",size:"৩০০ গ্রাম",price:100},  
-{brand:"রুচি ঝাল",size:"৫০০ গ্রাম",price:150},  
-  
+{brand:"রুচি ঝাল",size:"৫০০ গ্রাম",price:150},    
 {brand:"Bombay",size:"১৫০ গ্রাম",price:50},  
 {brand:"Bombay",size:"৩০০ গ্রাম",price:100},  
-{brand:"সাধারণ",size:"১ কেজি",price:120}  
-  
+{brand:"সাধারণ",size:"১ কেজি",price:120}    
 ]  
 }  
   
@@ -859,33 +784,26 @@ image:"কাপড়-ধোয়ার-পাউডার.jpg",
 variants:[    
 {brand:"Wheel",size:"২০০ গ্রাম",price:30},  
 {brand:"Wheel",size:"৫০০ গ্রাম",price:75},  
-{brand:"Wheel",size:"১ কেজি",price:0},  
-  
+{brand:"Wheel",size:"১ কেজি",price:0},    
 {brand:"Rin",size:"২০০ গ্রাম",price:50},  
 {brand:"Rin",size:"৫০০ গ্রাম",price:100},  
-{brand:"Rin",size:"১ কেজি",price:195},  
-  
+{brand:"Rin",size:"১ কেজি",price:195},    
 {brand:"Ghari",size:"২০০ গ্রাম",price:0},  
 {brand:"Ghari",size:"৫০০ গ্রাম",price:80},  
-{brand:"Ghari",size:"১ কেজি",price:140},  
-  
+{brand:"Ghari",size:"১ কেজি",price:140},    
 {brand:"Fast Wash",size:"২০০ গ্রাম",price:0},  
 {brand:"Fast Wash",size:"৫০০ গ্রাম",price:90},  
-{brand:"Fast Wash",size:"১ কেজি",price:180},  
-  
+{brand:"Fast Wash",size:"১ কেজি",price:180},    
 {brand:"Surf Excel",size:"২৫০ গ্রাম",price:60},  
 {brand:"Surf Excel",size:"৫০০ গ্রাম",price:120},  
-{brand:"Surf Excel",size:"১ কেজি",price:0},  
-  
+{brand:"Surf Excel",size:"১ কেজি",price:0},    
 {brand:"Keya",size:"২০০ গ্রাম",price:30},  
 {brand:"Keya",size:"৫০০ গ্রাম",price:70},  
-{brand:"Keya",size:"১ কেজি",price:0},  
-  
+{brand:"Keya",size:"১ কেজি",price:0},    
 {brand:"Tibet",size:"২০০ গ্রাম",price:30},  
 {brand:"Tibet",size:"৫০০ গ্রাম",price:75},  
 {brand:"Tibet",size:"১ কেজি",price:0},  
-{brand:"Tibet",size:"২ কেজি",price:270}  
-  
+{brand:"Tibet",size:"২ কেজি",price:270}    
 ]  
 },  
   
@@ -895,14 +813,13 @@ icon:"🧼",
 image:"কাপড়-ধোয়ার-সাবান.jpg",    
 variants:[    
 {brand:"Tibet",size:"১২৫ গ্রাম",price:28},
+{brand:"Tibet ৫৭০",size:"১২৫ গ্রাম",price:28},   
 {brand:"Tibet Ball",size:"১২৫ গ্রাম",price:26},
-{brand:"Chaka Ball",size:"১২৫ গ্রাম",price:26},   
-{brand:"Tibet ৫৭০",size:"১২৫ গ্রাম",price:28},
+{brand:"Chaka Ball",size:"১২৫ গ্রাম",price:26}, 
 {brand:"বাংলা ৩৭",size:"৫০০ গ্রাম",price:60},
 {brand:"বাংলা ১৯৩৭",size:"৫০০ গ্রাম",price:80},
 {brand:"সুগন্ধি",size:"১ কেজি",price:100},   
-{brand:"Wheel",size:"১২৫ গ্রাম",price:35}  
-  
+{brand:"Wheel",size:"১২৫ গ্রাম",price:35}    
 ]  
 },  
   
@@ -940,9 +857,7 @@ variants:[
 {brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},
 {brand:"Lifebuoy",size:"১০০ গ্রাম",price:0},   
 {brand:"Cosco",size:"৩০ গ্রাম",price:15},  
-{brand:"Cosco",size:"৮০ গ্রাম",price:60}  
-   
-  
+{brand:"Cosco",size:"৮০ গ্রাম",price:60}       
 ]  
 },  
   
@@ -964,8 +879,7 @@ variants:[
 {brand:"Dove",size:"৩৩০ গ্ৰাম",price:430},  
 {brand:"Dove",size:"মিনি",price:4},  
 {brand:"Pantene",size:"গ্ৰাম",price:0},  
-{brand:"Head & Shoulders",size:"গ্ৰাম",price:0}  
-  
+{brand:"Head & Shoulders",size:"গ্ৰাম",price:0}    
 ]  
 },  
 
@@ -979,8 +893,7 @@ variants:[
 {brand:"Sunsilk",size:"৩৪০ গ্ৰাম",price:0},
 {brand:"Dove",size:"মিনি",price:5},    
 {brand:"Dove",size:"১৭০ গ্ৰাম",price:0},
-{brand:"Dove",size:"৩৩০ গ্ৰাম",price:0}    
-  
+{brand:"Dove",size:"৩৩০ গ্ৰাম",price:0}      
 ]  
 },  
    
@@ -991,20 +904,16 @@ image:"টুথপেস্ট.jpg",
 variants:[    
 {brand:"Colgate",size:"৬০ গ্ৰাম",price:80},   
 {brand:"Colgate",size:"১০০ গ্ৰাম",price:135},  
-{brand:"Colgate",size:"পিস",price:0},
-   
+{brand:"Colgate",size:"পিস",price:0},   
 {brand:"Closeup",size:"৩৮ গ্ৰাম ",price:50},
 {brand:"Closeup",size:"৮৫ গ্ৰাম",price:100},  
-{brand:"Closeup",size:"১৫০ গ্ৰাম",price:160},
-   
+{brand:"Closeup",size:"১৫০ গ্ৰাম",price:160},   
 {brand:"Mediplus DS",size:"৪০ গ্ৰাম",price:48},
 {brand:"Mediplus DS",size:"৯০ গ্ৰাম",price:90},
-{brand:"Mediplus DS",size:"১৪০ গ্ৰাম",price:135}, 
-   
+{brand:"Mediplus DS",size:"১৪০ গ্ৰাম",price:135},    
 {brand:"Pepsodent",size:"৩৮ গ্ৰাম",price:50},  
 {brand:"Pepsodent",size:"৮৫ গ্ৰাম",price:100},     
-{brand:"Pepsodent",size:"১৫০ গ্ৰাম",price:160}  
-  
+{brand:"Pepsodent",size:"১৫০ গ্ৰাম",price:160}    
 ]  
 },  
   
@@ -1014,8 +923,7 @@ icon:"🪥",
 image:"টুথব্রাশ.jpg",    
 variants:[    
 {brand:"Colgate",size:"পিস",price:0},  
-{brand:"Closeup",size:"পিস",price:0}  
-  
+{brand:"Closeup",size:"পিস",price:0}    
 ]  
 },  
 
@@ -1030,8 +938,7 @@ variants:[
 {brand:"Lifebuoy",size:"১৭০ গ্ৰাম",price:70},
 {brand:"Bactrol",size:"১৭০ গ্ৰাম",price:70},   
 {brand:"Dettol",size:"১৭০ গ্ৰাম",price:70},
-{brand:"Dettol",size:"২০০ গ্ৰাম",price:100}
-   
+{brand:"Dettol",size:"২০০ গ্ৰাম",price:100}   
 ]  
 },  
    
@@ -1041,8 +948,7 @@ icon:"🧽",
 image:"ডিশওয়াশ-বার.jpg",    
 variants:[    
 {brand:"Vim",size:"পিস",price:0},  
-{brand:"Tibet",size:"পিস",price:0}  
-  
+{brand:"Tibet",size:"পিস",price:0}    
 ]  
 },  
   
@@ -1100,8 +1006,7 @@ icon:"🧻",
 image:"টিস্যু.jpg",    
 variants:[    
 {brand:"Bashundhara",size:"প্যাকেট",price:0},  
-{brand:"Fresh",size:"প্যাকেট",price:0}  
-  
+{brand:"Fresh",size:"প্যাকেট",price:0}    
 ]  
 },  
   
@@ -1133,8 +1038,7 @@ image:"ফেসওয়াশ.jpg",
 variants:[    
 {brand:"Pond's",size:"পিস",price:0},  
 {brand:"Garnier",size:"পিস",price:0},  
-{brand:"Himalaya",size:"পিস",price:0}  
-  
+{brand:"Himalaya",size:"পিস",price:0}    
 ]  
 },  
   
@@ -1144,8 +1048,7 @@ icon:"🧴",
 image:"হেয়ার-অয়েল.jpg",    
 variants:[    
 {brand:"Parachute",size:"বোতল",price:0},  
-{brand:"Bajaj",size:"বোতল",price:0}  
-  
+{brand:"Bajaj",size:"বোতল",price:0}    
 ]  
 },  
   
@@ -1173,8 +1076,7 @@ icon:"🧴",
 image:"বডি-লোশন.jpg",    
 variants:[    
 {brand:"Vaseline",size:"বোতল",price:0},  
-{brand:"Nivea",size:"বোতল",price:0}  
-  
+{brand:"Nivea",size:"বোতল",price:0}    
 ]  
 },  
   
@@ -1208,45 +1110,36 @@ variants:[
 {brand:"Coca-Cola",size:"250ml",price:25},  
 {brand:"Coca-Cola",size:"500ml",price:50},  
 {brand:"Coca-Cola",size:"1 liter",price:80},  
-{brand:"Coca-Cola",size:"2 liter",price:130},  
-     
+{brand:"Coca-Cola",size:"2 liter",price:130},       
 {brand:"Pepsi",size:"250ml",price:0},  
 {brand:"Pepsi",size:"500ml",price:0},  
 {brand:"Pepsi",size:"1 liter",price:0},  
-{brand:"Pepsi",size:"2 liter",price:0},  
-  
+{brand:"Pepsi",size:"2 liter",price:0},    
 {brand:"Fanta",size:"250ml",price:0},  
 {brand:"Fanta",size:"500ml",price:0},  
-{brand:"Fanta",size:"1 liter",price:0},  
-     
+{brand:"Fanta",size:"1 liter",price:0},       
 {brand:"Clemon",size:"250ml",price:20},  
 {brand:"Clemon",size:"500ml",price:40},  
 {brand:"Clemon",size:"1 liter",price:70},  
-{brand:"Clemon",size:"2 liter",price:120},  
-  
+{brand:"Clemon",size:"2 liter",price:120},    
 {brand:"Pran Up",size:"250ml",price:0},  
 {brand:"Pran Up",size:"500ml",price:0},  
 {brand:"Pran Up",size:"1 liter",price:60},  
-{brand:"Pran Up",size:"2 liter",price:0},     
-     
+{brand:"Pran Up",size:"2 liter",price:0},          
 {brand:"Mojo",size:"250ml",price:20},  
 {brand:"Mojo",size:"500ml",price:40},  
 {brand:"Mojo",size:"1 liter",price:70},  
-{brand:"Mojo",size:"2 liter",price:120},     
-     
+{brand:"Mojo",size:"2 liter",price:120},          
 {brand:"Sprite",size:"250ml",price:25},  
 {brand:"Sprite",size:"500ml",price:50},  
 {brand:"Sprite",size:"1 liter",price:80},  
-{brand:"Sprite",size:"2 liter",price:130},  
-     
+{brand:"Sprite",size:"2 liter",price:130},       
 {brand:"7UP",size:"250ml",price:25},  
 {brand:"7UP",size:"500ml",price:50},  
 {brand:"7UP",size:"1 liter",price:80},  
-{brand:"7UP",size:"2 liter",price:130},  
-  
+{brand:"7UP",size:"2 liter",price:130},    
 {brand:"Dinku",size:"250ml",price:30},     
-{brand:"lachi",size:"250ml",price:20}  
-     
+{brand:"lachi",size:"250ml",price:20}       
 ]  
 },  
   
@@ -1258,18 +1151,15 @@ variants:[
 {brand:"Sun",size:"500ml",price:20},     
 {brand:"Mum",size:"500ml",price:20},  
 {brand:"Mum",size:"২ লিটার",price:40},  
-{brand:"Mum",size:"৫ লিটার",price:90},  
-  
+{brand:"Mum",size:"৫ লিটার",price:90},    
 {brand:"Fresh",size:"500ml",price:15},  
 {brand:"Fresh",size:"১ লিটার",price:25},  
 {brand:"Fresh",size:"২ লিটার",price:35},  
-{brand:"Fresh",size:"৫ লিটার",price:90},  
-  
+{brand:"Fresh",size:"৫ লিটার",price:90},    
 {brand:"Muskan",size:"500ml",price:15},  
 {brand:"Muskan",size:"১ লিটার",price:25},  
 {brand:"Muskan",size:"২ লিটার",price:35},  
-{brand:"Muskan",size:"৫ লিটার",price:0}  
-  
+{brand:"Muskan",size:"৫ লিটার",price:0}    
 ]  
 },  
   
@@ -1282,20 +1172,17 @@ variants:[
 {brand:"Frutika",size:"500ml",price:50},  
 {brand:"Frutika",size:"1 liter",price:80},  
 {brand:"Frutika",size:"মিনি প্যাকেট",price:20},     
-{brand:"Frutika",size:"1 liter প্যাকেট",price:0},     
-     
+{brand:"Frutika",size:"1 liter প্যাকেট",price:0},          
 {brand:"Shezan",size:"200ml",price:20},  
 {brand:"Shezan",size:"500ml",price:50},  
 {brand:"Shezan",size:"1 liter",price:80},  
 {brand:"Shezan",size:"মিনি প্যাকেট",price:20},     
-{brand:"Shezan",size:"1 liter প্যাকেট",price:0},     
-     
+{brand:"Shezan",size:"1 liter প্যাকেট",price:0},          
 {brand:"Pran",size:"200ml",price:20},  
 {brand:"Pran",size:"500ml",price:45},  
 {brand:"Pran",size:"1 liter",price:80},  
 {brand:"Pran",size:"মিনি প্যাকেট",price:20},     
-{brand:"Pran",size:"1 liter প্যাকেট",price:0}  
-  
+{brand:"Pran",size:"1 liter প্যাকেট",price:0}    
 ]  
 },  
   
@@ -1308,8 +1195,7 @@ variants:[
 {brand:"Speed Can",size:"250ml",price:50},  
 {brand:"Speed",size:"250ml",price:30},  
 {brand:"Power",size:"250ml",price:30},  
-{brand:"Tiger",size:"250ml",price:30}  
-  
+{brand:"Tiger",size:"250ml",price:30}    
 ]  
 }  
   
