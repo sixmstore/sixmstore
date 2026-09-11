@@ -987,9 +987,13 @@ name:"হ্যান্ড ওয়াশ লিকুইড",
 icon:"🧽",  
 image:"হ্যান্ড ওয়াশ.jpg",    
 variants:[    
-{brand:"Savlon",size:"পিস",price:0},  
-{brand:"Sepnil",size:"পিস",price:0},  
-{brand:"Dettol",size:"পিস",price:0}
+{brand:"Savlon",size:"১৭০ গ্ৰাম",price:70},  
+{brand:"Savlon",size:"২০০ গ্ৰাম",price:100},   
+{brand:"Sepnil",size:"১৭০ গ্ৰাম",price:70},
+{brand:"Lifebuoy",size:"১৭০ গ্ৰাম",price:70},
+{brand:"Bactrol",size:"১৭০ গ্ৰাম",price:70},   
+{brand:"Dettol",size:"১৭০ গ্ৰাম",price:70},
+{brand:"Dettol",size:"২০০ গ্ৰাম",price:100}
    
 ]  
 },  
