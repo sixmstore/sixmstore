@@ -933,16 +933,126 @@ variants:[
 {brand:"Pepsodent",size:"১৫০ গ্ৰাম",price:160}    
 ]  
 },  
-  
-{  
-name:"টুথব্রাশ",  
-icon:"🪥",  
-image:"টুথব্রাশ.jpg",    
-variants:[    
-{brand:"Colgate",size:"পিস",price:0},  
-{brand:"Closeup",size:"পিস",price:0}    
-]  
-},  
+    
+{
+name:"টুথব্রাশ",
+icon:"🪥",
+image:"টুথব্রাশ.jpg",
+variants:[
+
+/* =========================
+   COLGATE
+========================= */
+{brand:"Colgate Gentle Sensitive",size:"১ পিস",price:0},
+{brand:"Colgate 360 Whole Mouth Clean",size:"১ পিস",price:0},
+{brand:"Colgate Charcoal Gold 360",size:"১ পিস",price:0},
+{brand:"Colgate Medium Max Fresh 6x Clean",size:"১ পিস",price:0},
+{brand:"Colgate Slim Soft Charcoal",size:"১ পিস",price:0},
+
+/* =========================
+   PEPSODENT
+========================= */
+{brand:"Pepsodent Sensitive Expert Soft",size:"১ পিস",price:0},
+{brand:"Pepsodent Gum Care Medium",size:"১ পিস",price:0},
+{brand:"Pepsodent Silver Charcoal Soft",size:"১ পিস",price:0},
+
+/* =========================
+   SENSODYNE
+========================= */
+{brand:"Sensodyne Daily Care",size:"১ পিস",price:0},
+{brand:"Sensodyne Sensitive Ultra Soft",size:"১ পিস",price:0},
+{brand:"Sensodyne Multicare",size:"১ পিস",price:0},
+{brand:"Sensodyne Sensitivity & Gum",size:"১ পিস",price:0},
+{brand:"Sensodyne Expert Brush",size:"১ পিস",price:0},
+{brand:"Sensodyne Complete Protection",size:"১ পিস",price:0},
+{brand:"Sensodyne Gentle Care",size:"১ পিস",price:0},
+{brand:"Sensodyne Deep Clean",size:"১ পিস",price:0},
+{brand:"Sensodyne Complete Protection",size:"১ পিস",price:0},
+{brand:"Sensodyne Sensitivity & Gum",size:"১ পিস",price:0},
+{brand:"Sensodyne Expert Brush",size:"১ পিস",price:0},
+
+/* =========================
+   ORAL-B
+========================= */
+{brand:"Oral-B CrissCross",size:"১ পিস",price:0},
+{brand:"Oral-B 1 2 3 Classic 40 Medium",size:"১ পিস",price:0},
+{brand:"Oral-B Pro-Expert Extra Clean",size:"১ পিস",price:0},
+{brand:"Oral-B Pro-Flex Pro Expert",size:"১ পিস",price:0},
+{brand:"Oral-B All-In-One Pro Expert",size:"১ পিস",price:0},
+{brand:"Oral-B Pulsar 3D White",size:"১ পিস",price:0},
+
+/* =========================
+   SYSTEMA
+========================= */
+{brand:"Systema Classic Comfort",size:"১ পিস",price:0},
+{brand:"Systema Charcoal Guard",size:"১ পিস",price:0},
+{brand:"Systema Easy Access",size:"১ পিস",price:0},
+{brand:"Systema Power Clean",size:"১ পিস",price:0},
+
+/* =========================
+   TRISA
+========================= */
+{brand:"Trisa Pearl White Soft",size:"১ পিস",price:0},
+{brand:"Trisa Pearl White Medium",size:"১ পিস",price:0},
+{brand:"Trisa Perfect White Medium",size:"১ পিস",price:0},
+{brand:"Trisa Focus Pro Clean Soft",size:"১ পিস",price:0},
+{brand:"Trisa Focus Pro Clean Medium",size:"১ পিস",price:0},
+{brand:"Trisa Junior 6+ Years",size:"১ পিস",price:0},
+
+/* =========================
+   DR WEST
+========================= */
+{brand:"Dr West",size:"Hard - ১ পিস",price:0},
+
+/* =========================
+   PRODENTALB
+========================= */
+{brand:"ProDentalB Dynamite",size:"১ পিস",price:0},
+{brand:"ProDentalB Flexible",size:"১ পিস",price:0},
+{brand:"ProDentalB Rice Husk",size:"১ পিস",price:0},
+
+/* =========================
+   PROX
+========================= */
+{brand:"ProX Soft Bristle",size:"১ পিস",price:0},
+{brand:"ProX Ultra Soft High Density",size:"১ পিস",price:0},
+{brand:"ProX Ultra Soft Kids",size:"১ পিস",price:0},
+{brand:"ProX Dual Action Whitening",size:"১ পিস",price:0},
+{brand:"ProX Ultra Fine Fiber",size:"১ পিস",price:0},
+{brand:"ProX Kids Little Tiger",size:"১ পিস",price:0},
+{brand:"ProX Kids Cute 3D Animal",size:"১ পিস",price:0},
+
+/* =========================
+   TEK
+========================= */
+{brand:"TEK Pro Angled Soft",size:"১ পিস",price:0},
+{brand:"TEK Pro Angled Soft",size:"১ পিস",price:0},
+
+/* =========================
+   VICTORY
+========================= */
+{brand:"Victory Soft & Spiral",size:"২ পিস",price:0},
+{brand:"Victory Ultra Clean Soft & Spiral",size:"১ পিস",price:0},
+{brand:"Victory Slima Special Pack",size:"১ পিস",price:0},
+
+/* =========================
+   MOSHI MOSHI
+========================= */
+{brand:"Moshi Moshi Soft Bristle",size:"১ পিস",price:0},
+{brand:"Moshi Moshi Soft Bristle",size:"১ পিস",price:0},
+
+/* =========================
+   REACH
+========================= */
+{brand:"Reach Essential Care Control Medium",size:"১ পিস",price:0},
+{brand:"Reach Advanced Design Soft",size:"১ পিস",price:0},
+
+/* =========================
+   MEDIPLUS
+========================= */
+{brand:"Mediplus Toothbrush",size:"১ পিস",price:0}
+]
+},
 
 {  
 name:"হ্যান্ড ওয়াশ লিকুইড",  
