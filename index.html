@@ -2255,6 +2255,12 @@ loadCart();
 ========================================================= */
 
 function syncHeaderSearch(){
+  wishlistMode=false;
+  bestSellerMode=false;
+  const bestBtn=document.getElementById("bestSellerBtn");
+  if(bestBtn) bestBtn.classList.remove("active");
+  const wishBtn=document.getElementById("wishlistBtn");
+  if(wishBtn) wishBtn.classList.remove("active");
 
 const input=
 document.getElementById(
@@ -2288,13 +2294,20 @@ function showBestSellers(){
     alert("এই মুহূর্তে কোনো Best Seller পণ্য চিহ্নিত করা হয়নি।");
     return;
   }
-  wishlistMode=false;
-  const wishlistBtn=document.getElementById("wishlistBtn");
-  if(wishlistBtn) wishlistBtn.classList.remove("active");
 
-  bestSellerMode=!bestSellerMode;
+  // Best Seller এবং Wishlist আলাদা বাটন, কিন্তু একই ধরনের dedicated view।
+  wishlistMode=false;
+  bestSellerMode=true;
+
+  if(categorySelect) categorySelect.value="all";
+  const searchInput=document.getElementById("headerSearchInput");
+  if(searchInput) searchInput.value="";
+
   const btn=document.getElementById("bestSellerBtn");
-  if(btn) btn.classList.toggle("active",bestSellerMode);
+  if(btn) btn.classList.add("active");
+  const wishBtn=document.getElementById("wishlistBtn");
+  if(wishBtn) wishBtn.classList.remove("active");
+
   displayProducts();
   scrollToProducts();
 }
@@ -2305,7 +2318,8 @@ function showBestSellers(){
 
 function displayProducts(
 searchValue=null,
-wishlistNames=null
+wishlistNames=null,
+viewMode=null
 ){
 
 const container=
@@ -2347,11 +2361,20 @@ categorySelect.value;
 
 let found=false;
 
-if(Array.isArray(wishlistNames)){
+if(viewMode==="wishlist"){
   container.innerHTML = `
     <div class="wishlist-view-bar">
       <div class="wishlist-view-title">❤️ আপনার পছন্দের পণ্য</div>
       <button type="button" class="wishlist-back-btn" onclick="exitWishlist()">
+        ← সব পণ্য দেখুন
+      </button>
+    </div>
+  `;
+}else if(viewMode==="bestSeller"){
+  container.innerHTML = `
+    <div class="wishlist-view-bar">
+      <div class="wishlist-view-title">🏆 বেস্ট সেলার পণ্য</div>
+      <button type="button" class="wishlist-back-btn" onclick="exitBestSellers()">
         ← সব পণ্য দেখুন
       </button>
     </div>
@@ -2395,7 +2418,7 @@ v=>v.brand
 ).toLowerCase();
 
 
-if(bestSellerMode){
+if(viewMode==="bestSeller"){
   const bestBadge=String(product.badge||product.label||"").toLowerCase();
   const isBestSeller=product.bestSeller===true || bestBadge.includes("best seller") || bestBadge.includes("best-seller") || bestBadge.includes("সেরা");
   if(!isBestSeller) return false;
@@ -2684,7 +2707,7 @@ function toggleWishlist(categoryIndex,productIndex,button){
   // If the user is currently viewing the wishlist, update it immediately.
   if(wishlistMode){
     if(list.length){
-      displayProducts(null,list);
+      displayProducts(null,list,"wishlist");
       scrollToProducts();
     }else{
       exitWishlist();
@@ -2693,6 +2716,10 @@ function toggleWishlist(categoryIndex,productIndex,button){
 }
 
 function showWishlist(){
+  bestSellerMode=false;
+  const bestBtn=document.getElementById("bestSellerBtn");
+  if(bestBtn) bestBtn.classList.remove("active");
+
   const list=getWishlist();
 
   if(!list.length){
@@ -2709,42 +2736,56 @@ function showWishlist(){
     return;
   }
 
-  // Best Seller-এর মতো Wishlist-ও এখন একটি আলাদা View Mode।
-  // একসাথে দুইটি filter যাতে না চলে, তাই Best Seller বন্ধ করা হচ্ছে।
+  wishlistMode=true;
   bestSellerMode=false;
-  const bestBtn=document.getElementById("bestSellerBtn");
-  if(bestBtn) bestBtn.classList.remove("active");
 
-  wishlistMode=!wishlistMode;
-  const wishlistBtn=document.getElementById("wishlistBtn");
-  if(wishlistBtn) wishlistBtn.classList.toggle("active",wishlistMode);
+  const bestBtn2=document.getElementById("bestSellerBtn");
+  if(bestBtn2) bestBtn2.classList.remove("active");
+  const wishBtn=document.getElementById("wishlistBtn");
+  if(wishBtn) wishBtn.classList.add("active");
 
-  if(wishlistMode){
-    // Wishlist View-তে category/search কোনো filter দেবে না।
-    if(categorySelect) categorySelect.value="all";
-    const searchInput=document.getElementById("headerSearchInput");
-    if(searchInput) searchInput.value="";
+  // Wishlist should always show all saved products, not only the first one.
+  if(categorySelect) categorySelect.value="all";
+  const searchInput=document.getElementById("headerSearchInput");
+  if(searchInput) searchInput.value="";
 
-    displayProducts(null,list);
-    scrollToProducts();
-  }else{
-    exitWishlist();
-  }
+  displayProducts(null,list);
+  scrollToProducts();
 }
 
 function exitWishlist(){
   wishlistMode=false;
+  bestSellerMode=false;
+
+  const bestBtn=document.getElementById("bestSellerBtn");
+  if(bestBtn) bestBtn.classList.remove("active");
+  const wishBtn=document.getElementById("wishlistBtn");
+  if(wishBtn) wishBtn.classList.remove("active");
 
   if(categorySelect) categorySelect.value="all";
   const searchInput=document.getElementById("headerSearchInput");
   if(searchInput) searchInput.value="";
 
-  const wishlistBtn=document.getElementById("wishlistBtn");
-  if(wishlistBtn) wishlistBtn.classList.remove("active");
-
   bestSellerMode=false;
   const bestBtn=document.getElementById("bestSellerBtn");
   if(bestBtn) bestBtn.classList.remove("active");
+
+  displayProducts();
+  scrollToProducts();
+}
+
+function exitBestSellers(){
+  bestSellerMode=false;
+  wishlistMode=false;
+
+  const bestBtn=document.getElementById("bestSellerBtn");
+  if(bestBtn) bestBtn.classList.remove("active");
+  const wishBtn=document.getElementById("wishlistBtn");
+  if(wishBtn) wishBtn.classList.remove("active");
+
+  if(categorySelect) categorySelect.value="all";
+  const searchInput=document.getElementById("headerSearchInput");
+  if(searchInput) searchInput.value="";
 
   displayProducts();
   scrollToProducts();
@@ -2780,6 +2821,7 @@ function scrollToProducts(){
   if(el) el.scrollIntoView({behavior:"smooth",block:"start"});
 }
 function filterByBadge(type){
+  wishlistMode=false;
   bestSellerMode=false;
   const bestBtn=document.getElementById("bestSellerBtn");
   if(bestBtn) bestBtn.classList.remove("active");
