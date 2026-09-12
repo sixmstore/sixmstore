@@ -35,7 +35,16 @@ variants:[
 {brand:"জিরা চাউল",size:"১০ কেজি",price:830},    
 {brand:"গুটি স্বর্ণা",size:"১ কেজি",price:55},  
 {brand:"গুটি স্বর্ণা",size:"৫ কেজি",price:275},  
-{brand:"গুটি স্বর্ণা",size:"১০ কেজি",price:530}    
+{brand:"গুটি স্বর্ণা",size:"১০ কেজি",price:530},
+{brand:"BR-28",size:"১ কেজি",price:0},
+{brand:"BR-28",size:"৫ কেজি",price:0},
+{brand:"BR-28",size:"১০ কেজি",price:0},
+{brand:"BR-29",size:"১ কেজি",price:0},
+{brand:"BR-29",size:"৫ কেজি",price:0},
+{brand:"BR-29",size:"১০ কেজি",price:0},
+{brand:"পাইজাম",size:"১ কেজি",price:0},
+{brand:"পাইজাম",size:"৫ কেজি",price:0},
+{brand:"পাইজাম",size:"১০ কেজি",price:0}
 ]  
 },  
   
@@ -54,7 +63,13 @@ variants:[
 {brand:"চিনিগুড়া চাষী",size:"১ কেজি",price:220},  
 {brand:"চিনিগুড়া",size:"১ কেজি",price:195},  
 {brand:"চিনিগুড়া",size:"৫ কেজি",price:970},  
-{brand:"চিনিগুড়া",size:"১০ কেজি",price:1940}    
+{brand:"চিনিগুড়া",size:"১০ কেজি",price:1940},
+{brand:"কাটারিভোগ",size:"১ কেজি",price:0},
+{brand:"কাটারিভোগ",size:"৫ কেজি",price:0},
+{brand:"কাটারিভোগ",size:"১০ কেজি",price:0},
+{brand:"গোবিন্দভোগ",size:"১ কেজি",price:0},
+{brand:"বাসমতি",size:"১ কেজি",price:0},
+{brand:"বাসমতি",size:"৫ কেজি",price:0}  
 ]  
 },  
   
@@ -71,7 +86,11 @@ variants:[
 {brand:"মটর ডাল",size:"১ কেজি",price:60},  
 {brand:"মটর ডাল",size:"৫ কেজি",price:275},    
 {brand:"মটর",size:"১ কেজি",price:55},  
-{brand:"মটর",size:"৫ কেজি",price:250}    
+{brand:"মটর",size:"৫ কেজি",price:250},
+{brand:"মাসকলাই ডাল",size:"১ কেজি",price:0},
+{brand:"খেসারি ডাল",size:"১ কেজি",price:0},
+{brand:"অড়হর ডাল",size:"১ কেজি",price:0},
+{brand:"ছোলার ডাল",size:"১ কেজি",price:0}   
 ]  
 },  
   
@@ -81,7 +100,10 @@ bestSeller:true,
 icon:"🫘",  
 image:"ছোলা.jpg",   
 variants:[  
-{brand:"সাধারণ",size:"১ কেজি",price:95}  
+{brand:"সাধারণ",size:"১ কেজি",price:95},
+{brand:"দেশি ছোলা",size:"১ কেজি",price:0},
+{brand:"কাবুলি ছোলা",size:"১ কেজি",price:0},
+{brand:"কাবুলি ছোলা",size:"৫০০ গ্রাম",price:0}   
 ]  
 }  
   
@@ -113,7 +135,15 @@ variants:[
 {brand:"স্টারসিপ",size:"৫ লিটার",price:975},    
 {brand:"সয়াবিন",size:"১ কেজি",price:215},  
 {brand:"সুপর",size:"১ কেজি",price:195},  
-{brand:"পাম",size:"১ কেজি",price:195}    
+{brand:"পাম",size:"১ কেজি",price:195},
+{brand:"ফ্রেশ",size:"২ লিটার",price:0},
+{brand:"ফ্রেশ",size:"৫ লিটার",price:0},
+{brand:"তীর",size:"২ লিটার",price:0},
+{brand:"তীর",size:"৫ লিটার",price:0},
+{brand:"রূপচাঁদা",size:"২ লিটার",price:0},
+{brand:"রূপচাঁদা",size:"৫ লিটার",price:0},
+{brand:"বসুন্ধরা",size:"২ লিটার",price:0},
+{brand:"বসুন্ধরা",size:"৫ লিটার",price:0}   
 ]  
 },  
   
@@ -529,8 +559,12 @@ bestSeller:true,
 icon:"🥚",  
 image:"ডিম.jpg",    
 variants:[    
-{brand:"দেশি",size:"১ ডজন",price:0},  
-{brand:"ফার্ম",size:"১ ডজন",price:145}    
+{brand:"দেশি",size:"৬ পিস",price:0},
+{brand:"দেশি",size:"১ ডজন",price:0},   
+{brand:"দেশি",size:"৩০ পিস",price:0},   
+{brand:"ফার্ম",size:"৬ পিস",price:75},
+{brand:"ফার্ম",size:"১ ডজন",price:145},   
+{brand:"ফার্ম",size:"৩০ পিস",price:0}   
 ]  
 },  
   
@@ -548,7 +582,7 @@ variants:[
 {brand:"Pran UST",size:"৫০০ গ্রাম",price:60},    
 {brand:"Aarong UST",size:"২০০ গ্রাম",price:30},  
 {brand:"Aarong UST",size:"৫০০ গ্রাম",price:60},    
-{brand:"Farm",size:"১ লিটার",price:100}    
+{brand:"Farm",size:"১ লিটার",price:100},   
 ]  
 },  
   
@@ -557,7 +591,11 @@ name:"ঘি",
 icon:"🧈",  
 image:"ঘি.jpg",    
 variants:[  
-{brand:"সাধারণ",size:"কৌটা",price:0}  
+{brand:"সাধারণ",size:"কৌটা",price:0},
+{brand:"Aarong",size:"২০০ গ্রাম",price:0},
+{brand:"Aarong",size:"৪০০ গ্রাম",price:0},
+{brand:"Pran",size:"২০০ গ্রাম",price:0},
+{brand:"Pran",size:"৪০০ গ্রাম",price:0}   
 ]  
 },  
   
@@ -565,9 +603,11 @@ variants:[
 name:"মাখন",  
 icon:"🧈",  
 image:"মাখন.jpg",    
-variants:[    
-{brand:"Aarong",size:"প্যাকেট",price:0},  
-{brand:"Pran",size:"প্যাকেট",price:0}    
+variants:[  
+{brand:"Aarong",size:"১০০ গ্রাম",price:0},
+{brand:"Aarong",size:"২০০ গ্রাম",price:0},
+{brand:"Pran",size:"১০০ গ্রাম",price:0},
+{brand:"Pran",size:"২০০ গ্রাম",price:0}   
 ]  
 },  
   
@@ -602,16 +642,20 @@ variants:[
 {brand:"ইস্পাহানি",size:"৫০ গ্রাম প্যাকেট",price:30},  
 {brand:"ইস্পাহানি",size:"১০০ গ্রাম প্যাকেট",price:60},  
 {brand:"ইস্পাহানি",size:"২০০ গ্রাম প্যাকেট",price:120},  
-{brand:"ইস্পাহানি",size:"৫০০ গ্রাম প্যাকেট",price:230},    
+{brand:"ইস্পাহানি",size:"৫০০ গ্রাম প্যাকেট",price:230}, 
+{brand:"ইস্পাহানি",size:"১ কেজি প্যাকেট",price:0},   
 {brand:"সিলন",size:"৫০ গ্রাম প্যাকেট",price:30},  
 {brand:"সিলন",size:"১০০ গ্রাম প্যাকেট",price:60},  
 {brand:"সিলন",size:"২০০ গ্রাম প্যাকেট",price:120},  
-{brand:"সিলন গোল্ড",size:"৫০০ গ্রাম প্যাকেট",price:230},    
+{brand:"সিলন গোল্ড",size:"৫০০ গ্রাম প্যাকেট",price:230},
+{brand:"সিলন",size:"১ কেজি প্যাকেট",price:0},   
 {brand:"তাজা",size:"৫০ গ্রাম প্যাকেট",price:30},  
 {brand:"তাজা",size:"১০০ গ্রাম প্যাকেট",price:60},  
 {brand:"তাজা",size:"২০০ গ্রাম প্যাকেট",price:120},  
-{brand:"তাজা",size:"৫০০ গ্রাম প্যাকেট",price:230},    
-{brand:"মুসকান",size:"৫০০ গ্রাম প্যাকেট",price:190}    
+{brand:"তাজা",size:"৫০০ গ্রাম প্যাকেট",price:230}, 
+{brand:"তাজা",size:"১ কেজি প্যাকেট",price:0},   
+{brand:"মুসকান",size:"৫০০ গ্রাম প্যাকেট",price:190},
+{brand:"মুসকান",size:"১ কেজি প্যাকেট",price:0}   
 ]  
 },  
   
@@ -628,7 +672,11 @@ variants:[
 {brand:"Nescafe",size:"১০০ গ্রাম কৌটা",price:0},  
 {brand:"Nescafe",size:"১৫০ গ্রাম কৌটা",price:0},    
 {brand:"Amma Coffee",size:"১ গ্রাম",price:5},  
-{brand:"Amma Coffee",size:"১৪গ্রাম",price:10}    
+{brand:"Amma Coffee",size:"১৪গ্রাম",price:10},
+{brand:"Nescafe",size:"৫০ গ্রাম কৌটা",price:0},
+{brand:"Nescafe",size:"২০০ গ্রাম কৌটা",price:0},
+{brand:"Nescafe Classic",size:"৫০ গ্রাম",price:0},
+{brand:"Nescafe Classic",size:"১০০ গ্রাম",price:0}   
 ]  
 },  
   
