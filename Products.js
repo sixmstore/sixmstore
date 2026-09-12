@@ -982,15 +982,21 @@ variants:[
 ]  
 },  
   
-{  
-name:"টুথব্রাশ",  
-icon:"🪥",  
-image:"টুথব্রাশ.jpg",    
-variants:[    
-{brand:"Colgate",size:"পিস",price:0},  
-{brand:"Closeup",size:"পিস",price:0}    
-]  
-},  
+{
+name:"টুথব্রাশ",
+icon:"🪥",
+image:"টুথব্রাশ.jpg",
+variants:[
+{brand:"Colgate",size:"পিস",price:0},
+{brand:"Closeup",size:"পিস",price:0},
+{brand:"Pepsodent",size:"পিস",price:0},
+{brand:"Oral-B",size:"পিস",price:0},
+{brand:"Sensodyne",size:"পিস",price:0},
+{brand:"Aquafresh",size:"পিস",price:0},
+{brand:"Fuchs",size:"পিস",price:0},
+{brand:"Dr. Flex",size:"পিস",price:0}
+]
+},
 
 {  
 name:"হ্যান্ড ওয়াশ লিকুইড",  
@@ -1012,29 +1018,42 @@ name:"ডিশওয়াশ বার",
 icon:"🧽",  
 image:"ডিশওয়াশ-বার.jpg",    
 variants:[    
-{brand:"Vim",size:"পিস",price:0},  
-{brand:"Tibet",size:"পিস",price:0}    
-]  
-},  
-  
+{brand:"Vim",size:"পিস",price:0},
+{brand:"Tibet",size:"পিস",price:0},
+{brand:"Chaka",size:"পিস",price:0},
+{brand:"Keya",size:"পিস",price:0},
+{brand:"Meril",size:"পিস",price:0},
+{brand:"Wheel",size:"পিস",price:0}
+]
+},
+   
 {  
 name:"গ্লাস ক্লিনার",  
 icon:"🌸",  
 image:"গ্লাস ক্লিনার.jpg",    
 variants:[  
-{brand:"সাধারণ",size:"পিস",price:0}  
-]  
-},  
-     
+{brand:"Mr. Muscle",size:"পিস",price:0},
+{brand:"Colin",size:"পিস",price:0},
+{brand:"Vim",size:"পিস",price:0},
+{brand:"Harpic",size:"পিস",price:0},
+{brand:"Lizol",size:"পিস",price:0},
+{brand:"সাধারণ",size:"পিস",price:0}
+]
+},
+   
 {  
 name:"ব্লিচিং পাউডার",  
 icon:"🧹",  
 image:"ব্লিচিং-পাউডার.jpg",    
 variants:[  
-{brand:"সাধারণ",size:"প্যাকেট",price:0}  
-]  
-}  
-  
+{brand:"Clorox",size:"প্যাকেট",price:0},
+{brand:"ACI",size:"প্যাকেট",price:0},
+{brand:"Chaka",size:"প্যাকেট",price:0},
+{brand:"Tibet",size:"প্যাকেট",price:0},
+{brand:"সাধারণ",size:"প্যাকেট",price:0}
+]
+}
+   
 ]  
 },  
   
@@ -1070,20 +1089,29 @@ name:"টিস্যু",
 icon:"🧻",  
 image:"টিস্যু.jpg",    
 variants:[    
-{brand:"Bashundhara",size:"প্যাকেট",price:0},  
-{brand:"Fresh",size:"প্যাকেট",price:0}    
-]  
-},  
-  
+{brand:"Bashundhara",size:"প্যাকেট",price:0},
+{brand:"Fresh",size:"প্যাকেট",price:0},
+{brand:"Bengal",size:"প্যাকেট",price:0},
+{brand:"Bashundhara Paper",size:"প্যাকেট",price:0},
+{brand:"Kleen",size:"প্যাকেট",price:0},
+{brand:"Veetee",size:"প্যাকেট",price:0},
+{brand:"সাধারণ",size:"প্যাকেট",price:0}
+]
+},
+   
 {  
 name:"অ্যালুমিনিয়াম ফয়েল",  
 icon:"📦",  
 image:"অ্যালুমিনিয়াম-ফয়েল.jpg",    
 variants:[  
-{brand:"সাধারণ",size:"রোল",price:0}  
-]  
-}  
-  
+{brand:"Fresh",size:"রোল",price:0},
+{brand:"Bashundhara",size:"রোল",price:0},
+{brand:"Bengal",size:"রোল",price:0},
+{brand:"Kleen",size:"রোল",price:0},
+{brand:"সাধারণ",size:"রোল",price:0}
+]
+},
+   
 ]  
 },  
   
