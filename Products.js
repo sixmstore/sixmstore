@@ -280,7 +280,50 @@ variants:[
 {brand:"বোরহানি মশলা",size:"৫০ গ্রাম",price:40}      
 ]  
 },  
-     
+
+{
+name:"খেজুর",
+icon:"🌴",
+image:"খেজুর.jpg",
+variants:[
+{brand:"সাধারণ",size:"২৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১ কেজি",price:0}
+]
+},
+
+{
+name:"নারিকেল",
+icon:"🥥",
+image:"নারিকেল.jpg",
+variants:[
+{brand:"দেশি",size:"পিস",price:0},
+{brand:"দেশি",size:"২ পিস",price:0}
+]
+},
+
+{
+name:"সাবুদানা",
+icon:"⚪",
+image:"সাবুদানা.jpg",
+variants:[
+{brand:"সাধারণ",size:"২৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১ কেজি",price:0}
+]
+},
+
+{
+name:"ইসবগুলের ভুসি",
+icon:"🌾",
+image:"ইসবগুল.jpg",
+variants:[
+{brand:"সাধারণ",size:"৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"২০০ গ্রাম",price:0}
+]
+},
+   
 {  
 name:"কিসমিস",
 icon:"🍇",
@@ -318,8 +361,184 @@ variants:[
 {brand:"সাধারণ",size:"৫০০ গ্রাম",price:90},  
 {brand:"সাধারণ",size:"১ কেজি",price:180}    
 ]  
-}  
-  
+},  
+
+{
+name:"মেথি",
+icon:"🌿",
+image:"মেথি.jpg",
+variants:[
+{brand:"সাধারণ",size:"১০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"২৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১ কেজি",price:0}
+]
+},
+
+{
+name:"সরিষা",
+icon:"🌿",
+image:"সরিষা.jpg",
+variants:[
+{brand:"সাধারণ",size:"২৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১ কেজি",price:0}
+]
+},
+
+{
+name:"গোলমরিচ",
+icon:"🌿",
+image:"গোলমরিচ.jpg",
+variants:[
+{brand:"সাধারণ",size:"৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"২৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১ কেজি",price:0}
+]
+},
+
+{
+name:"জয়ফল",
+icon:"🌿",
+image:"জয়ফল.jpg",
+variants:[
+{brand:"সাধারণ",size:"৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"২৫০ গ্রাম",price:0}
+]
+},
+
+{
+name:"জয়ত্রী",
+icon:"🌿",
+image:"জয়ত্রী.jpg",
+variants:[
+{brand:"সাধারণ",size:"২৫ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১০০ গ্রাম",price:0}
+]
+},
+
+{
+name:"পাঁচফোড়ন",
+icon:"🌿",
+image:"পাঁচফোড়ন.jpg",
+variants:[
+{brand:"সাধারণ",size:"৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"২৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0}
+]
+},
+
+{
+name:"ভিনেগার",
+icon:"🫙",
+image:"ভিনেগার.jpg",
+variants:[
+{brand:"সাধারণ",size:"৩৫০ মিলি",price:0},
+{brand:"সাধারণ",size:"৫০০ মিলি",price:0},
+{brand:"সাধারণ",size:"১ লিটার",price:0}
+]
+},
+
+{
+name:"টমেটো সস",
+icon:"🍅",
+image:"টমেটো-সস.jpg",
+variants:[
+{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৩৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১ কেজি",price:0}
+]
+},
+
+{
+name:"চিলি সস",
+icon:"🌶️",
+image:"চিলি-সস.jpg",
+variants:[
+{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৩৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0}
+]
+},
+
+{
+name:"সয়া সস",
+icon:"🫙",
+image:"সয়া-সস.jpg",
+variants:[
+{brand:"সাধারণ",size:"২০০ মিলি",price:0},
+{brand:"সাধারণ",size:"৫০০ মিলি",price:0}
+]
+},
+
+{
+name:"কর্নফ্লাওয়ার",
+icon:"🌽",
+image:"কর্নফ্লাওয়ার.jpg",
+variants:[
+{brand:"সাধারণ",size:"১০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0}
+]
+},
+
+{
+name:"বেকিং পাউডার",
+icon:"🥣",
+image:"বেকিং-পাউডার.jpg",
+variants:[
+{brand:"সাধারণ",size:"৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১০০ গ্রাম",price:0}
+]
+},
+
+{
+name:"বেকিং সোডা",
+icon:"🥣",
+image:"বেকিং-সোডা.jpg",
+variants:[
+{brand:"সাধারণ",size:"৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১০০ গ্রাম",price:0}
+]
+},
+
+{
+name:"কাস্টার্ড পাউডার",
+icon:"🥣",
+image:"কাস্টার্ড-পাউডার.jpg",
+variants:[
+{brand:"সাধারণ",size:"১০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"২০০ গ্রাম",price:0}
+]
+},
+
+{
+name:"ওটস",
+icon:"🥣",
+image:"ওটস.jpg",
+variants:[
+{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১ কেজি",price:0}
+]
+},
+
+{
+name:"কর্নফ্লেক্স",
+icon:"🥣",
+image:"কর্নফ্লেক্স.jpg",
+variants:[
+{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0}
+]
+}   
+   
 ]  
 },  
   
@@ -452,7 +671,75 @@ image:"মুড়ি.jpg",
 variants:[  
 {brand:"সাধারণ",size:"১ কেজি",price:70}  
 ]  
-}  
+},
+
+{
+name:"পাউরুটি",
+icon:"🍞",
+image:"পাউরুটি.jpg",
+variants:[
+{brand:"সাধারণ",size:"ছোট প্যাকেট",price:0},
+{brand:"সাধারণ",size:"বড় প্যাকেট",price:0}
+]
+},
+
+{
+name:"কেক",
+icon:"🍰",
+image:"কেক.jpg",
+variants:[
+{brand:"সাধারণ",size:"ছোট",price:0},
+{brand:"সাধারণ",size:"মাঝারি",price:0},
+{brand:"সাধারণ",size:"বড়",price:0}
+]
+},
+
+{
+name:"মেয়োনিজ",
+icon:"🥫",
+image:"মেয়োনিজ.jpg",
+variants:[
+{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৪০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৭০০ গ্রাম",price:0}
+]
+},
+
+{
+name:"জ্যাম",
+icon:"🍓",
+image:"জ্যাম.jpg",
+variants:[
+{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৪০০ গ্রাম",price:0}
+]
+},
+
+{
+name:"মধু",
+icon:"🍯",
+image:"মধু.jpg",
+variants:[
+{brand:"সাধারণ",size:"২৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১ কেজি",price:0}
+]
+},
+
+{
+name:"আচার",
+icon:"🥭",
+image:"আচার.jpg",
+variants:[
+{brand:"আমের আচার",size:"২৫০ গ্রাম",price:0},
+{brand:"আমের আচার",size:"৫০০ গ্রাম",price:0},
+{brand:"জলপাই আচার",size:"২৫০ গ্রাম",price:0},
+{brand:"জলপাই আচার",size:"৫০০ গ্রাম",price:0},
+{brand:"লেবুর আচার",size:"২৫০ গ্রাম",price:0},
+{brand:"লেবুর আচার",size:"৫০০ গ্রাম",price:0}
+]
+}
+   
   
 ]  
 },  
@@ -523,7 +810,111 @@ variants:[
 {brand:"সাধারণ",size:"১ কেজি",price:320}    
 ]  
 },  
-  
+
+{
+name:"কাঁচামরিচ",
+icon:"🌶️",
+image:"কাঁচামরিচ.jpg",
+variants:[
+{brand:"দেশি",size:"২৫০ গ্রাম",price:0},
+{brand:"দেশি",size:"৫০০ গ্রাম",price:0},
+{brand:"দেশি",size:"১ কেজি",price:0}
+]
+},
+
+{
+name:"টমেটো",
+icon:"🍅",
+image:"টমেটো.jpg",
+variants:[
+{brand:"দেশি",size:"৫০০ গ্রাম",price:0},
+{brand:"দেশি",size:"১ কেজি",price:0}
+]
+},
+
+{
+name:"লেবু",
+icon:"🍋",
+image:"লেবু.jpg",
+variants:[
+{brand:"দেশি",size:"৪ পিস",price:0},
+{brand:"দেশি",size:"৮ পিস",price:0},
+{brand:"দেশি",size:"১২ পিস",price:0}
+]
+},
+
+{
+name:"ধনেপাতা",
+icon:"🌿",
+image:"ধনেপাতা.jpg",
+variants:[
+{brand:"দেশি",size:"আঁটি",price:0},
+{brand:"দেশি",size:"২৫০ গ্রাম",price:0},
+{brand:"দেশি",size:"৫০০ গ্রাম",price:0}
+]
+},
+
+{
+name:"কাঁচা কলা",
+icon:"🍌",
+image:"কাঁচা-কলা.jpg",
+variants:[
+{brand:"দেশি",size:"৪ পিস",price:0},
+{brand:"দেশি",size:"৮ পিস",price:0},
+{brand:"দেশি",size:"১ ডজন",price:0}
+]
+},
+
+{
+name:"লাউ",
+icon:"🥒",
+image:"লাউ.jpg",
+variants:[
+{brand:"দেশি",size:"পিস",price:0}
+]
+},
+
+{
+name:"বেগুন",
+icon:"🍆",
+image:"বেগুন.jpg",
+variants:[
+{brand:"দেশি",size:"৫০০ গ্রাম",price:0},
+{brand:"দেশি",size:"১ কেজি",price:0}
+]
+},
+
+{
+name:"শসা",
+icon:"🥒",
+image:"শসা.jpg",
+variants:[
+{brand:"দেশি",size:"৫০০ গ্রাম",price:0},
+{brand:"দেশি",size:"১ কেজি",price:0}
+]
+},
+
+{
+name:"গাজর",
+icon:"🥕",
+image:"গাজর.jpg",
+variants:[
+{brand:"দেশি",size:"৫০০ গ্রাম",price:0},
+{brand:"দেশি",size:"১ কেজি",price:0}
+]
+},
+
+{
+name:"মিষ্টি কুমড়া",
+icon:"🎃",
+image:"মিষ্টি-কুমড়া.jpg",
+variants:[
+{brand:"দেশি",size:"পিস",price:0},
+{brand:"দেশি",size:"৫০০ গ্রাম",price:0},
+{brand:"দেশি",size:"১ কেজি",price:0}
+]
+},
+   
 {  
 name:"মরিচ গুঁড়া/শুকনা মরিচ",  
 icon:"🌶️",  
@@ -1012,6 +1403,59 @@ variants:[
 {brand:"Dettol",size:"২০০ গ্ৰাম",price:100}   
 ]  
 },  
+
+{
+name:"স্পঞ্জ",
+icon:"🧽",
+image:"স্পঞ্জ.jpg",
+variants:[
+{brand:"সাধারণ",size:"পিস",price:0},
+{brand:"সাধারণ",size:"প্যাকেট",price:0}
+]
+},
+   
+{
+name:"ডিটারজেন্ট লিকুইড",
+icon:"🧺",
+image:"ডিটারজেন্ট-লিকুইড.jpg",
+variants:[
+{brand:"Vim",size:"৫০০ মিলি",price:0},
+{brand:"Vim",size:"১ লিটার",price:0},
+{brand:"Wheel",size:"৫০০ মিলি",price:0},
+{brand:"Wheel",size:"১ লিটার",price:0},
+{brand:"Surf Excel",size:"৫০০ মিলি",price:0},
+{brand:"Surf Excel",size:"১ লিটার",price:0},
+{brand:"Tide",size:"৫০০ মিলি",price:0},
+{brand:"Tide",size:"১ লিটার",price:0},
+{brand:"Ariel",size:"৫০০ মিলি",price:0},
+{brand:"Ariel",size:"১ লিটার",price:0},
+{brand:"ACI",size:"৫০০ মিলি",price:0},
+{brand:"ACI",size:"১ লিটার",price:0},
+{brand:"সাধারণ",size:"৫০০ মিলি",price:0},
+{brand:"সাধারণ",size:"১ লিটার",price:0}
+]
+},
+
+{
+name:"ডিশওয়াশ লিকুইড",
+icon:"🧽",
+image:"ডিশওয়াশ-লিকুইড.jpg",
+variants:[
+{brand:"Vim",size:"২৫০ মিলি",price:0},
+{brand:"Vim",size:"৫০০ মিলি",price:0},
+{brand:"Vim",size:"১ লিটার",price:0},
+{brand:"Tibet",size:"২৫০ মিলি",price:0},
+{brand:"Tibet",size:"৫০০ মিলি",price:0},
+{brand:"Tibet",size:"১ লিটার",price:0},
+{brand:"Chaka",size:"২৫০ মিলি",price:0},
+{brand:"Chaka",size:"৫০০ মিলি",price:0},
+{brand:"Chaka",size:"১ লিটার",price:0},
+{brand:"Keya",size:"২৫০ মিলি",price:0},
+{brand:"Keya",size:"৫০০ মিলি",price:0},
+{brand:"Keya",size:"১ লিটার",price:0},
+{brand:"সাধারণ",size:"৫০০ মিলি",price:0}
+]
+},   
    
 {  
 name:"ডিশওয়াশ বার",  
@@ -1024,6 +1468,50 @@ variants:[
 {brand:"Keya",size:"পিস",price:0},
 {brand:"Meril",size:"পিস",price:0},
 {brand:"Wheel",size:"পিস",price:0}
+]
+},
+
+{
+name:"ফ্লোর ক্লিনার",
+icon:"🧹",
+image:"ফ্লোর-ক্লিনার.jpg",
+variants:[
+{brand:"Lizol",size:"৫০০ মিলি",price:0},
+{brand:"Lizol",size:"১ লিটার",price:0},
+{brand:"Harpic",size:"৫০০ মিলি",price:0},
+{brand:"Harpic",size:"১ লিটার",price:0},
+{brand:"Vim",size:"৫০০ মিলি",price:0},
+{brand:"Vim",size:"১ লিটার",price:0},
+{brand:"Mr. Muscle",size:"৫০০ মিলি",price:0},
+{brand:"Mr. Muscle",size:"১ লিটার",price:0},
+{brand:"ACI",size:"৫০০ মিলি",price:0},
+{brand:"ACI",size:"১ লিটার",price:0},
+{brand:"Savlon",size:"৫০০ মিলি",price:0},
+{brand:"Savlon",size:"১ লিটার",price:0},
+{brand:"সাধারণ",size:"৫০০ মিলি",price:0},
+{brand:"সাধারণ",size:"১ লিটার",price:0}
+]
+},
+
+{
+name:"টয়লেট ক্লিনার",
+icon:"🧹",
+image:"টয়লেট-ক্লিনার.jpg",
+variants:[
+{brand:"Harpic",size:"৫০০ মিলি",price:0},
+{brand:"Harpic",size:"১ লিটার",price:0},
+{brand:"Domex",size:"৫০০ মিলি",price:0},
+{brand:"Domex",size:"১ লিটার",price:0},
+{brand:"Vim",size:"৫০০ মিলি",price:0},
+{brand:"Vim",size:"১ লিটার",price:0},
+{brand:"ACI",size:"৫০০ মিলি",price:0},
+{brand:"ACI",size:"১ লিটার",price:0},
+{brand:"Mr. Muscle",size:"৫০০ মিলি",price:0},
+{brand:"Mr. Muscle",size:"১ লিটার",price:0},
+{brand:"Lizol",size:"৫০০ মিলি",price:0},
+{brand:"Lizol",size:"১ লিটার",price:0},
+{brand:"সাধারণ",size:"৫০০ মিলি",price:0},
+{brand:"সাধারণ",size:"১ লিটার",price:0}
 ]
 },
    
@@ -1083,7 +1571,127 @@ variants:[
 {brand:"সাধারণ",size:"প্যাকেট",price:0}  
 ]  
 },  
-  
+
+{
+name:"ন্যাপকিন",
+icon:"🧻",
+image:"ন্যাপকিন.jpg",
+variants:[
+{brand:"Fresh",size:"প্যাকেট",price:0},
+{brand:"Bashundhara",size:"প্যাকেট",price:0},
+{brand:"Kleen",size:"প্যাকেট",price:0},
+{brand:"Bengal",size:"প্যাকেট",price:0},
+{brand:"Veetee",size:"প্যাকেট",price:0},
+{brand:"সাধারণ",size:"প্যাকেট",price:0}
+]
+},
+
+{
+name:"শেভিং রেজার",
+icon:"🪒",
+image:"শেভিং-রেজার.jpg",
+variants:[
+{brand:"Gillette",size:"পিস",price:0},
+{brand:"Gillette",size:"প্যাকেট",price:0},
+{brand:"Super-Max",size:"পিস",price:0},
+{brand:"Super-Max",size:"প্যাকেট",price:0},
+{brand:"Dorco",size:"পিস",price:0},
+{brand:"Dorco",size:"প্যাকেট",price:0},
+{brand:"7 O'Clock",size:"পিস",price:0},
+{brand:"7 O'Clock",size:"প্যাকেট",price:0},
+{brand:"Laser",size:"পিস",price:0},
+{brand:"Laser",size:"প্যাকেট",price:0},
+{brand:"সাধারণ",size:"পিস",price:0},
+{brand:"সাধারণ",size:"প্যাকেট",price:0}
+]
+},
+
+{
+name:"শেভিং ক্রিম",
+icon:"🧴",
+image:"শেভিং-ক্রিম.jpg",
+variants:[
+{brand:"Godrej",size:"৫০ গ্রাম",price:0},
+{brand:"Godrej",size:"১০০ গ্রাম",price:0},
+{brand:"Gillette",size:"৫০ গ্রাম",price:0},
+{brand:"Gillette",size:"১০০ গ্রাম",price:0},
+{brand:"Emami",size:"৫০ গ্রাম",price:0},
+{brand:"Emami",size:"১০০ গ্রাম",price:0},
+{brand:"Park Avenue",size:"৫০ গ্রাম",price:0},
+{brand:"Park Avenue",size:"১০০ গ্রাম",price:0},
+{brand:"Old Spice",size:"৫০ গ্রাম",price:0},
+{brand:"Old Spice",size:"১০০ গ্রাম",price:0},
+{brand:"Vi-John",size:"৫০ গ্রাম",price:0},
+{brand:"Vi-John",size:"১০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১০০ গ্রাম",price:0}
+]
+},
+
+{
+name:"ফেস ক্রিম",
+icon:"🧴",
+image:"ফেস-ক্রিম.jpg",
+variants:[
+{brand:"Pond's",size:"পিস",price:0},
+{brand:"Nivea",size:"পিস",price:0},
+{brand:"Garnier",size:"পিস",price:0},
+{brand:"Himalaya",size:"পিস",price:0},
+{brand:"Fair & Lovely",size:"পিস",price:0},
+{brand:"Vaseline",size:"পিস",price:0},
+{brand:"Olay",size:"পিস",price:0},
+{brand:"Lakme",size:"পিস",price:0},
+{brand:"L'Oréal Paris",size:"পিস",price:0},
+{brand:"Patanjali",size:"পিস",price:0},
+{brand:"সাধারণ",size:"পিস",price:0}
+]
+},
+
+{
+name:"হ্যান্ড ক্রিম",
+icon:"🧴",
+image:"হ্যান্ড-ক্রিম.jpg",
+variants:[
+{brand:"Nivea",size:"পিস",price:0},
+{brand:"Vaseline",size:"পিস",price:0},
+{brand:"Neutrogena",size:"পিস",price:0},
+{brand:"Dove",size:"পিস",price:0},
+{brand:"Himalaya",size:"পিস",price:0},
+{brand:"Pond's",size:"পিস",price:0},
+{brand:"Jergens",size:"পিস",price:0},
+{brand:"Johnson's",size:"পিস",price:0},
+{brand:"The Body Shop",size:"পিস",price:0},
+{brand:"সাধারণ",size:"পিস",price:0}
+]
+},
+
+{
+name:"চিরুনি",
+icon:"💇",
+image:"চিরুনি.jpg",
+variants:[
+{brand:"Kent",size:"পিস",price:0},
+{brand:"Vega",size:"পিস",price:0},
+{brand:"Himalaya",size:"পিস",price:0},
+{brand:"Pony",size:"পিস",price:0},
+{brand:"Nylon",size:"পিস",price:0},
+{brand:"সাধারণ",size:"পিস",price:0}
+]
+},
+
+{
+name:"নেইল কাটার",
+icon:"✂️",
+image:"নেইল-কাটার.jpg",
+variants:[
+{brand:"KAI",size:"পিস",price:0},
+{brand:"777",size:"পিস",price:0},
+{brand:"MR.GREEN",size:"পিস",price:0},
+{brand:"Zwilling",size:"পিস",price:0},
+{brand:"সাধারণ",size:"পিস",price:0}
+]
+},
+   
 {  
 name:"টিস্যু",  
 icon:"🧻",  
