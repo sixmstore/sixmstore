@@ -671,73 +671,6 @@ image:"মুড়ি.jpg",
 variants:[  
 {brand:"সাধারণ",size:"১ কেজি",price:70}  
 ]  
-},
-
-{
-name:"পাউরুটি",
-icon:"🍞",
-image:"পাউরুটি.jpg",
-variants:[
-{brand:"সাধারণ",size:"ছোট প্যাকেট",price:0},
-{brand:"সাধারণ",size:"বড় প্যাকেট",price:0}
-]
-},
-
-{
-name:"কেক",
-icon:"🍰",
-image:"কেক.jpg",
-variants:[
-{brand:"সাধারণ",size:"ছোট",price:0},
-{brand:"সাধারণ",size:"মাঝারি",price:0},
-{brand:"সাধারণ",size:"বড়",price:0}
-]
-},
-
-{
-name:"মেয়োনিজ",
-icon:"🥫",
-image:"মেয়োনিজ.jpg",
-variants:[
-{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৪০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৭০০ গ্রাম",price:0}
-]
-},
-
-{
-name:"জ্যাম",
-icon:"🍓",
-image:"জ্যাম.jpg",
-variants:[
-{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৪০০ গ্রাম",price:0}
-]
-},
-
-{
-name:"মধু",
-icon:"🍯",
-image:"মধু.jpg",
-variants:[
-{brand:"সাধারণ",size:"২৫০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"১ কেজি",price:0}
-]
-},
-
-{
-name:"আচার",
-icon:"🥭",
-image:"আচার.jpg",
-variants:[
-{brand:"আমের আচার",size:"২৫০ গ্রাম",price:0},
-{brand:"আমের আচার",size:"৫০০ গ্রাম",price:0},
-{brand:"জলপাই আচার",size:"২৫০ গ্রাম",price:0},
-{brand:"জলপাই আচার",size:"৫০০ গ্রাম",price:0},
-{brand:"লেবুর আচার",size:"২৫০ গ্রাম",price:0},
-{brand:"লেবুর আচার",size:"৫০০ গ্রাম",price:0}
-]
 }
    
   
@@ -1202,7 +1135,74 @@ variants:[
 {brand:"Bombay",size:"৩০০ গ্রাম",price:100},  
 {brand:"সাধারণ",size:"১ কেজি",price:120}    
 ]  
-}  
+},
+
+{
+name:"পাউরুটি",
+icon:"🍞",
+image:"পাউরুটি.jpg",
+variants:[
+{brand:"সাধারণ",size:"ছোট প্যাকেট",price:0},
+{brand:"সাধারণ",size:"বড় প্যাকেট",price:0}
+]
+},
+
+{
+name:"কেক",
+icon:"🍰",
+image:"কেক.jpg",
+variants:[
+{brand:"সাধারণ",size:"ছোট",price:0},
+{brand:"সাধারণ",size:"মাঝারি",price:0},
+{brand:"সাধারণ",size:"বড়",price:0}
+]
+},
+
+{
+name:"মেয়োনিজ",
+icon:"🥫",
+image:"মেয়োনিজ.jpg",
+variants:[
+{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৪০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৭০০ গ্রাম",price:0}
+]
+},
+
+{
+name:"জ্যাম",
+icon:"🍓",
+image:"জ্যাম.jpg",
+variants:[
+{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৪০০ গ্রাম",price:0}
+]
+},
+
+{
+name:"মধু",
+icon:"🍯",
+image:"মধু.jpg",
+variants:[
+{brand:"সাধারণ",size:"২৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১ কেজি",price:0}
+]
+},
+
+{
+name:"আচার",
+icon:"🥭",
+image:"আচার.jpg",
+variants:[
+{brand:"আমের আচার",size:"২৫০ গ্রাম",price:0},
+{brand:"আমের আচার",size:"৫০০ গ্রাম",price:0},
+{brand:"জলপাই আচার",size:"২৫০ গ্রাম",price:0},
+{brand:"জলপাই আচার",size:"৫০০ গ্রাম",price:0},
+{brand:"লেবুর আচার",size:"২৫০ গ্রাম",price:0},
+{brand:"লেবুর আচার",size:"৫০০ গ্রাম",price:0}
+]
+}   
   
 ]  
 },  
