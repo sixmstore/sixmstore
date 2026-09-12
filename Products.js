@@ -1129,59 +1129,108 @@ name:"ফেসওয়াশ",
 icon:"🧴",  
 image:"ফেসওয়াশ.jpg",    
 variants:[    
-{brand:"Pond's",size:"পিস",price:0},  
-{brand:"Garnier",size:"পিস",price:0},  
-{brand:"Himalaya",size:"পিস",price:0}    
-]  
-},  
-  
+{brand:"Pond's",size:"পিস",price:0},
+{brand:"Garnier",size:"পিস",price:0},
+{brand:"Himalaya",size:"পিস",price:0},
+{brand:"Clean & Clear",size:"পিস",price:0},
+{brand:"Nivea",size:"পিস",price:0},
+{brand:"Simple",size:"পিস",price:0},
+{brand:"Fair & Lovely",size:"পিস",price:0},
+{brand:"Neutrogena",size:"পিস",price:0},
+{brand:"L'Oréal Paris",size:"পিস",price:0},
+{brand:"Safi",size:"পিস",price:0}
+]
+},
+   
 {  
 name:"হেয়ার অয়েল",  
 icon:"🧴",  
 image:"হেয়ার-অয়েল.jpg",    
 variants:[    
-{brand:"Parachute",size:"বোতল",price:0},  
-{brand:"Bajaj",size:"বোতল",price:0}    
-]  
-},  
-  
+{brand:"Parachute",size:"বোতল",price:0},
+{brand:"Bajaj",size:"বোতল",price:0},
+{brand:"Jui",size:"বোতল",price:0},
+{brand:"Dabur Amla",size:"বোতল",price:0},
+{brand:"Navratna",size:"বোতল",price:0},
+{brand:"Vatika",size:"বোতল",price:0},
+{brand:"Emami 7 Oils",size:"বোতল",price:0},
+{brand:"Sunsilk",size:"বোতল",price:0},
+{brand:"Clinic Plus",size:"বোতল",price:0},
+{brand:"Kumarika",size:"বোতল",price:0},
+{brand:"সাধারণ",size:"বোতল",price:0}
+]
+},
+   
 {  
 name:"পারফিউম",  
 icon:"🌸",  
 image:"পারফিউম.jpg",    
 variants:[  
-{brand:"সাধারণ",size:"পিস",price:0}  
-]  
-},  
-  
+{brand:"Fogg",size:"পিস",price:0},
+{brand:"Denver",size:"পিস",price:0},
+{brand:"Wild Stone",size:"পিস",price:0},
+{brand:"Engage",size:"পিস",price:0},
+{brand:"Axe",size:"পিস",price:0},
+{brand:"Nivea",size:"পিস",price:0},
+{brand:"Jovan",size:"পিস",price:0},
+{brand:"Rasasi",size:"পিস",price:0},
+{brand:"Armaf",size:"পিস",price:0},
+{brand:"সাধারণ",size:"পিস",price:0}
+]
+},
+   
 {  
 name:"রুম স্প্রে",  
 icon:"🌸",  
 image:"রুম স্প্রে.jpg",    
 variants:[  
-{brand:"সাধারণ",size:"পিস",price:0}  
-]  
-},  
-     
+{brand:"Air Wick",size:"পিস",price:0},
+{brand:"Godrej Aer",size:"পিস",price:0},
+{brand:"Odonil",size:"পিস",price:0},
+{brand:"Ambi Pur",size:"পিস",price:0},
+{brand:"Glade",size:"পিস",price:0},
+{brand:"Riya",size:"পিস",price:0},
+{brand:"সাধারণ",size:"পিস",price:0}
+]
+},
+   
 {  
 name:"বডি লোশন",  
 icon:"🧴",  
 image:"বডি-লোশন.jpg",    
 variants:[    
-{brand:"Vaseline",size:"বোতল",price:0},  
-{brand:"Nivea",size:"বোতল",price:0}    
-]  
-},  
-  
+{brand:"Vaseline",size:"বোতল",price:0},
+{brand:"Nivea",size:"বোতল",price:0},
+{brand:"Dove",size:"বোতল",price:0},
+{brand:"Pond's",size:"বোতল",price:0},
+{brand:"Parachute",size:"বোতল",price:0},
+{brand:"Jergens",size:"বোতল",price:0},
+{brand:"Johnson's",size:"বোতল",price:0},
+{brand:"Himalaya",size:"বোতল",price:0},
+{brand:"Cocoa Butter",size:"বোতল",price:0},
+{brand:"Fair & Lovely",size:"বোতল",price:0},
+{brand:"সাধারণ",size:"বোতল",price:0}
+]
+},
+   
 {  
 name:"ঘামাচি পাউডার",  
 icon:"🌸",  
 image:"পাউডার.jpg",    
 variants:[  
-{brand:"সাধারণ",size:"পিস",price:0}  
-]  
-}  
-  
+{brand:"Tibet",size:"পিস",price:0},
+{brand:"Tibet Ice Cool",size:"পিস",price:0},   
+{brand:"Prickly Heat",size:"পিস",price:0},
+{brand:"Nycil",size:"পিস",price:0},
+{brand:"Himalaya",size:"পিস",price:0},
+{brand:"Revive",size:"পিস",price:0},
+{brand:"Ice Cool",size:"পিস",price:0},
+{brand:"Candid",size:"পিস",price:0},
+{brand:"BoroPlus",size:"পিস",price:0},
+{brand:"সাধারণ",size:"পিস",price:0}
+]
+},
+   
 ]  
 },  
   
