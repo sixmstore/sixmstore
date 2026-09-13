@@ -13,8 +13,7 @@ const categories=[
 name:"🍚 চাল ও ডাল",   
 products:[    
 {  
-name:"সিদ্ধ/হাফ সিদ্ধ চাল",
-bestSeller:true,  
+name:"সিদ্ধ/হাফ সিদ্ধ চাল",  
 icon:"🍚",  
 image:"চাল.jpg",    
 variants:[     
