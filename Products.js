@@ -11,6 +11,7 @@ const categories=[
   
 {  
 name:"🍚 চাল ও ডাল",   
+bestSeller:true,   
 products:[    
 {  
 name:"সিদ্ধ/হাফ সিদ্ধ চাল",  
