@@ -17,6 +17,10 @@ name:"সিদ্ধ/হাফ সিদ্ধ চাল",
 bestSeller:true,  
 icon:"🍚",  
 image:"চাল.jpg",    
+   
+oldPrice:60,
+  badge:"অফার",   
+   
 variants:[     
 {brand:"নুরজাহান মিনিকেট",size:"১ কেজি",price:60},  
 {brand:"নুরজাহান মিনিকেট",size:"৫ কেজি",price:300},  
