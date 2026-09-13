@@ -284,7 +284,7 @@ footer{padding:25px 12px}
 <button type="button" class="quick-feature" onclick="showSpecialOffers()"><span>🔥</span>বিশেষ অফার</button>
 <button type="button" id="productRequestBtn" class="quick-feature product-request-feature" onclick="openProductRequest()"><span>💬</span>পণ্য চাই</button>
 <button type="button" id="bestSellerBtn" class="quick-feature" onclick="showBestSellers()"><span>🏆</span>বেস্ট সেলার</button>
-<button type="button" class="quick-feature" onclick="showWishlist()"><span>❤️</span>পছন্দের পণ্য</button>
+<button type="button" id="wishlistFeatureBtn" class="quick-feature" onclick="showWishlist()"><span>❤️</span>পছন্দের পণ্য</button>
 </div>
 
 <div class="recent-order-box" id="recentOrderBox">
@@ -509,6 +509,9 @@ const wanted=categories.flatMap(c=>c.products||[]).filter(p=>list.includes(p.nam
 if(!wanted.length){alert("পছন্দের পণ্য পাওয়া যায়নি।");return}
 wishlistMode=true;
 categorySelect.value="all";
+const wishlistBtn=document.getElementById("wishlistFeatureBtn");
+if(wishlistBtn)wishlistBtn.classList.add("active");
+  
 const searchInput=document.getElementById("headerSearchInput");
 if(searchInput)searchInput.value="";
 displayProducts(null,list);
@@ -516,7 +519,11 @@ scrollToProducts();}
 
 function exitWishlist(){
 wishlistMode=false;
+const wishlistBtn=document.getElementById("wishlistFeatureBtn");
+if(wishlistBtn)wishlistBtn.classList.remove("active");  
+  
 categorySelect.value="all";
+
 const searchInput=document.getElementById("headerSearchInput");
 if(searchInput)searchInput.value="";
 bestSellerMode=false;
