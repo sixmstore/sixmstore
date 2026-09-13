@@ -562,18 +562,20 @@ if(el)el.scrollIntoView({behavior:"smooth",block:"start"});}
 
 function filterByBadge(type){bestSellerMode=false;wishlistMode=false;window.productFilterMode=type;
 const offerBtn=document.getElementById("specialOfferBtn");
-if(offerBtn)offerBtn.classList.toggle("active",type==="offer");
 const bestBtn=document.getElementById("bestSellerBtn");
-if(bestBtn)bestBtn.classList.remove("active");                             
-const btn=document.getElementById("bestSellerBtn");
-if(btn)btn.classList.remove("active");
+if(bestBtn)bestBtn.classList.remove("active");
+                             
 const all=categories.flatMap(c=>c.products||[]);
 const wanted=all.filter(p=>{
 const b=String(p.badge||p.label||"").toLowerCase();
 if(type==="offer")return b.includes("offer")||b.includes("অফার")||p.oldPrice||p.discount;
 if(type==="new")return b.includes("new")||b.includes("নতুন");return false;});
-if(!wanted.length){alert(type==="offer"?"এই মুহূর্তে কোনো বিশেষ অফার যোগ করা হয়নি।":"এই মুহূর্তে নতুন পণ্য হিসেবে কোনো পণ্য চিহ্নিত করা হয়নি।");return;}
+                             
+if(!wanted.length){
+if(offerBtn)offerBtn.classList.remove("active");window.productFilterMode=null;alert(type==="offer"?"এই মুহূর্তে কোনো বিশেষ অফার যোগ করা হয়নি।":"এই মুহূর্তে নতুন পণ্য হিসেবে কোনো পণ্য চিহ্নিত করা হয়নি।");return;}
+if(offerBtn)offerBtn.classList.add("active");
 categorySelect.value="all";
+                             
 const searchInput=document.getElementById("headerSearchInput");
 if(searchInput)searchInput.value="";
 displayProducts();
