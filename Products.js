@@ -584,7 +584,7 @@ variants:[
 },  
   
 {  
-name:"সুজির প্যাকেট",  
+name:"সুজি",  
 icon:"🥣",  
 image:"সুজি.jpg",    
 variants:[    
