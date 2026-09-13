@@ -1607,65 +1607,6 @@ variants:[
 },
 
 {
-name:"শেভিং ক্রিম",
-icon:"🧴",
-image:"শেভিং-ক্রিম.jpg",
-variants:[
-{brand:"Godrej",size:"৫০ গ্রাম",price:0},
-{brand:"Godrej",size:"১০০ গ্রাম",price:0},
-{brand:"Gillette",size:"৫০ গ্রাম",price:0},
-{brand:"Gillette",size:"১০০ গ্রাম",price:0},
-{brand:"Emami",size:"৫০ গ্রাম",price:0},
-{brand:"Emami",size:"১০০ গ্রাম",price:0},
-{brand:"Park Avenue",size:"৫০ গ্রাম",price:0},
-{brand:"Park Avenue",size:"১০০ গ্রাম",price:0},
-{brand:"Old Spice",size:"৫০ গ্রাম",price:0},
-{brand:"Old Spice",size:"১০০ গ্রাম",price:0},
-{brand:"Vi-John",size:"৫০ গ্রাম",price:0},
-{brand:"Vi-John",size:"১০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৫০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"১০০ গ্রাম",price:0}
-]
-},
-
-{
-name:"ফেস ক্রিম",
-icon:"🧴",
-image:"ফেস-ক্রিম.jpg",
-variants:[
-{brand:"Pond's",size:"পিস",price:0},
-{brand:"Nivea",size:"পিস",price:0},
-{brand:"Garnier",size:"পিস",price:0},
-{brand:"Himalaya",size:"পিস",price:0},
-{brand:"Fair & Lovely",size:"পিস",price:0},
-{brand:"Vaseline",size:"পিস",price:0},
-{brand:"Olay",size:"পিস",price:0},
-{brand:"Lakme",size:"পিস",price:0},
-{brand:"L'Oréal Paris",size:"পিস",price:0},
-{brand:"Patanjali",size:"পিস",price:0},
-{brand:"সাধারণ",size:"পিস",price:0}
-]
-},
-
-{
-name:"হ্যান্ড ক্রিম",
-icon:"🧴",
-image:"হ্যান্ড-ক্রিম.jpg",
-variants:[
-{brand:"Nivea",size:"পিস",price:0},
-{brand:"Vaseline",size:"পিস",price:0},
-{brand:"Neutrogena",size:"পিস",price:0},
-{brand:"Dove",size:"পিস",price:0},
-{brand:"Himalaya",size:"পিস",price:0},
-{brand:"Pond's",size:"পিস",price:0},
-{brand:"Jergens",size:"পিস",price:0},
-{brand:"Johnson's",size:"পিস",price:0},
-{brand:"The Body Shop",size:"পিস",price:0},
-{brand:"সাধারণ",size:"পিস",price:0}
-]
-},
-
-{
 name:"চিরুনি",
 icon:"💇",
 image:"চিরুনি.jpg",
@@ -1798,6 +1739,64 @@ variants:[
 {brand:"Ambi Pur",size:"পিস",price:0},
 {brand:"Glade",size:"পিস",price:0},
 {brand:"Riya",size:"পিস",price:0},
+{brand:"সাধারণ",size:"পিস",price:0}
+]
+},
+
+name:"শেভিং ক্রিম",
+icon:"🧴",
+image:"শেভিং-ক্রিম.jpg",
+variants:[
+{brand:"Godrej",size:"৫০ গ্রাম",price:0},
+{brand:"Godrej",size:"১০০ গ্রাম",price:0},
+{brand:"Gillette",size:"৫০ গ্রাম",price:0},
+{brand:"Gillette",size:"১০০ গ্রাম",price:0},
+{brand:"Emami",size:"৫০ গ্রাম",price:0},
+{brand:"Emami",size:"১০০ গ্রাম",price:0},
+{brand:"Park Avenue",size:"৫০ গ্রাম",price:0},
+{brand:"Park Avenue",size:"১০০ গ্রাম",price:0},
+{brand:"Old Spice",size:"৫০ গ্রাম",price:0},
+{brand:"Old Spice",size:"১০০ গ্রাম",price:0},
+{brand:"Vi-John",size:"৫০ গ্রাম",price:0},
+{brand:"Vi-John",size:"১০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৫০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"১০০ গ্রাম",price:0}
+]
+},
+
+{
+name:"ফেস ক্রিম",
+icon:"🧴",
+image:"ফেস-ক্রিম.jpg",
+variants:[
+{brand:"Pond's",size:"পিস",price:0},
+{brand:"Nivea",size:"পিস",price:0},
+{brand:"Garnier",size:"পিস",price:0},
+{brand:"Himalaya",size:"পিস",price:0},
+{brand:"Fair & Lovely",size:"পিস",price:0},
+{brand:"Vaseline",size:"পিস",price:0},
+{brand:"Olay",size:"পিস",price:0},
+{brand:"Lakme",size:"পিস",price:0},
+{brand:"L'Oréal Paris",size:"পিস",price:0},
+{brand:"Patanjali",size:"পিস",price:0},
+{brand:"সাধারণ",size:"পিস",price:0}
+]
+},
+
+{
+name:"হ্যান্ড ক্রিম",
+icon:"🧴",
+image:"হ্যান্ড-ক্রিম.jpg",
+variants:[
+{brand:"Nivea",size:"পিস",price:0},
+{brand:"Vaseline",size:"পিস",price:0},
+{brand:"Neutrogena",size:"পিস",price:0},
+{brand:"Dove",size:"পিস",price:0},
+{brand:"Himalaya",size:"পিস",price:0},
+{brand:"Pond's",size:"পিস",price:0},
+{brand:"Jergens",size:"পিস",price:0},
+{brand:"Johnson's",size:"পিস",price:0},
+{brand:"The Body Shop",size:"পিস",price:0},
 {brand:"সাধারণ",size:"পিস",price:0}
 ]
 },
