@@ -934,7 +934,39 @@ variants:[
 {brand:"Pran",size:"২০০ গ্রাম",price:0}   
 ]  
 },  
-  
+
+{
+name:"পাউরুটি",
+icon:"🍞",
+image:"পাউরুটি.jpg",
+variants:[
+{brand:"সাধারণ",size:"ছোট প্যাকেট",price:0},
+{brand:"সাধারণ",size:"বড় প্যাকেট",price:0}
+]
+},
+
+{
+name:"কেক",
+icon:"🍰",
+image:"কেক.jpg",
+variants:[
+{brand:"সাধারণ",size:"ছোট",price:0},
+{brand:"সাধারণ",size:"মাঝারি",price:0},
+{brand:"সাধারণ",size:"বড়",price:0}
+]
+},
+
+{
+name:"মেয়োনিজ",
+icon:"🥫",
+image:"মেয়োনিজ.jpg",
+variants:[
+{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৪০০ গ্রাম",price:0},
+{brand:"সাধারণ",size:"৭০০ গ্রাম",price:0}
+]
+},
+   
 {  
 name:"দই",  
 icon:"🥛",  
@@ -1135,38 +1167,6 @@ variants:[
 {brand:"Bombay",size:"৩০০ গ্রাম",price:100},  
 {brand:"সাধারণ",size:"১ কেজি",price:120}    
 ]  
-},
-
-{
-name:"পাউরুটি",
-icon:"🍞",
-image:"পাউরুটি.jpg",
-variants:[
-{brand:"সাধারণ",size:"ছোট প্যাকেট",price:0},
-{brand:"সাধারণ",size:"বড় প্যাকেট",price:0}
-]
-},
-
-{
-name:"কেক",
-icon:"🍰",
-image:"কেক.jpg",
-variants:[
-{brand:"সাধারণ",size:"ছোট",price:0},
-{brand:"সাধারণ",size:"মাঝারি",price:0},
-{brand:"সাধারণ",size:"বড়",price:0}
-]
-},
-
-{
-name:"মেয়োনিজ",
-icon:"🥫",
-image:"মেয়োনিজ.jpg",
-variants:[
-{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৪০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৭০০ গ্রাম",price:0}
-]
 },
 
 {
