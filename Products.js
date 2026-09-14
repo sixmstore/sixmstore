@@ -828,6 +828,23 @@ variants:[
 ]  
 },  
 
+{  
+name:"মরিচ গুঁড়া/শুকনা মরিচ",  
+icon:"🌶️",  
+image:"মরিচ.jpg",    
+variants:[    
+{brand:"রাঁধুনী",size:"২৫ গ্রাম",price:20},  
+{brand:"রাঁধুনী",size:"৫০ গ্রাম",price:40},  
+{brand:"রাঁধুনী",size:"১০০ গ্রাম",price:75},  
+{brand:"রাঁধুনী",size:"২০০ গ্রাম",price:140},  
+{brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:290},  
+{brand:"রাঁধুনী",size:"১ কেজি",price:0},  
+{brand:"সাধারণ",size:"১ কেজি",price:420},  
+{brand:"শুকনা মরিচ",size:"৫০০ গ্রাম",price:200},  
+{brand:"শুকনা মরিচ",size:"১ কেজি",price:400}    
+]  
+},  
+   
 {
 name:"কাঁচামরিচ",
 icon:"🌶️",
@@ -930,24 +947,8 @@ variants:[
 {brand:"দেশি",size:"৫০০ গ্রাম",price:0},
 {brand:"দেশি",size:"১ কেজি",price:0}
 ]
-},
+}
    
-{  
-name:"মরিচ গুঁড়া/শুকনা মরিচ",  
-icon:"🌶️",  
-image:"মরিচ.jpg",    
-variants:[    
-{brand:"রাঁধুনী",size:"২৫ গ্রাম",price:20},  
-{brand:"রাঁধুনী",size:"৫০ গ্রাম",price:40},  
-{brand:"রাঁধুনী",size:"১০০ গ্রাম",price:75},  
-{brand:"রাঁধুনী",size:"২০০ গ্রাম",price:140},  
-{brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:290},  
-{brand:"রাঁধুনী",size:"১ কেজি",price:0},  
-{brand:"সাধারণ",size:"১ কেজি",price:420},  
-{brand:"শুকনা মরিচ",size:"৫০০ গ্রাম",price:200},  
-{brand:"শুকনা মরিচ",size:"১ কেজি",price:400}    
-]  
-}  
   
 ]  
 },  
