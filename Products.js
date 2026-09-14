@@ -556,8 +556,12 @@ name:"সয়া সস",
 icon:"🫙",
 image:"সয়া-সস.jpg",
 variants:[
-{brand:"সাধারণ",size:"২০০ মিলি",price:0},
-{brand:"সাধারণ",size:"৫০০ মিলি",price:0}
+{brand:"PRAN",size:"২০০ মিলি",price:0},
+{brand:"PRAN",size:"৫০০ মিলি",price:0},
+{brand:"Radhuni",size:"২০০ মিলি",price:0},
+{brand:"Radhuni",size:"৫০০ মিলি",price:0},
+{brand:"Fresh",size:"২০০ মিলি",price:0},
+{brand:"Fresh",size:"৫০০ মিলি",price:0}
 ]
 },
 
@@ -566,9 +570,18 @@ name:"কর্নফ্লাওয়ার",
 icon:"🌽",
 image:"কর্নফ্লাওয়ার.jpg",
 variants:[
-{brand:"সাধারণ",size:"১০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0}
+{brand:"PRAN",size:"১০০ গ্রাম",price:0},
+{brand:"PRAN",size:"২০০ গ্রাম",price:0},
+{brand:"PRAN",size:"৫০০ গ্রাম",price:0},
+{brand:"Fresh",size:"১০০ গ্রাম",price:0},
+{brand:"Fresh",size:"২০০ গ্রাম",price:0},
+{brand:"Fresh",size:"৫০০ গ্রাম",price:0},
+{brand:"Teer",size:"১০০ গ্রাম",price:0},
+{brand:"Teer",size:"২০০ গ্রাম",price:0},
+{brand:"Teer",size:"৫০০ গ্রাম",price:0},
+{brand:"Ifad",size:"১০০ গ্রাম",price:0},
+{brand:"Ifad",size:"২০০ গ্রাম",price:0},
+{brand:"Ifad",size:"৫০০ গ্রাম",price:0}
 ]
 },
 
@@ -577,8 +590,10 @@ name:"বেকিং পাউডার",
 icon:"🥣",
 image:"বেকিং-পাউডার.jpg",
 variants:[
-{brand:"সাধারণ",size:"৫০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"১০০ গ্রাম",price:0}
+{brand:"PRAN",size:"৫০ গ্রাম",price:0},
+{brand:"PRAN",size:"১০০ গ্রাম",price:0},
+{brand:"Radhuni",size:"৫০ গ্রাম",price:0},
+{brand:"Radhuni",size:"১০০ গ্রাম",price:0}
 ]
 },
 
@@ -597,8 +612,16 @@ name:"কাস্টার্ড পাউডার",
 icon:"🥣",
 image:"কাস্টার্ড-পাউডার.jpg",
 variants:[
-{brand:"সাধারণ",size:"১০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"২০০ গ্রাম",price:0}
+{brand:"Foster Clark's",size:"১০০ গ্রাম",price:0},
+{brand:"Foster Clark's",size:"২০০ গ্রাম",price:0},
+{brand:"Ahmed",size:"১০০ গ্রাম",price:0},
+{brand:"Ahmed",size:"২০০ গ্রাম",price:0},
+{brand:"Shan",size:"১০০ গ্রাম",price:0},
+{brand:"Shan",size:"২০০ গ্রাম",price:0},
+{brand:"PRAN",size:"১০০ গ্রাম",price:0},
+{brand:"PRAN",size:"২০০ গ্রাম",price:0},
+{brand:"Radhuni",size:"১০০ গ্রাম",price:0},
+{brand:"Radhuni",size:"২০০ গ্রাম",price:0}
 ]
 },
 
