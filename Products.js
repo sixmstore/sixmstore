@@ -641,10 +641,14 @@ name:"কর্নফ্লেক্স",
 icon:"🥣",
 image:"কর্নফ্লেক্স.jpg",
 variants:[
-{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0}
+{brand:"Nestlé",size:"২০০ গ্রাম",price:0},
+{brand:"Nestlé",size:"৫০০ গ্রাম",price:0},
+{brand:"Bagrry's",size:"২০০ গ্রাম",price:0},
+{brand:"Bagrry's",size:"৫০০ গ্রাম",price:0},
+{brand:"Saffola",size:"২০০ গ্রাম",price:0},
+{brand:"Saffola",size:"৫০০ গ্রাম",price:0}
 ]
-}   
+}
    
 ]  
 },  
@@ -711,16 +715,34 @@ variants:[
 ]  
 },  
    
-{  
+{
 name:"চিনি",
-bestSeller:true,  
-icon:"🍬",  
-image:"চিনি.jpg",    
-variants:[    
-{brand:"চিনি খোলা",size:"১ কেজি",price:105},  
-{brand:"চিনি প্যাকেট",size:"১ কেজি",price:110}    
-]  
-},  
+bestSeller:true,
+icon:"🍬",
+image:"চিনি.jpg",
+variants:[
+{brand:"চিনি খোলা",size:"৫০০ গ্রাম",price:0},
+{brand:"চিনি খোলা",size:"১ কেজি",price:0},
+{brand:"চিনি খোলা",size:"২ কেজি",price:0},
+{brand:"চিনি খোলা",size:"৫ কেজি",price:0},
+{brand:"চিনি প্যাকেট",size:"৫০০ গ্রাম",price:0},
+{brand:"চিনি প্যাকেট",size:"১ কেজি",price:0},
+{brand:"চিনি প্যাকেট",size:"২ কেজি",price:0},
+{brand:"চিনি প্যাকেট",size:"৫ কেজি",price:0},
+{brand:"Fresh",size:"১ কেজি",price:0},
+{brand:"Fresh",size:"২ কেজি",price:0},
+{brand:"Fresh",size:"৫ কেজি",price:0},
+{brand:"ACI",size:"১ কেজি",price:0},
+{brand:"ACI",size:"২ কেজি",price:0},
+{brand:"ACI",size:"৫ কেজি",price:0},
+{brand:"PRAN",size:"১ কেজি",price:0},
+{brand:"PRAN",size:"২ কেজি",price:0},
+{brand:"PRAN",size:"৫ কেজি",price:0},
+{brand:"Teer",size:"১ কেজি",price:0},
+{brand:"Teer",size:"২ কেজি",price:0},
+{brand:"Teer",size:"৫ কেজি",price:0}
+]
+},
   
 {  
 name:"লবণ",
