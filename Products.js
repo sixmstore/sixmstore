@@ -434,9 +434,18 @@ name:"সরিষা",
 icon:"🌿",
 image:"সরিষা.jpg",
 variants:[
-{brand:"সাধারণ",size:"২৫০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"১ কেজি",price:0}
+{brand:"হলুদ সরিষা",size:"২৫০ গ্রাম",price:0},
+{brand:"হলুদ সরিষা",size:"৫০০ গ্রাম",price:0},
+{brand:"হলুদ সরিষা",size:"১ কেজি",price:0},
+{brand:"কালো সরিষা",size:"২৫০ গ্রাম",price:0},
+{brand:"কালো সরিষা",size:"৫০০ গ্রাম",price:0},
+{brand:"কালো সরিষা",size:"১ কেজি",price:0},
+{brand:"বাদামি সরিষা",size:"২৫০ গ্রাম",price:0},
+{brand:"বাদামি সরিষা",size:"৫০০ গ্রাম",price:0},
+{brand:"বাদামি সরিষা",size:"১ কেজি",price:0},
+{brand:"সরিষা দানা",size:"২৫০ গ্রাম",price:0},
+{brand:"সরিষা দানা",size:"৫০০ গ্রাম",price:0},
+{brand:"সরিষা দানা",size:"১ কেজি",price:0}
 ]
 },
 
@@ -503,10 +512,22 @@ name:"টমেটো সস",
 icon:"🍅",
 image:"টমেটো-সস.jpg",
 variants:[
-{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৩৫০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"১ কেজি",price:0}
+{brand:"PRAN",size:"২০০ গ্রাম",price:0},
+{brand:"PRAN",size:"৩৫০ গ্রাম",price:0},
+{brand:"PRAN",size:"৫০০ গ্রাম",price:0},
+{brand:"PRAN",size:"১ কেজি",price:0},
+{brand:"Radhuni",size:"২০০ গ্রাম",price:0},
+{brand:"Radhuni",size:"৩৫০ গ্রাম",price:0},
+{brand:"Radhuni",size:"৫০০ গ্রাম",price:0},
+{brand:"Radhuni",size:"১ কেজি",price:0},
+{brand:"Fresh",size:"২০০ গ্রাম",price:0},
+{brand:"Fresh",size:"৩৫০ গ্রাম",price:0},
+{brand:"Fresh",size:"৫০০ গ্রাম",price:0},
+{brand:"Fresh",size:"১ কেজি",price:0},
+{brand:"Shezan",size:"২০০ গ্রাম",price:0},
+{brand:"Shezan",size:"৩৫০ গ্রাম",price:0},
+{brand:"Shezan",size:"৫০০ গ্রাম",price:0},
+{brand:"Shezan",size:"১ কেজি",price:0}
 ]
 },
 
@@ -515,9 +536,18 @@ name:"চিলি সস",
 icon:"🌶️",
 image:"চিলি-সস.jpg",
 variants:[
-{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৩৫০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৫০০ গ্রাম",price:0}
+{brand:"PRAN",size:"২০০ গ্রাম",price:0},
+{brand:"PRAN",size:"৩৫০ গ্রাম",price:0},
+{brand:"PRAN",size:"৫০০ গ্রাম",price:0},
+{brand:"Radhuni",size:"২০০ গ্রাম",price:0},
+{brand:"Radhuni",size:"৩৫০ গ্রাম",price:0},
+{brand:"Radhuni",size:"৫০০ গ্রাম",price:0},
+{brand:"Fresh",size:"২০০ গ্রাম",price:0},
+{brand:"Fresh",size:"৩৫০ গ্রাম",price:0},
+{brand:"Fresh",size:"৫০০ গ্রাম",price:0},
+{brand:"Shezan",size:"২০০ গ্রাম",price:0},
+{brand:"Shezan",size:"৩৫০ গ্রাম",price:0},
+{brand:"Shezan",size:"৫০০ গ্রাম",price:0}
 ]
 },
 
