@@ -443,7 +443,6 @@ let wishlistMode=false;
 let orderHistory=loadOrderHistory();
 
 function syncHeaderSearch(){displayProducts(document.getElementById("headerSearchInput").value)}
-
 function showBestSellers(){
 const all=categories.flatMap(c=>c.products||[]);
 const wanted=all.filter(p=>{
@@ -522,8 +521,7 @@ scrollToProducts();}
 function exitWishlist(){
 wishlistMode=false;
 const wishlistBtn=document.getElementById("wishlistFeatureBtn");
-if(wishlistBtn)wishlistBtn.classList.remove("active");  
-  
+if(wishlistBtn)wishlistBtn.classList.remove("active");    
 categorySelect.value="all";
 
 const searchInput=document.getElementById("headerSearchInput");
@@ -548,7 +546,6 @@ function saveCart(){localStorage.setItem("sixmOrderList",JSON.stringify(orderLis
 function loadCart(){try{const x=JSON.parse(localStorage.getItem("sixmOrderList")||"[]");if(Array.isArray(x))orderList=x}catch(e){orderList=[]}}
 function saveOrderHistory(){localStorage.setItem("sixmOrderHistory",JSON.stringify(orderHistory))}
 function loadOrderHistory(){try{const x=JSON.parse(localStorage.getItem("sixmOrderHistory")||"[]");return Array.isArray(x)?x:[]}catch(e){return []}}
-
 function renderRecentOrders(){
 const box=document.getElementById("recentOrderBox"),list=document.getElementById("recentOrderList");
 if(!box||!list||!orderHistory.length)return;
@@ -602,7 +599,6 @@ if(orderHistory&&orderHistory.length){renderRecentOrders();document.getElementBy
 else alert("এখনও কোনো অর্ডার হিস্টোরি নেই। অর্ডার করার পর এখানে স্ট্যাটাস দেখা যাবে।");}
 
 function escapeHTML(text){return String(text).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}
-
 function updateProductOptions(categoryIndex,productIndex){
 const product=categories[categoryIndex].products[productIndex];
 const brand=document.getElementById(`brand-${categoryIndex}-${productIndex}`).value;
@@ -697,8 +693,7 @@ message+="   🏷️ ব্র্যান্ড: "+item.brand+"\n";
 message+="   📦 সাইজ: "+item.size+"\n";
 message+="   🔢 পরিমাণ: "+item.qty+"\n";
 if(item.price>0){const total=item.price*item.qty;subtotal+=total;message+="   💰 মূল্য: ৳"+item.price+" × "+item.qty+" = ৳"+total+"\n"}
-else{hasPending=true;message+="   💰 মূল্য: পরে জানানো হবে\n"}
-message+="\n";});
+else{hasPending=true;message+="   💰 মূল্য: পরে জানানো হবে\n"}message+="\n";});
 const delivery=99;
 message+="💰 নির্ধারিত পণ্যের মোট: ৳"+subtotal+"\n";
 message+="🚚 ডেলিভারি চার্জ: ৳"+delivery+"\n";
@@ -721,7 +716,6 @@ if(!modal)return;
 
 modal.style.display="block";
 document.body.style.overflow="hidden";
-
 if(btn)btn.classList.add("active");
 
 setTimeout(()=>document.getElementById("requestProductName")?.focus(),100);}
@@ -735,7 +729,6 @@ modal.style.display="none";
 document.body.style.overflow="auto";
 
 if(btn)btn.classList.remove("active");}
-
 document.getElementById("productRequestModal")?.addEventListener("click",function(event){if(event.target===this)closeProductRequest()});
 
 function sendProductRequest(){
