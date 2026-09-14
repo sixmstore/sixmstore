@@ -765,23 +765,47 @@ variants:[
 ]  
 },  
   
-{  
-name:"গুড়",  
-icon:"🍯",  
-image:"গুড়.jpg",    
-variants:[  
-{brand:"সাধারণ",size:"১ কেজি",price:0}  
-]  
-},  
+{
+name:"গুড়",
+icon:"🍯",
+image:"গুড়.jpg",
+variants:[
+{brand:"খেজুরের গুড়",size:"২৫০ গ্রাম",price:0},
+{brand:"খেজুরের গুড়",size:"৫০০ গ্রাম",price:0},
+{brand:"খেজুরের গুড়",size:"১ কেজি",price:0},
+{brand:"আখের গুড়",size:"২৫০ গ্রাম",price:0},
+{brand:"আখের গুড়",size:"৫০০ গ্রাম",price:0},
+{brand:"আখের গুড়",size:"১ কেজি",price:0},
+{brand:"পাটালি গুড়",size:"২৫০ গ্রাম",price:0},
+{brand:"পাটালি গুড়",size:"৫০০ গ্রাম",price:0},
+{brand:"পাটালি গুড়",size:"১ কেজি",price:0},
+{brand:"লাল গুড়",size:"২৫০ গ্রাম",price:0},
+{brand:"লাল গুড়",size:"৫০০ গ্রাম",price:0},
+{brand:"লাল গুড়",size:"১ কেজি",price:0},
+{brand:"তালের গুড়",size:"২৫০ গ্রাম",price:0},
+{brand:"তালের গুড়",size:"৫০০ গ্রাম",price:0},
+{brand:"তালের গুড়",size:"১ কেজি",price:0}
+]
+},
   
-{  
-name:"সেমাই",  
-icon:"🍜",  
-image:"সেমাই.jpg",    
-variants:[    
-{brand:"বনফুল লাচ্ছা",size:"প্যাকেট",price:40},  
-{brand:"বনফুল বাংলা",size:"প্যাকেট",price:45}    
-]  
+{
+name:"সেমাই",
+icon:"🍜",
+image:"সেমাই.jpg",
+variants:[
+{brand:"বনফুল লাচ্ছা",size:"প্যাকেট",price:0},
+{brand:"বনফুল বাংলা",size:"প্যাকেট",price:0},
+{brand:"PRAN লাচ্ছা",size:"প্যাকেট",price:0},
+{brand:"PRAN সেমাই",size:"প্যাকেট",price:0},
+{brand:"Fresh লাচ্ছা",size:"প্যাকেট",price:0},
+{brand:"Fresh সেমাই",size:"প্যাকেট",price:0},
+{brand:"Radhuni লাচ্ছা",size:"প্যাকেট",price:0},
+{brand:"Radhuni সেমাই",size:"প্যাকেট",price:0},
+{brand:"Ifad লাচ্ছা",size:"প্যাকেট",price:0},
+{brand:"Ifad সেমাই",size:"প্যাকেট",price:0},
+{brand:"Teer সেমাই",size:"প্যাকেট",price:0},
+{brand:"Teer লাচ্ছা",size:"প্যাকেট",price:0}
+]
 },  
   
 {  
@@ -895,9 +919,12 @@ name:"কাঁচামরিচ",
 icon:"🌶️",
 image:"কাঁচামরিচ.jpg",
 variants:[
-{brand:"দেশি",size:"২৫০ গ্রাম",price:0},
-{brand:"দেশি",size:"৫০০ গ্রাম",price:0},
-{brand:"দেশি",size:"১ কেজি",price:0}
+{brand:"দেশি কাঁচামরিচ",size:"২৫০ গ্রাম",price:0},
+{brand:"দেশি কাঁচামরিচ",size:"৫০০ গ্রাম",price:0},
+{brand:"দেশি কাঁচামরিচ",size:"১ কেজি",price:0},
+{brand:"বোম্বাই মরিচ",size:"১০০ গ্রাম",price:0},
+{brand:"বোম্বাই মরিচ",size:"২৫০ গ্রাম",price:0},
+{brand:"বোম্বাই মরিচ",size:"৫০০ গ্রাম",price:0}
 ]
 },
 
@@ -916,9 +943,18 @@ name:"লেবু",
 icon:"🍋",
 image:"লেবু.jpg",
 variants:[
-{brand:"দেশি",size:"৪ পিস",price:0},
-{brand:"দেশি",size:"৮ পিস",price:0},
-{brand:"দেশি",size:"১২ পিস",price:0}
+{brand:"দেশি লেবু",size:"৪ পিস",price:0},
+{brand:"দেশি লেবু",size:"৮ পিস",price:0},
+{brand:"দেশি লেবু",size:"১২ পিস",price:0},
+{brand:"কাগজি লেবু",size:"৪ পিস",price:0},
+{brand:"কাগজি লেবু",size:"৮ পিস",price:0},
+{brand:"কাগজি লেবু",size:"১২ পিস",price:0},
+{brand:"এলাচি লেবু",size:"৪ পিস",price:0},
+{brand:"এলাচি লেবু",size:"৮ পিস",price:0},
+{brand:"এলাচি লেবু",size:"১২ পিস",price:0},
+{brand:"বাতাবি লেবু",size:"১ পিস",price:0},
+{brand:"বাতাবি লেবু",size:"২ পিস",price:0},
+{brand:"বাতাবি লেবু",size:"৪ পিস",price:0}
 ]
 },
 
@@ -927,9 +963,17 @@ name:"ধনেপাতা",
 icon:"🌿",
 image:"ধনেপাতা.jpg",
 variants:[
-{brand:"দেশি",size:"আঁটি",price:0},
-{brand:"দেশি",size:"২৫০ গ্রাম",price:0},
-{brand:"দেশি",size:"৫০০ গ্রাম",price:0}
+{brand:"দেশি ধনেপাতা",size:"আঁটি",price:0},
+{brand:"দেশি ধনেপাতা",size:"২৫০ গ্রাম",price:0},
+{brand:"দেশি ধনেপাতা",size:"৫০০ গ্রাম",price:0},
+
+{brand:"তাজা ধনেপাতা",size:"আঁটি",price:0},
+{brand:"তাজা ধনেপাতা",size:"২৫০ গ্রাম",price:0},
+{brand:"তাজা ধনেপাতা",size:"৫০০ গ্রাম",price:0},
+
+{brand:"অর্গানিক ধনেপাতা",size:"আঁটি",price:0},
+{brand:"অর্গানিক ধনেপাতা",size:"২৫০ গ্রাম",price:0},
+{brand:"অর্গানিক ধনেপাতা",size:"৫০০ গ্রাম",price:0}
 ]
 },
 
@@ -1091,9 +1135,15 @@ name:"মেয়োনিজ",
 icon:"🥫",
 image:"মেয়োনিজ.jpg",
 variants:[
-{brand:"সাধারণ",size:"২০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৪০০ গ্রাম",price:0},
-{brand:"সাধারণ",size:"৭০০ গ্রাম",price:0}
+{brand:"PRAN",size:"২০০ গ্রাম",price:0},
+{brand:"PRAN",size:"৪০০ গ্রাম",price:0},
+{brand:"PRAN",size:"৭০০ গ্রাম",price:0},
+{brand:"Radhuni",size:"২০০ গ্রাম",price:0},
+{brand:"Radhuni",size:"৪০০ গ্রাম",price:0},
+{brand:"Radhuni",size:"৭০০ গ্রাম",price:0},
+{brand:"Fresh",size:"২০০ গ্রাম",price:0},
+{brand:"Fresh",size:"৪০০ গ্রাম",price:0},
+{brand:"Fresh",size:"৭০০ গ্রাম",price:0}
 ]
 },
    
@@ -1177,25 +1227,25 @@ variants:[
 {brand:"Horlicks",size:"১ কেজি",price:880}    
 ]  
 },  
-  
-{  
-name:"ল্যাকটোজেন",  
-icon:"🥛",  
-image:"ল্যাকটোজেন.jpg",    
-variants:[      
-{brand:"Lactogen 1",size:"২০০ গ্রাম",price:0},  
-{brand:"Lactogen 1",size:"৩৫০ গ্রাম",price:640},  
-{brand:"Lactogen 1",size:"৪০০ গ্রাম",price:0},    
-{brand:"Lactogen 2",size:"গ্রাম",price:0},  
-{brand:"Lactogen 2",size:"২০০ গ্রাম",price:0},  
-{brand:"Lactogen 2",size:"৩৫০ গ্রাম",price:670},  
-{brand:"Lactogen 2",size:"৪০০ গ্রাম",price:0},    
-{brand:"Lactogen 3",size:"গ্রাম",price:0},  
-{brand:"Lactogen 3",size:"২০০ গ্রাম",price:0},  
-{brand:"Lactogen 3",size:"৩৫০ গ্রাম",price:690},  
-{brand:"Lactogen 3",size:"৪০০ গ্রাম",price:0}          
-]  
-},  
+  {
+name:"ল্যাকটোজেন",
+icon:"🥛",
+image:"ল্যাকটোজেন.jpg",
+variants:[
+{brand:"Lactogen 1",size:"২০০ গ্রাম",price:0},
+{brand:"Lactogen 1",size:"৩৫০ গ্রাম",price:640},
+{brand:"Lactogen 1",size:"৪০০ গ্রাম",price:0},
+{brand:"Lactogen 2",size:"২০০ গ্রাম",price:0},
+{brand:"Lactogen 2",size:"৩৫০ গ্রাম",price:670},
+{brand:"Lactogen 2",size:"৪০০ গ্রাম",price:0},
+{brand:"Lactogen 3",size:"২০০ গ্রাম",price:0},
+{brand:"Lactogen 3",size:"৩৫০ গ্রাম",price:690},
+{brand:"Lactogen 3",size:"৪০০ গ্রাম",price:0},
+{brand:"Lactogen 4",size:"২০০ গ্রাম",price:0},
+{brand:"Lactogen 4",size:"৩৫০ গ্রাম",price:0},
+{brand:"Lactogen 4",size:"৪০০ গ্রাম",price:0}
+]
+},
      
 {  
 name:"কমপ্লান",  
@@ -1711,8 +1761,7 @@ variants:[
 {brand:"Bashundhara",size:"প্যাকেট",price:0},
 {brand:"Kleen",size:"প্যাকেট",price:0},
 {brand:"Bengal",size:"প্যাকেট",price:0},
-{brand:"Veetee",size:"প্যাকেট",price:0},
-{brand:"সাধারণ",size:"প্যাকেট",price:0}
+{brand:"Veetee",size:"প্যাকেট",price:0}
 ]
 },
 
