@@ -764,7 +764,38 @@ variants:[
 {brand:"মোটা লবণ",size:"১ কেজি",price:20}    
 ]  
 },  
-  
+
+{  
+name:"হলুদের গুঁড়া",  
+icon:"🌕",  
+image:"হলুদ.jpg",    
+variants:[    
+{brand:"রাঁধুনী",size:"২৫ গ্রাম",price:20},  
+{brand:"রাঁধুনী",size:"৫০ গ্রাম",price:40},  
+{brand:"রাঁধুনী",size:"১০০ গ্রাম",price:75},  
+{brand:"রাঁধুনী",size:"২০০ গ্রাম",price:140},  
+{brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:290},  
+{brand:"রাঁধুনী",size:"১ কেজি",price:0},  
+{brand:"সাধারণ",size:"১ কেজি",price:320}    
+]  
+},  
+
+{  
+name:"মরিচের গুঁড়া",  
+icon:"🌶️",  
+image:"মরিচ.jpg",    
+variants:[    
+{brand:"রাঁধুনী",size:"২৫ গ্রাম",price:20},  
+{brand:"রাঁধুনী",size:"৫০ গ্রাম",price:40},  
+{brand:"রাঁধুনী",size:"১০০ গ্রাম",price:75},  
+{brand:"রাঁধুনী",size:"২০০ গ্রাম",price:140},  
+{brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:290},  
+{brand:"রাঁধুনী",size:"১ কেজি",price:0},  
+{brand:"সাধারণ",size:"১ কেজি",price:420}, 
+{brand:"সাধারণ",size:"৫০০ গ্রাম",price:210}     
+]  
+},     
+   
 {
 name:"গুড়",
 icon:"🍯",
@@ -882,49 +913,20 @@ variants:[
 ]  
 },  
   
-{  
-name:"হলুদ গুঁড়া",  
-icon:"🌕",  
-image:"হলুদ.jpg",    
-variants:[    
-{brand:"রাঁধুনী",size:"২৫ গ্রাম",price:20},  
-{brand:"রাঁধুনী",size:"৫০ গ্রাম",price:40},  
-{brand:"রাঁধুনী",size:"১০০ গ্রাম",price:75},  
-{brand:"রাঁধুনী",size:"২০০ গ্রাম",price:140},  
-{brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:290},  
-{brand:"রাঁধুনী",size:"১ কেজি",price:0},  
-{brand:"সাধারণ",size:"১ কেজি",price:320}    
-]  
-},  
-
-{  
-name:"মরিচ গুঁড়া/শুকনা মরিচ",  
-icon:"🌶️",  
-image:"মরিচ.jpg",    
-variants:[    
-{brand:"রাঁধুনী",size:"২৫ গ্রাম",price:20},  
-{brand:"রাঁধুনী",size:"৫০ গ্রাম",price:40},  
-{brand:"রাঁধুনী",size:"১০০ গ্রাম",price:75},  
-{brand:"রাঁধুনী",size:"২০০ গ্রাম",price:140},  
-{brand:"রাঁধুনী",size:"৫০০ গ্রাম",price:290},  
-{brand:"রাঁধুনী",size:"১ কেজি",price:0},  
-{brand:"সাধারণ",size:"১ কেজি",price:420},  
-{brand:"শুকনা মরিচ",size:"৫০০ গ্রাম",price:200},  
-{brand:"শুকনা মরিচ",size:"১ কেজি",price:400}    
-]  
-},  
    
 {
-name:"কাঁচামরিচ",
+name:"মরিচ",
 icon:"🌶️",
 image:"কাঁচামরিচ.jpg",
 variants:[
 {brand:"দেশি কাঁচামরিচ",size:"২৫০ গ্রাম",price:0},
 {brand:"দেশি কাঁচামরিচ",size:"৫০০ গ্রাম",price:0},
 {brand:"দেশি কাঁচামরিচ",size:"১ কেজি",price:0},
-{brand:"বোম্বাই মরিচ",size:"১০০ গ্রাম",price:0},
-{brand:"বোম্বাই মরিচ",size:"২৫০ গ্রাম",price:0},
-{brand:"বোম্বাই মরিচ",size:"৫০০ গ্রাম",price:0}
+{brand:"বোম্বাই কাঁচামরিচ",size:"১০০ গ্রাম",price:0},
+{brand:"বোম্বাই কাঁচামরিচ",size:"২৫০ গ্রাম",price:0},
+{brand:"বোম্বাই কাঁচামরিচ",size:"৫০০ গ্রাম",price:0},
+{brand:"শুকনা মরিচ",size:"৫০০ গ্রাম",price:200},  
+{brand:"শুকনা মরিচ",size:"১ কেজি",price:400}   
 ]
 },
 
