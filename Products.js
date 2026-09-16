@@ -1229,7 +1229,8 @@ variants:[
 {brand:"Horlicks",size:"১ কেজি",price:880}    
 ]  
 },  
-  {
+   
+{
 name:"ল্যাকটোজেন",
 icon:"🥛",
 image:"ল্যাকটোজেন.jpg",
