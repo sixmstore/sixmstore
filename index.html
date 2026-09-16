@@ -515,7 +515,15 @@ return `<span class="product-badge ${cls}">${escapeHTML(badge)}</span>`;}
   
 function saveCart(){localStorage.setItem("sixmOrderList",JSON.stringify(orderList))}  
 function loadCart(){try{const x=JSON.parse(localStorage.getItem("sixmOrderList")||"[]");if(Array.isArray(x))orderList=x}catch(e){orderList=[]}}  
-function renderRecentOrders(){    
+function saveOrderHistory(){localStorage.setItem("sixmOrderHistory",JSON.stringify(orderHistory))}  
+function loadOrderHistory(){try{const x=JSON.parse(localStorage.getItem("sixmOrderHistory")||"[]");return Array.isArray(x)?x:[]}catch(e){return []}}  
+function renderRecentOrders(){  
+const box=document.getElementById("recentOrderBox"),list=document.getElementById("recentOrderList");  
+if(!box||!list||!orderHistory.length)return;  
+box.style.display="block";  
+list.innerHTML="";  
+orderHistory.slice(0,3).forEach(o=>{list.innerHTML+=`<div class="recent-order-row"><div><strong>${escapeHTML(o.id)}</strong><br><small>${escapeHTML(o.date)}</small></div><span class="status-pill">${escapeHTML(o.status)}</span></div>`});}  
+  
 function scrollToProducts(){  
 const el=document.getElementById("productsContainer");  
 if(el)el.scrollIntoView({behavior:"smooth",block:"start"});}  
@@ -556,7 +564,11 @@ const searchInput=document.getElementById("headerSearchInput");
 if(searchInput)searchInput.value="";  
 displayProducts();  
 scrollToProducts();}  
-      
+    
+function showOrderStatus(){  
+if(orderHistory&&orderHistory.length){renderRecentOrders();document.getElementById("recentOrderBox")?.scrollIntoView({behavior:"smooth",block:"center"})}  
+else alert("এখনও কোনো অর্ডার হিস্টোরি নেই। অর্ডার করার পর এখানে স্ট্যাটাস দেখা যাবে।");}  
+  
 function escapeHTML(text){return String(text).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}  
 function updateProductOptions(categoryIndex,productIndex){  
 const product=categories[categoryIndex].products[productIndex];  
@@ -662,7 +674,9 @@ message+="\nধন্যবাদ SIX M STORE-এর সাথে অর্ড�
   
 const whatsappURL="https://wa.me/8801737781096?text="+encodeURIComponent(message);  
 const orderId="SXM-"+Date.now().toString().slice(-6);  
-
+orderHistory.unshift({id:orderId,date:new Date().toLocaleString("bn-BD"),status:"WhatsApp-এ পাঠানো হয়েছে"});  
+orderHistory=orderHistory.slice(0,10);  
+saveOrderHistory();  
 renderRecentOrders();  
 window.location.href=whatsappURL;}  
   
