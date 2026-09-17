@@ -1217,18 +1217,64 @@ variants:[
 {brand:"Nescafe Classic",size:"১০০ গ্রাম",price:0}   
 ]  
 },  
-  
-{  
-name:"হরলিক্স",  
-icon:"🥛",  
-image:"হরলিক্স.jpg",    
-variants:[    
-{brand:"Horlicks",size:"গ্রাম",price:0},  
-{brand:"Horlicks",size:"২৫০ গ্রাম",price:250},  
-{brand:"Horlicks",size:"৫০০ গ্রাম",price:490},  
-{brand:"Horlicks",size:"১ কেজি",price:880}    
-]  
-},  
+
+{
+name:"গুড়াদুধের প্যাকেট",
+icon:"🥛",
+image:"গুড়াদুধের প্যাকেট.jpg",
+variants:[
+{brand:"Dano",size:"২৫ গ্রাম",price:0},
+{brand:"Dano",size:"৫০ গ্রাম",price:0},
+{brand:"Dano",size:"১০০ গ্রাম",price:0},
+{brand:"Dano",size:"২০০ গ্রাম",price:0},
+{brand:"Dano",size:"৪০০ গ্রাম",price:0},
+{brand:"Dano",size:"৫০০ গ্রাম",price:0},
+{brand:"Dano",size:"১ কেজি",price:0},
+{brand:"Dano",size:"২ কেজি",price:0},
+{brand:"Diploma",size:"১০০ গ্রাম",price:0},
+{brand:"Diploma",size:"২০০ গ্রাম",price:0},
+{brand:"Diploma",size:"৪০০ গ্রাম",price:0},
+{brand:"Diploma",size:"৫০০ গ্রাম",price:0},
+{brand:"Diploma",size:"১ কেজি",price:0},
+{brand:"Marks",size:"২০০ গ্রাম",price:0},
+{brand:"Marks",size:"৪০০ গ্রাম",price:0},
+{brand:"Marks",size:"৫০০ গ্রাম",price:0},
+{brand:"Marks",size:"১ কেজি",price:0},
+{brand:"NIDO",size:"২০০ গ্রাম",price:0},
+{brand:"NIDO",size:"৩৫০ গ্রাম",price:0},
+{brand:"NIDO",size:"৪০০ গ্রাম",price:0},
+{brand:"NIDO",size:"৫০০ গ্রাম",price:0},
+{brand:"NIDO",size:"৯০০ গ্রাম",price:0},
+{brand:"NIDO",size:"১ কেজি",price:0},
+{brand:"NIDO",size:"১.৮ কেজি",price:0},
+{brand:"Aarong",size:"৫০০ গ্রাম",price:0},
+{brand:"Aarong",size:"১ কেজি",price:0},
+{brand:"Starship",size:"৫০০ গ্রাম",price:0},
+{brand:"Starship",size:"১ কেজি",price:0},
+{brand:"AURA Milk Pushti",size:"৫০০ গ্রাম",price:0},
+{brand:"AURA Milk Pushti",size:"১ কেজি",price:0},
+{brand:"Kwality",size:"৫০০ গ্রাম",price:0},
+{brand:"Kwality",size:"১ কেজি",price:0}
+]
+},
+   
+{
+name:"হরলিক্স",
+icon:"🥛",
+image:"হরলিক্স.jpg",
+variants:[
+{brand:"Horlicks",size:"২৫০ গ্রাম",price:0},
+{brand:"Horlicks",size:"৪০০ গ্রাম",price:0},
+{brand:"Horlicks",size:"৫০০ গ্রাম",price:0},
+{brand:"Horlicks",size:"১ কেজি",price:0},
+{brand:"Horlicks Lite",size:"৪০০ গ্রাম",price:0},
+{brand:"Women's Plus Horlicks",size:"৪০০ গ্রাম",price:0},
+{brand:"Mother's Horlicks",size:"৩৫০ গ্রাম",price:0},
+{brand:"Junior Horlicks Stage-1",size:"৫০০ গ্রাম",price:0},
+{brand:"Junior Horlicks Stage-2",size:"৫০০ গ্রাম",price:0},
+{brand:"Horlicks Chocolate",size:"৫০০ গ্রাম",price:0}
+]
+}, 
    
 {
 name:"ল্যাকটোজেন",
@@ -1238,18 +1284,59 @@ variants:[
 {brand:"Lactogen 1",size:"২০০ গ্রাম",price:0},
 {brand:"Lactogen 1",size:"৩৫০ গ্রাম",price:640},
 {brand:"Lactogen 1",size:"৪০০ গ্রাম",price:0},
+{brand:"Lactogen 1",size:"৯০০ গ্রাম",price:0},
+{brand:"Lactogen 1",size:"১.৮ কেজি",price:0},   
 {brand:"Lactogen 2",size:"২০০ গ্রাম",price:0},
 {brand:"Lactogen 2",size:"৩৫০ গ্রাম",price:670},
 {brand:"Lactogen 2",size:"৪০০ গ্রাম",price:0},
+{brand:"Lactogen 2",size:"৯০০ গ্রাম",price:0},
+{brand:"Lactogen 2",size:"১.৮ কেজি",price:0},   
 {brand:"Lactogen 3",size:"২০০ গ্রাম",price:0},
 {brand:"Lactogen 3",size:"৩৫০ গ্রাম",price:690},
 {brand:"Lactogen 3",size:"৪০০ গ্রাম",price:0},
+{brand:"Lactogen 3",size:"৯০০ গ্রাম",price:0},
+{brand:"Lactogen 3",size:"১.৮ কেজি",price:0},   
 {brand:"Lactogen 4",size:"২০০ গ্রাম",price:0},
 {brand:"Lactogen 4",size:"৩৫০ গ্রাম",price:0},
-{brand:"Lactogen 4",size:"৪০০ গ্রাম",price:0}
+{brand:"Lactogen 4",size:"৪০০ গ্রাম",price:0},
+{brand:"Lactogen 4",size:"৯০০ গ্রাম",price:0},
+{brand:"Lactogen 4",size:"১.৮ কেজি",price:0}   
 ]
 },
-     
+
+{
+name:"নিডো",
+icon:"🥛",
+image:"নিডো.jpg",
+variants:[
+{brand:"Nido 1+",size:"২০০ গ্রাম",price:0},
+{brand:"Nido 1+",size:"৩৫০ গ্রাম",price:0},
+{brand:"Nido 1+",size:"৪০০ গ্রাম",price:0},
+{brand:"Nido 1+",size:"৯০০ গ্রাম",price:0},
+{brand:"Nido 1+",size:"১.৮ কেজি",price:0},
+{brand:"Nido 2+",size:"২০০ গ্রাম",price:0},
+{brand:"Nido 2+",size:"৩৫০ গ্রাম",price:0},
+{brand:"Nido 2+",size:"৪০০ গ্রাম",price:0},
+{brand:"Nido 2+",size:"৯০০ গ্রাম",price:0},
+{brand:"Nido 2+",size:"১.৮ কেজি",price:0},
+{brand:"Nido 3+",size:"২০০ গ্রাম",price:0},
+{brand:"Nido 3+",size:"৩৫০ গ্রাম",price:0},
+{brand:"Nido 3+",size:"৪০০ গ্রাম",price:0},
+{brand:"Nido 3+",size:"৯০০ গ্রাম",price:0},
+{brand:"Nido 3+",size:"১.৮ কেজি",price:0},
+{brand:"Nido 4+",size:"২০০ গ্রাম",price:0},
+{brand:"Nido 4+",size:"৩৫০ গ্রাম",price:0},
+{brand:"Nido 4+",size:"৪০০ গ্রাম",price:0},
+{brand:"Nido 4+",size:"৯০০ গ্রাম",price:0},
+{brand:"Nido 4+",size:"১.৮ কেজি",price:0},
+{brand:"Nido 5+",size:"২০০ গ্রাম",price:0},
+{brand:"Nido 5+",size:"৩৫০ গ্রাম",price:0},
+{brand:"Nido 5+",size:"৪০০ গ্রাম",price:0},
+{brand:"Nido 5+",size:"৯০০ গ্রাম",price:0},
+{brand:"Nido 5+",size:"১.৮ কেজি",price:0}
+]
+},
+   
 {  
 name:"কমপ্লান",  
 icon:"🥛",  
