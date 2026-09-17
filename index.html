@@ -21,7 +21,7 @@ scroll-behavior:smooth
 
 body{
 font-family:Arial,"Noto Sans Bengali","Noto Sans",sans-serif;
-background:#f7f8fa;
+background:#f3f7fc;
 color:#172033;
 line-height:1.6;
 padding-bottom:0
@@ -35,15 +35,16 @@ button{
 cursor:pointer
 }
 
-/* HEADER */
+/* ================= HEADER ================= */
+
 header{
 background:#fff;
 color:#172033;
 position:sticky;
 top:0;
 z-index:5000;
-box-shadow:0 2px 15px rgba(0,0,0,.1);
-border-bottom:1px solid #e9edf2
+box-shadow:0 3px 18px rgba(6,59,143,.12);
+border-bottom:1px solid #d9e6f5
 }
 
 .header-main{
@@ -66,8 +67,8 @@ align-items:center;
 justify-content:center;
 overflow:hidden;
 flex-shrink:0;
-border:1px solid #e4e9ef;
-box-shadow:0 3px 10px rgba(0,0,0,.12)
+border:1px solid #dbe6f1;
+box-shadow:0 3px 10px rgba(6,59,143,.12)
 }
 
 .logo img{
@@ -91,7 +92,7 @@ letter-spacing:.5px
 
 .brand p{
 font-size:11px;
-color:#687386;
+color:#5f7188;
 font-weight:bold;
 margin-top:2px
 }
@@ -104,11 +105,11 @@ position:relative
 .header-search input{
 width:100%;
 height:46px;
-border:1px solid #dce3eb;
+border:1px solid #cbdcf0;
 outline:0;
 border-radius:24px;
 padding:0 48px 0 18px;
-background:#f8fafc;
+background:#f3f7fc;
 font-size:14px;
 color:#172033;
 transition:.2s
@@ -117,7 +118,7 @@ transition:.2s
 .header-search input:focus{
 border-color:#0875d1;
 background:#fff;
-box-shadow:0 0 0 3px rgba(8,117,209,.1)
+box-shadow:0 0 0 3px rgba(8,117,209,.12)
 }
 
 .header-search-icon{
@@ -130,7 +131,7 @@ border-radius:50%;
 display:flex;
 align-items:center;
 justify-content:center;
-background:#063b8f;
+background:linear-gradient(135deg,#063b8f,#0875d1);
 color:#fff;
 font-size:17px;
 pointer-events:none
@@ -143,8 +144,8 @@ gap:8px
 }
 
 .header-action{
-border:1px solid #e0e6ed;
-background:#fff;
+border:1px solid #d7e4f2;
+background:#f8fbff;
 height:42px;
 border-radius:10px;
 padding:0 12px;
@@ -158,7 +159,8 @@ color:#263449
 
 .header-action:hover{
 border-color:#0875d1;
-color:#063b8f
+color:#063b8f;
+background:#eef6ff
 }
 
 .header-cart{
@@ -174,7 +176,7 @@ color:#fff
 
 .header-cart-count{
 background:#fff;
-color:#20a052;
+color:#159947;
 border-radius:50%;
 min-width:21px;
 height:21px;
@@ -184,9 +186,10 @@ justify-content:center;
 font-size:11px
 }
 
-/* NAV */
+/* ================= NAV ================= */
+
 .main-nav{
-border-top:1px solid #eef1f5;
+border-top:1px solid #e2ebf5;
 background:#fff
 }
 
@@ -211,7 +214,7 @@ background:transparent;
 padding:10px 14px;
 font-size:13px;
 font-weight:800;
-color:#4b586b;
+color:#526176;
 white-space:nowrap;
 border-bottom:3px solid transparent
 }
@@ -222,10 +225,11 @@ color:#063b8f;
 border-bottom-color:#20b858
 }
 
-/* DELIVERY BAR */
+/* ================= DELIVERY BAR ================= */
+
 .delivery-bar{
-background:#f0f8ff;
-border-bottom:1px solid #dceeff;
+background:linear-gradient(90deg,#eef6ff,#f7fbff,#eefaf4);
+border-bottom:1px solid #d8e8f7;
 overflow:hidden;
 white-space:nowrap;
 height:29px;
@@ -272,11 +276,12 @@ transform:translateX(-50%)
 }
 }
 
-/* HERO */
+/* ================= HERO ================= */
+
 .hero{
-background:linear-gradient(110deg,#eaf5ff 0%,#fff 48%,#effaf3 100%);
+background:linear-gradient(110deg,#e7f3ff 0%,#fff 48%,#eef9f3 100%);
 padding:34px 15px;
-border-bottom:1px solid #e4eaf1
+border-bottom:1px solid #dbe7f2
 }
 
 .hero-inner{
@@ -296,7 +301,7 @@ padding:5px
 display:inline-flex;
 align-items:center;
 gap:6px;
-background:#e5f7ed;
+background:#e8f7ef;
 color:#159947;
 border-radius:30px;
 padding:6px 12px;
@@ -315,7 +320,7 @@ margin-bottom:9px
 .hero p{
 font-size:17px;
 font-weight:700;
-color:#4d5a6c;
+color:#4b5d73;
 max-width:650px
 }
 
@@ -352,8 +357,8 @@ transform:scale(.97)
 background:#fff;
 border-radius:18px;
 padding:22px;
-box-shadow:0 8px 30px rgba(6,59,143,.1);
-border:1px solid #e2eaf2
+box-shadow:0 10px 32px rgba(6,59,143,.12);
+border:1px solid #d7e5f3
 }
 
 .hero-card-top{
@@ -367,7 +372,7 @@ margin-bottom:12px
 width:48px;
 height:48px;
 border-radius:13px;
-background:#eaf5ff;
+background:#eaf4ff;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -390,7 +395,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:9px 0;
-border-top:1px solid #edf1f5;
+border-top:1px solid #e5edf5;
 font-size:12px
 }
 
@@ -398,17 +403,18 @@ font-size:12px
 color:#063b8f
 }
 
-/* LIVE PRODUCTS */
+/* ================= LIVE PRODUCTS ================= */
+
 .live-product-showcase{
 width:100%;
-background:#fff;
+background:#f8fbff;
 overflow:hidden;
 padding:9px 0;
-border-bottom:1px solid #e5ebf3;
+border-bottom:1px solid #d9e6f3;
 position:sticky;
 top:var(--header-height,150px);
 z-index:4500;
-box-shadow:0 2px 8px rgba(0,0,0,.05)
+box-shadow:0 3px 10px rgba(6,59,143,.07)
 }
 
 .live-product-track{
@@ -426,7 +432,7 @@ animation-play-state:paused
 width:96px;
 min-width:96px;
 background:#fff;
-border:1px solid #e5eaf0;
+border:1px solid #dce7f2;
 border-radius:12px;
 padding:6px 4px;
 text-align:center
@@ -436,7 +442,7 @@ text-align:center
 width:70px;
 height:56px;
 margin:auto;
-background:#f8fafc;
+background:#f3f8fd;
 border-radius:9px;
 overflow:hidden;
 display:flex;
@@ -476,7 +482,8 @@ transform:translateX(-50%)
 }
 }
 
-/* CONTAINER */
+/* ================= CONTAINER ================= */
+
 .container{
 max-width:1200px;
 margin:auto;
@@ -508,7 +515,8 @@ font-size:12px;
 font-weight:900
 }
 
-/* QUICK FEATURES */
+/* ================= QUICK FEATURES ================= */
+
 .quick-features{
 display:grid;
 grid-template-columns:repeat(4,1fr);
@@ -519,11 +527,11 @@ margin:5px auto 20px
 .quick-feature{
 font-family:inherit;
 background:#fff;
-border:1px solid #e4e9ef;
+border:1px solid #dbe6f1;
 border-radius:12px;
 padding:12px 8px;
 text-align:left;
-box-shadow:0 2px 8px rgba(0,0,0,.04);
+box-shadow:0 3px 10px rgba(6,59,143,.05);
 font-weight:800;
 font-size:12px;
 cursor:pointer;
@@ -537,7 +545,7 @@ transition:.18s
 width:38px;
 height:38px;
 border-radius:10px;
-background:#f1f6fc;
+background:#edf5fd;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -547,34 +555,36 @@ flex-shrink:0
 
 .quick-feature:hover{
 transform:translateY(-2px);
-box-shadow:0 7px 18px rgba(0,0,0,.08)
+box-shadow:0 8px 20px rgba(6,59,143,.10);
+border-color:#bcd5ec
 }
 
 .quick-feature.active{
 border-color:#0875d1;
-background:#f2f8ff;
+background:#edf6ff;
 color:#063b8f
 }
 
 #specialOfferBtn.active{
-border-color:#f0a000;
+border-color:#e2a000;
 background:#fff9ec;
 color:#a15b00
 }
 
 .product-request-feature.active{
 border-color:#0875d1;
-background:#eef8ff;
-color:#075985
+background:#edf6ff;
+color:#063b8f
 }
 
-/* CATEGORY */
+/* ================= CATEGORY ================= */
+
 .category-selector{
 background:#fff;
-border:1px solid #e4e9ef;
+border:1px solid #d8e5f1;
 border-radius:14px;
 padding:15px;
-box-shadow:0 2px 8px rgba(0,0,0,.04)
+box-shadow:0 3px 10px rgba(6,59,143,.05)
 }
 
 .category-label{
@@ -588,8 +598,8 @@ margin-bottom:9px
 .category-select{
 width:100%;
 height:44px;
-background:#f8fafc;
-border:1px solid #dbe3eb;
+background:#f4f8fc;
+border:1px solid #cdddea;
 border-radius:9px;
 padding:0 12px;
 font-size:14px;
@@ -601,7 +611,7 @@ outline:0
 
 .category-select:focus{
 border-color:#0875d1;
-box-shadow:0 0 0 3px rgba(8,117,209,.08)
+box-shadow:0 0 0 3px rgba(8,117,209,.10)
 }
 
 .category-chips{
@@ -617,7 +627,7 @@ display:none
 }
 
 .category-chip{
-border:1px solid #dfe6ee;
+border:1px solid #d4e1ee;
 background:#fff;
 border-radius:20px;
 padding:8px 13px;
@@ -634,14 +644,15 @@ color:#fff;
 border-color:#063b8f
 }
 
-/* PRODUCTS */
+/* ================= PRODUCTS ================= */
+
 .category{
 background:#fff;
 border-radius:14px;
 padding:15px;
 margin-bottom:17px;
-border:1px solid #e4e9ef;
-box-shadow:0 2px 8px rgba(0,0,0,.04)
+border:1px solid #dbe6f1;
+box-shadow:0 3px 10px rgba(6,59,143,.05)
 }
 
 .category-title{
@@ -652,7 +663,7 @@ color:#172033;
 font-size:19px;
 margin-bottom:13px;
 padding-bottom:10px;
-border-bottom:1px solid #edf0f4
+border-bottom:1px solid #e4ecf4
 }
 
 .category-title::after{
@@ -670,18 +681,19 @@ gap:10px
 .product{
 position:relative;
 background:#fff;
-border:1px solid #e5eaf0;
+border:1px solid #dce6f0;
 border-radius:12px;
 padding:11px 8px 10px;
 text-align:center;
 transition:.2s;
-overflow:hidden
+overflow:hidden;
+box-shadow:0 2px 8px rgba(6,59,143,.025)
 }
 
 .product:hover{
 transform:translateY(-3px);
-box-shadow:0 9px 24px rgba(0,0,0,.09);
-border-color:#d6e2ef
+box-shadow:0 10px 25px rgba(6,59,143,.10);
+border-color:#bcd4eb
 }
 
 .product-image-box{
@@ -711,7 +723,7 @@ display:flex;
 align-items:center;
 justify-content:center;
 font-size:50px;
-background:#f8fafc
+background:#f3f8fd
 }
 
 .product h3{
@@ -729,7 +741,7 @@ justify-content:center
 display:block;
 font-size:10px;
 font-weight:800;
-color:#7a8595;
+color:#718096;
 text-align:left;
 margin-top:4px;
 margin-bottom:2px
@@ -737,8 +749,8 @@ margin-bottom:2px
 
 .product-select{
 width:100%;
-background:#fff;
-border:1px solid #d7dfe8;
+background:#fafdff;
+border:1px solid #cedce9;
 border-radius:7px;
 padding:7px 5px;
 font-size:11px;
@@ -754,7 +766,8 @@ border-color:#0875d1
 .price-select{
 font-weight:900;
 color:#063b8f;
-background:#f4f8fd
+background:#eef6ff;
+border-color:#c9ddf0
 }
 
 .order-btn{
@@ -768,7 +781,8 @@ margin-top:8px;
 cursor:pointer;
 font-weight:900;
 font-size:12px;
-transition:.2s
+transition:.2s;
+box-shadow:0 3px 8px rgba(32,184,88,.15)
 }
 
 .order-btn:hover{
@@ -788,7 +802,8 @@ min-height:15px;
 margin-top:3px
 }
 
-/* BADGES */
+/* ================= BADGES ================= */
+
 .product-badge{
 position:absolute;
 top:8px;
@@ -815,7 +830,8 @@ background:#8e44ad
 background:#e67e22
 }
 
-/* WISHLIST */
+/* ================= WISHLIST ================= */
+
 .wishlist-btn{
 position:absolute;
 top:7px;
@@ -823,24 +839,24 @@ right:7px;
 z-index:5;
 width:31px;
 height:31px;
-border:1px solid #e5eaf0;
+border:1px solid #dce6f0;
 border-radius:50%;
 background:#fff;
-box-shadow:0 2px 7px rgba(0,0,0,.1);
+box-shadow:0 2px 7px rgba(6,59,143,.10);
 font-size:16px;
 cursor:pointer
 }
 
 .wishlist-btn.active{
-background:#fff0f2
+background:#fff0f3
 }
 
 .wishlist-view-bar{
 margin:0 0 14px;
 padding:11px 13px;
 border-radius:11px;
-background:#fff;
-border:1px solid #e3eaf3;
+background:#f4f8fd;
+border:1px solid #d5e4f2;
 display:flex;
 align-items:center;
 justify-content:space-between;
@@ -864,7 +880,12 @@ font-size:11px;
 cursor:pointer
 }
 
-/* FLOATING ORDER */
+.wishlist-back-btn:hover{
+background:#0875d1
+}
+
+/* ================= FLOATING ORDER ================= */
+
 .order-floating{
 position:fixed;
 right:20px;
@@ -877,7 +898,7 @@ border-radius:30px;
 padding:12px 17px;
 font-size:13px;
 font-weight:900;
-box-shadow:0 7px 22px rgba(0,0,0,.2);
+box-shadow:0 8px 24px rgba(6,59,143,.20);
 cursor:pointer;
 transition:.2s
 }
@@ -900,13 +921,15 @@ margin-left:5px;
 font-weight:900
 }
 
-/* MODALS */
+/* ================= MODALS ================= */
+
 #orderPanel,
 #productRequestModal{
 display:none;
 position:fixed;
 inset:0;
-background:rgba(0,0,0,.68);
+background:rgba(3,27,65,.76);
+backdrop-filter:blur(3px);
 overflow:auto;
 padding:15px
 }
@@ -926,7 +949,8 @@ width:100%;
 max-width:680px;
 margin:15px auto;
 border-radius:17px;
-box-shadow:0 10px 40px rgba(0,0,0,.3)
+box-shadow:0 15px 50px rgba(3,42,92,.30);
+border:1px solid #d5e3f0
 }
 
 .order-content{
@@ -939,7 +963,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 color:#fff;
-background:#063b8f;
+background:linear-gradient(135deg,#063b8f 0%,#0875d1 100%);
 padding:14px 16px
 }
 
@@ -969,17 +993,28 @@ font-size:28px;
 font-weight:bold;
 cursor:pointer;
 color:#fff;
-background:rgba(255,255,255,.16);
+background:rgba(255,255,255,.18);
 border:0;
 border-radius:50%
 }
 
+.close:hover,
+.product-request-close:hover{
+background:rgba(255,255,255,.28)
+}
+
+/* ================= ORDER ITEMS ================= */
+
 .selected-product{
-background:#f7f9fb;
+background:#f4f8fd;
 padding:12px;
 border-radius:10px;
 margin-bottom:9px;
-border:1px solid #e3eaf3
+border:1px solid #d7e5f2
+}
+
+.selected-product:hover{
+border-color:#c3d9ed
 }
 
 .selected-top{
@@ -994,11 +1029,12 @@ flex:1
 
 .selected-info strong{
 display:block;
-font-size:15px
+font-size:15px;
+color:#172033
 }
 
 .item-details{
-color:#657184;
+color:#617187;
 font-size:12px;
 margin-top:3px
 }
@@ -1011,10 +1047,12 @@ margin-top:4px
 }
 
 .price-pending{
-color:#e67e22;
+color:#d97706;
 font-weight:bold;
 font-size:13px
 }
+
+/* ================= QUANTITY ================= */
 
 .order-controls{
 display:flex;
@@ -1040,12 +1078,17 @@ font-size:17px;
 font-weight:bold
 }
 
+.quantity button:hover{
+background:#0875d1
+}
+
 .quantity input{
 width:52px;
 height:30px;
 text-align:center;
-border:1px solid #ccc;
-border-radius:7px
+border:1px solid #c9d8e6;
+border-radius:7px;
+background:#fff
 }
 
 .remove{
@@ -1057,12 +1100,19 @@ border-radius:7px;
 cursor:pointer
 }
 
+.remove:hover{
+background:#c0392b
+}
+
+/* ================= TOTAL ================= */
+
 .total-box{
-background:#063b8f;
+background:linear-gradient(135deg,#063b8f 0%,#0875d1 100%);
 color:#fff;
 padding:15px;
 border-radius:11px;
-margin-top:14px
+margin-top:14px;
+box-shadow:0 7px 20px rgba(6,59,143,.15)
 }
 
 .total-row{
@@ -1074,7 +1124,8 @@ font-size:13px
 
 .total-pending{
 margin-top:9px;
-background:#fff3cd;
+background:#fff7df;
+border:1px solid #f3df9b;
 color:#856404;
 padding:9px;
 border-radius:7px;
@@ -1091,6 +1142,8 @@ font-size:18px;
 font-weight:bold
 }
 
+/* ================= ORDER BUTTONS ================= */
+
 .clear-order,
 .add-more{
 width:100%;
@@ -1101,17 +1154,27 @@ font-weight:bold
 }
 
 .clear-order{
-background:#fff0f0;
+background:#fff2f2;
 color:#e74c3c;
-border:1px solid #ffd0d0
+border:1px solid #ffd1d1
+}
+
+.clear-order:hover{
+background:#ffe5e5
 }
 
 .add-more{
-background:#eef6ff;
+background:#edf6ff;
 color:#063b8f;
-border:1px solid #d8eaff;
+border:1px solid #cfe3f5;
 font-size:14px
 }
+
+.add-more:hover{
+background:#e1f0ff
+}
+
+/* ================= CUSTOMER FORM ================= */
 
 .customer-form{
 margin-top:18px
@@ -1127,11 +1190,18 @@ font-size:16px
 .customer-form textarea{
 width:100%;
 padding:11px;
-border:1px solid #ccd5e0;
+border:1px solid #cbd9e7;
 border-radius:8px;
 margin-bottom:9px;
 font-size:14px;
-outline:0
+outline:0;
+background:#fbfdff
+}
+
+.customer-form input:focus,
+.customer-form textarea:focus{
+border-color:#0875d1;
+box-shadow:0 0 0 3px rgba(8,117,209,.08)
 }
 
 .customer-form textarea{
@@ -1149,10 +1219,17 @@ padding:13px;
 border-radius:9px;
 font-size:15px;
 font-weight:bold;
-cursor:pointer
+cursor:pointer;
+box-shadow:0 4px 12px rgba(32,184,88,.15)
 }
 
-/* PRODUCT REQUEST */
+.send-order:hover,
+.product-request-submit:hover{
+background:#159947
+}
+
+/* ================= PRODUCT REQUEST ================= */
+
 .product-request-content{
 max-width:620px;
 overflow:hidden
@@ -1163,8 +1240,8 @@ padding:18px
 }
 
 .product-request-intro{
-background:#f1f8ff;
-border:1px solid #dbeeff;
+background:#edf6ff;
+border:1px solid #d4e7f8;
 border-radius:10px;
 padding:11px;
 margin-bottom:13px;
@@ -1184,11 +1261,17 @@ font-size:12px
 .product-request-body textarea{
 width:100%;
 padding:11px;
-border:1px solid #ccd8e6;
+border:1px solid #cbd9e7;
 border-radius:8px;
 outline:0;
 font-size:13px;
-background:#fff
+background:#fbfdff
+}
+
+.product-request-body input:focus,
+.product-request-body textarea:focus{
+border-color:#0875d1;
+box-shadow:0 0 0 3px rgba(8,117,209,.08)
 }
 
 .product-request-body textarea{
@@ -1200,14 +1283,16 @@ resize:vertical
 margin-top:14px
 }
 
-/* DELIVERY */
+/* ================= DELIVERY ================= */
+
 .delivery{
-background:linear-gradient(110deg,#063b8f,#0875d1);
+background:linear-gradient(110deg,#063b8f 0%,#0875d1 100%);
 color:#fff;
 border-radius:15px;
 padding:24px 18px;
 margin-top:22px;
-text-align:center
+text-align:center;
+box-shadow:0 8px 25px rgba(6,59,143,.12)
 }
 
 .delivery h2{
@@ -1223,14 +1308,15 @@ color:#ffe082
 font-size:13px
 }
 
-/* INFO */
+/* ================= INFO ================= */
+
 .info{
 background:#fff;
 border-radius:14px;
 padding:20px;
 margin-top:18px;
-border:1px solid #e4e9ef;
-box-shadow:0 2px 8px rgba(0,0,0,.04)
+border:1px solid #dbe6f1;
+box-shadow:0 3px 10px rgba(6,59,143,.05)
 }
 
 .info h2{
@@ -1244,7 +1330,7 @@ font-size:20px
 display:flex;
 gap:11px;
 padding:11px 0;
-border-bottom:1px solid #eee
+border-bottom:1px solid #e5ecf3
 }
 
 .info-icon{
@@ -1285,14 +1371,23 @@ font-size:13px
 background:#063b8f
 }
 
+.call:hover{
+background:#0875d1
+}
+
 .whatsapp{
 background:#20b858
 }
 
-/* FOOTER */
+.whatsapp:hover{
+background:#159947
+}
+
+/* ================= FOOTER ================= */
+
 footer{
 margin-top:20px;
-background:#071b3a;
+background:linear-gradient(135deg,#041b42 0%,#063b8f 100%);
 color:#fff;
 text-align:center;
 padding:28px 15px 80px
@@ -1312,13 +1407,15 @@ margin:4px 0
 display:none
 }
 
+/* ================= NO RESULT ================= */
+
 #noResult{
 background:#fff;
 padding:40px 15px;
 text-align:center;
 border-radius:13px;
 color:#777;
-border:1px solid #e5eaf0
+border:1px solid #dbe6f1
 }
 
 #noResult h3{
@@ -1326,7 +1423,8 @@ color:#063b8f;
 margin-bottom:5px
 }
 
-/* TABLET */
+/* ================= TABLET ================= */
+
 @media(max-width:900px){
 
 .header-main{
@@ -1355,7 +1453,8 @@ display:none
 
 }
 
-/* MOBILE */
+/* ================= MOBILE ================= */
+
 @media(max-width:700px){
 
 body{
@@ -1593,9 +1692,9 @@ bottom:7px;
 z-index:9500;
 background:rgba(255,255,255,.97);
 backdrop-filter:blur(12px);
-border:1px solid #e1e7ee;
+border:1px solid #d5e2ee;
 border-radius:15px;
-box-shadow:0 7px 25px rgba(0,0,0,.17);
+box-shadow:0 8px 28px rgba(6,59,143,.20);
 padding:5px;
 grid-template-columns:repeat(4,1fr);
 gap:3px
@@ -1619,7 +1718,7 @@ margin-bottom:2px
 }
 
 .bottom-nav button:active{
-background:#eef5ff;
+background:#edf6ff;
 color:#063b8f
 }
 
@@ -1696,7 +1795,8 @@ padding:14px
 
 }
 
-/* SMALL MOBILE */
+/* ================= SMALL MOBILE ================= */
+
 @media(max-width:380px){
 
 .brand h1{
@@ -1744,8 +1844,6 @@ font-size:10px
 
 <header>
 
-<!-- একদম উপরের Header Top Bar সম্পূর্ণ বাদ দেওয়া হয়েছে -->
-
 <div class="header-main">
 
 <div class="logo">
@@ -1758,12 +1856,17 @@ font-size:10px
 </div>
 
 <div class="header-search">
+
 <input
 type="search"
 id="headerSearchInput"
 placeholder="🔎 পণ্য, ব্র্যান্ড বা কোম্পানি খুঁজুন..."
-oninput="syncHeaderSearch()">
-<div class="header-search-icon">🔎</div>
+oninput="syncHeaderSearch">
+
+<div class="header-search-icon">
+🔎
+</div>
+
 </div>
 
 <div class="header-actions">
@@ -1817,7 +1920,6 @@ oninput="syncHeaderSearch()">
 
 </nav>
 
-<!-- এই Delivery Bar রাখা হয়েছে -->
 <div class="delivery-bar">
 
 <div class="delivery-track">
@@ -1868,13 +1970,11 @@ oninput="syncHeaderSearch()">
 
 </header>
 
-
 <section class="live-product-showcase">
 
 <div class="live-product-track" id="liveProductTrack"></div>
 
 </section>
-
 
 <section class="hero" id="homeHero">
 
@@ -1917,6 +2017,7 @@ SIX M STORE-এ স্বাগতম
 </div>
 
 <div>
+
 <strong>
 সারা চট্টগ্রামে ডেলিভারি
 </strong>
@@ -1950,13 +2051,14 @@ SIX M STORE-এ স্বাগতম
 
 </section>
 
-
 <div class="container">
 
 <div class="section-heading">
+
 <h2>
 <span>🛍️</span> দ্রুত সেবা
 </h2>
+
 </div>
 
 <div class="quick-features">
@@ -1976,7 +2078,6 @@ onclick="showSpecialOffers()">
 
 </button>
 
-
 <button
 type="button"
 id="productRequestBtn"
@@ -1992,7 +2093,6 @@ onclick="openProductRequest()">
 
 </button>
 
-
 <button
 type="button"
 id="bestSellerBtn"
@@ -2007,7 +2107,6 @@ onclick="showBestSellers()">
 </div>
 
 </button>
-
 
 <button
 type="button"
@@ -2026,7 +2125,6 @@ onclick="showWishlist()">
 
 </div>
 
-
 <div class="section-heading">
 
 <h2>
@@ -2034,7 +2132,6 @@ onclick="showWishlist()">
 </h2>
 
 </div>
-
 
 <div class="category-selector">
 
@@ -2060,7 +2157,6 @@ id="categoryChips">
 
 </div>
 
-
 <div class="section-heading" id="productsHeading">
 
 <h2>
@@ -2072,7 +2168,6 @@ id="categoryChips">
 </button>
 
 </div>
-
 
 <div id="productsContainer"></div>
 
@@ -2087,7 +2182,6 @@ id="categoryChips">
 </p>
 
 </div>
-
 
 <div class="delivery">
 
@@ -2110,7 +2204,6 @@ id="categoryChips">
 </p>
 
 </div>
-
 
 <div class="info" id="contactSection">
 
@@ -2135,7 +2228,6 @@ id="categoryChips">
 </div>
 
 </div>
-
 
 <div class="contact-buttons">
 
@@ -2162,7 +2254,6 @@ target="_blank">
 
 </div>
 
-
 <button
 class="order-floating"
 onclick="openOrder()">
@@ -2176,7 +2267,6 @@ id="orderCount">
 </span>
 
 </button>
-
 
 <div class="bottom-nav">
 
@@ -2202,8 +2292,7 @@ id="orderCount">
 
 </div>
 
-
-<!-- ORDER MODAL -->
+<!-- ================= ORDER MODAL ================= -->
 
 <div id="orderPanel">
 
@@ -2239,7 +2328,6 @@ onclick="closeOrder()">
 
 </div>
 
-
 <div class="total-row">
 
 <span>
@@ -2251,7 +2339,6 @@ onclick="closeOrder()">
 </span>
 
 </div>
-
 
 <div class="total-row total-final">
 
@@ -2265,7 +2352,6 @@ onclick="closeOrder()">
 
 </div>
 
-
 <div
 id="pendingNotice"
 class="total-pending"
@@ -2277,7 +2363,6 @@ style="display:none">
 
 </div>
 
-
 <button
 class="clear-order"
 onclick="clearOrder()">
@@ -2286,7 +2371,6 @@ onclick="clearOrder()">
 
 </button>
 
-
 <button
 class="add-more"
 onclick="continueShopping()">
@@ -2294,7 +2378,6 @@ onclick="continueShopping()">
 🛍️ আরও পণ্য যোগ করুন
 
 </button>
-
 
 <div class="customer-form">
 
@@ -2331,8 +2414,7 @@ onclick="sendOrder()">
 
 </div>
 
-
-<!-- PRODUCT REQUEST MODAL -->
+<!-- ================= PRODUCT REQUEST ================= -->
 
 <div id="productRequestModal">
 
@@ -2354,7 +2436,6 @@ onclick="closeProductRequest()">
 
 </div>
 
-
 <div class="product-request-body">
 
 <div class="product-request-intro">
@@ -2362,7 +2443,6 @@ onclick="closeProductRequest()">
 দোকানে নেই এমন কোনো পণ্য চাইলে জানান। সর্বোচ্চ চেষ্টা করব পণ্যটি পৌঁছে দিতে আপনার দরজায়। ❤️
 
 </div>
-
 
 <label>
 🛍️ কোন পণ্য চান? *
@@ -2374,7 +2454,6 @@ id="requestProductName"
 placeholder="পণ্যের নাম লিখুন"
 autocomplete="off">
 
-
 <label>
 🏷️ ব্র্যান্ড (যদি জানা থাকে)
 </label>
@@ -2384,7 +2463,6 @@ type="text"
 id="requestBrand"
 placeholder="যেমন: Fresh, Radhuni, Lux">
 
-
 <label>
 📦 সাইজ / ওজন / পরিমাণ
 </label>
@@ -2393,7 +2471,6 @@ placeholder="যেমন: Fresh, Radhuni, Lux">
 type="text"
 id="requestSize"
 placeholder="যেমন: ৫০০ গ্রাম, ১ লিটার, ১ প্যাকেট">
-
 
 <label>
 👤 আপনার নাম *
@@ -2405,7 +2482,6 @@ id="requestCustomerName"
 placeholder="আপনার নাম লিখুন"
 autocomplete="name">
 
-
 <label>
 📞 মোবাইল / WhatsApp নম্বর *
 </label>
@@ -2416,7 +2492,6 @@ id="requestCustomerPhone"
 placeholder="মোবাইল নম্বর লিখুন"
 autocomplete="tel">
 
-
 <label>
 📝 অতিরিক্ত তথ্য
 </label>
@@ -2425,7 +2500,6 @@ autocomplete="tel">
 id="requestNote"
 placeholder="পণ্যটি সম্পর্কে অতিরিক্ত কিছু জানাতে চাইলে লিখুন">
 </textarea>
-
 
 <button
 type="button"
@@ -2441,7 +2515,6 @@ onclick="sendProductRequest()">
 </div>
 
 </div>
-
 
 <footer>
 
@@ -2463,10 +2536,11 @@ SIX M STORE
 
 </footer>
 
-
 <script src="Products.js"></script>
 
 <script>
+
+/* ================= IMAGE SYSTEM ================= */
 
 const IMAGE_FOLDERS=[
 "images/",
@@ -2483,11 +2557,9 @@ const IMAGE_EXTENSIONS=[
 ".webp"
 ];
 
-
 function makeImageURL(f,n){
 return encodeURI(f+n)
 }
-
 
 function getImageCandidates(n){
 
@@ -2507,7 +2579,6 @@ a.push(makeImageURL(f,n+x))
 
 return a
 }
-
 
 function createProductImage(p){
 
@@ -2580,9 +2651,10 @@ next();
 return b.outerHTML
 }
 
+/* ================= CATEGORY ================= */
 
-const categorySelect=document.getElementById("categorySelect");
-
+const categorySelect=
+document.getElementById("categorySelect");
 
 if(typeof categories!=="undefined")
 
@@ -2597,7 +2669,6 @@ o.textContent=c.name;
 categorySelect.appendChild(o)
 
 });
-
 
 function renderCategoryChips(){
 
@@ -2628,7 +2699,6 @@ updateCategoryChipActive(a)
 };
 
 b.appendChild(a);
-
 
 categories.forEach((c,i)=>{
 
@@ -2666,7 +2736,6 @@ b.appendChild(x)
 
 }
 
-
 function updateCategoryChipActive(a){
 
 document.querySelectorAll(".category-chip")
@@ -2674,7 +2743,6 @@ document.querySelectorAll(".category-chip")
 
 if(a)a.classList.add("active")
 }
-
 
 function categorySelectChanged(){
 
@@ -2701,6 +2769,7 @@ b.classList[
 
 }
 
+/* ================= CART ================= */
 
 let orderList=[];
 
@@ -2708,7 +2777,6 @@ loadCart();
 
 let bestSellerMode=false,
 wishlistMode=false;
-
 
 function syncHeaderSearch(){
 
@@ -2725,7 +2793,6 @@ document.getElementById("headerSearchInput").value
 )
 
 }
-
 
 function displayProducts(
 searchValue=null,
@@ -2745,7 +2812,6 @@ const selected=categorySelect.value;
 
 let found=false;
 
-
 if(Array.isArray(wishlistNames))
 
 c.innerHTML=
@@ -2753,7 +2819,6 @@ c.innerHTML=
 '<div class="wishlist-view-title">❤️ আপনার পছন্দের পণ্য</div>'+
 '<button type="button" class="wishlist-back-btn" onclick="exitWishlist()">← সব পণ্য দেখুন</button>'+
 '</div>';
-
 
 if(window.productFilterMode)
 
@@ -2766,7 +2831,6 @@ c.innerHTML+=
 '</div>'+
 '<button type="button" class="wishlist-back-btn" onclick="exitProductFilter()">← সব পণ্য দেখুন</button>'+
 '</div>';
-
 
 if(typeof categories!=="undefined")
 
@@ -2809,7 +2873,6 @@ return text.includes(s)
 
 });
 
-
 if(!products.length)return;
 
 found=true;
@@ -2820,7 +2883,6 @@ let h=
 escapeHTML(cat.name)+
 '</h2>'+
 '<div class="products">';
-
 
 products.forEach(p=>{
 
@@ -2840,7 +2902,6 @@ const fv=
 .filter(v=>v.brand===fb);
 
 if(!fv.length)return;
-
 
 h+=
 '<div class="product" id="product-'+ci+'-'+pi+'">'+
@@ -2912,12 +2973,12 @@ c.innerHTML+=h+"</div></div>"
 
 });
 
-
 document.getElementById("noResult").style.display=
 found?"none":"block"
 
 }
 
+/* ================= WISHLIST ================= */
 
 function getWishlist(){
 
@@ -2935,7 +2996,6 @@ return[]
 
 }
 
-
 function saveWishlist(a){
 
 localStorage.setItem(
@@ -2945,13 +3005,11 @@ JSON.stringify(a)
 
 }
 
-
 function isWishlisted(n){
 
 return getWishlist().includes(n)
 
 }
-
 
 function toggleWishlist(ci,pi,b){
 
@@ -2997,7 +3055,6 @@ exitWishlist()
 
 }
 
-
 function showWishlist(){
 
 const a=getWishlist();
@@ -3036,7 +3093,6 @@ scrollToProducts()
 
 }
 
-
 function exitWishlist(){
 
 wishlistMode=false;
@@ -3060,6 +3116,7 @@ scrollToProducts()
 
 }
 
+/* ================= BEST SELLER ================= */
 
 function showBestSellers(){
 
@@ -3082,7 +3139,6 @@ b.includes("best-seller")||
 b.includes("সেরা")
 
 });
-
 
 if(!wanted.length)
 
@@ -3111,6 +3167,7 @@ scrollToProducts()
 
 }
 
+/* ================= BADGES ================= */
 
 function createProductBadge(p){
 
@@ -3135,6 +3192,7 @@ escapeHTML(b)+
 
 }
 
+/* ================= SPECIAL OFFER ================= */
 
 function filterByBadge(t){
 
@@ -3171,7 +3229,6 @@ b.includes("নতুন")
 
 });
 
-
 if(!wanted.length){
 
 if(ob)
@@ -3187,7 +3244,6 @@ t==="offer"
 
 }
 
-
 if(bb)
 bb.classList.remove("active");
 
@@ -3199,7 +3255,6 @@ categorySelect.value="all";
 document.getElementById("headerSearchInput").value="";
 
 displayProducts();
-
 
 setTimeout(()=>{
 
@@ -3225,13 +3280,11 @@ scrollToProducts()
 
 }
 
-
 function showSpecialOffers(){
 
 filterByBadge("offer")
 
 }
-
 
 function exitProductFilter(){
 
@@ -3253,14 +3306,12 @@ scrollToProducts()
 
 }
 
-
 function resetFeatureButtons(){
 
 document.querySelectorAll(".quick-feature")
 .forEach(b=>b.classList.remove("active"))
 
 }
-
 
 function clearFilters(){
 
@@ -3282,6 +3333,7 @@ renderCategoryChips()
 
 }
 
+/* ================= SECURITY ================= */
 
 function escapeHTML(t){
 
@@ -3294,6 +3346,7 @@ return String(t)
 
 }
 
+/* ================= PRODUCT OPTIONS ================= */
 
 function updateProductOptions(ci,pi){
 
@@ -3326,7 +3379,6 @@ escapeHTML(x.size)+
 updateProductPrice(ci,pi)
 
 }
-
 
 function updateProductPrice(ci,pi){
 
@@ -3363,6 +3415,7 @@ v&&v.price>0
 
 }
 
+/* ================= ADD PRODUCT ================= */
 
 function addSelectedProduct(ci,pi){
 
@@ -3421,6 +3474,7 @@ renderOrder()
 
 }
 
+/* ================= CART STORAGE ================= */
 
 function saveCart(){
 
@@ -3430,7 +3484,6 @@ JSON.stringify(orderList)
 )
 
 }
-
 
 function loadCart(){
 
@@ -3454,6 +3507,7 @@ orderList=[]
 
 }
 
+/* ================= RENDER ORDER ================= */
 
 function renderOrder(){
 
@@ -3461,7 +3515,6 @@ saveCart();
 
 const b=
 document.getElementById("orderItems");
-
 
 if(!orderList.length){
 
@@ -3557,6 +3610,7 @@ document.getElementById("headerCartCount").innerText=n
 
 }
 
+/* ================= QUANTITY ================= */
 
 function changeQty(i,v){
 
@@ -3568,7 +3622,6 @@ orderList[i].qty=1;
 renderOrder()
 
 }
-
 
 function setQty(i,v){
 
@@ -3583,7 +3636,6 @@ renderOrder()
 
 }
 
-
 function removeItem(i){
 
 orderList.splice(i,1);
@@ -3591,7 +3643,6 @@ orderList.splice(i,1);
 renderOrder()
 
 }
-
 
 function clearOrder(){
 
@@ -3608,6 +3659,7 @@ renderOrder()
 
 }
 
+/* ================= TOTAL ================= */
 
 function calculateTotal(){
 
@@ -3638,6 +3690,7 @@ p
 
 }
 
+/* ================= ORDER MODAL ================= */
 
 function openOrder(){
 
@@ -3649,7 +3702,6 @@ renderOrder()
 
 }
 
-
 function closeOrder(){
 
 document.getElementById("orderPanel").style.display="none";
@@ -3657,7 +3709,6 @@ document.getElementById("orderPanel").style.display="none";
 document.body.style.overflow="auto"
 
 }
-
 
 function continueShopping(){
 
@@ -3670,7 +3721,6 @@ scrollToProducts,
 
 }
 
-
 document.getElementById("orderPanel")
 .addEventListener("click",e=>{
 
@@ -3679,6 +3729,7 @@ closeOrder()
 
 });
 
+/* ================= SEND ORDER ================= */
 
 function sendOrder(){
 
@@ -3703,7 +3754,6 @@ document.getElementById(
 "customerAddress"
 ).value.trim();
 
-
 if(!n)
 return alert(
 "দয়া করে আপনার নাম লিখুন।"
@@ -3719,7 +3769,6 @@ return alert(
 "দয়া করে আপনার সম্পূর্ণ ডেলিভারি ঠিকানা লিখুন।"
 );
 
-
 let m=
 "🛒 SIX M STORE - নতুন অর্ডার\n\n"+
 "👤 নাম: "+n+
@@ -3729,7 +3778,6 @@ let m=
 
 let s=0,
 pending=false;
-
 
 orderList.forEach((x,i)=>{
 
@@ -3773,12 +3821,10 @@ m+="\n"
 
 });
 
-
 m+=
 "💰 নির্ধারিত পণ্যের মোট: ৳"+
 s+
 "\n🚚 ডেলিভারি চার্জ: ৳99\n";
-
 
 m+=
 pending
@@ -3790,10 +3836,8 @@ pending
 (s+99)+
 "\n";
 
-
 m+=
 "\nধন্যবাদ SIX M STORE-এর সাথে অর্ডার করার জন্য।";
-
 
 window.location.href=
 "https://wa.me/8801737781096?text="+
@@ -3801,6 +3845,7 @@ encodeURIComponent(m)
 
 }
 
+/* ================= PRODUCT REQUEST ================= */
 
 function openProductRequest(){
 
@@ -3826,7 +3871,6 @@ document.getElementById(
 
 }
 
-
 function closeProductRequest(){
 
 const m=
@@ -3844,7 +3888,6 @@ document.getElementById(
 
 }
 
-
 document.getElementById(
 "productRequestModal"
 )
@@ -3855,6 +3898,7 @@ closeProductRequest()
 
 });
 
+/* ================= SEND PRODUCT REQUEST ================= */
 
 function sendProductRequest(){
 
@@ -3888,7 +3932,6 @@ document.getElementById(
 "requestNote"
 ).value.trim();
 
-
 if(!p)
 return alert(
 "দয়া করে কোন পণ্য চান সেটি লিখুন।"
@@ -3904,13 +3947,11 @@ return alert(
 "দয়া করে আপনার মোবাইল নম্বর লিখুন।"
 );
 
-
 let m=
 "💬 SIX M STORE - পণ্যের চাহিদা\n\n"+
 "🛍️ চাওয়া পণ্য: "+
 p+
 "\n";
-
 
 if(b)
 m+="🏷️ ব্র্যান্ড: "+b+"\n";
@@ -3925,14 +3966,11 @@ n+
 ph+
 "\n";
 
-
 if(note)
 m+="📝 অতিরিক্ত তথ্য: "+note+"\n";
 
-
 m+=
 "\n🙏 পণ্যটি SIX M STORE-এ পাওয়া গেলে জানালে খুশি হব।";
-
 
 window.location.href=
 "https://wa.me/8801737781096?text="+
@@ -3940,6 +3978,7 @@ encodeURIComponent(m)
 
 }
 
+/* ================= LIVE PRODUCT SLIDER ================= */
 
 function renderLiveProductSlider(){
 
@@ -3957,18 +3996,15 @@ c=>c.products||[]
 
 if(!a.length)return;
 
-
 function card(p){
 
 const c=document.createElement("div");
 
 c.className="live-product-card";
 
-
 const b=document.createElement("div");
 
 b.className="live-product-img";
-
 
 const i=document.createElement("img");
 
@@ -3983,7 +4019,6 @@ f.style.display="none";
 b.append(i,f);
 
 i.alt=p.name||"SIX M STORE";
-
 
 if(p.image){
 
@@ -4026,7 +4061,6 @@ f.style.display="flex"
 
 }
 
-
 const n=document.createElement("div");
 
 n.className="live-product-name";
@@ -4038,7 +4072,6 @@ c.append(b,n);
 return c
 
 }
-
 
 t.innerHTML="";
 
@@ -4052,6 +4085,7 @@ t.appendChild(card(p))
 
 }
 
+/* ================= SCROLL ================= */
 
 function scrollToProducts(){
 
@@ -4064,7 +4098,6 @@ block:"start"
 
 }
 
-
 function scrollToContact(){
 
 document.getElementById(
@@ -4076,7 +4109,6 @@ block:"start"
 
 }
 
-
 function goHome(){
 
 window.scrollTo({
@@ -4086,6 +4118,7 @@ behavior:"smooth"
 
 }
 
+/* ================= START ================= */
 
 renderCategoryChips();
 
@@ -4094,7 +4127,6 @@ renderLiveProductSlider();
 displayProducts();
 
 renderOrder();
-
 
 function updateLiveSliderPosition(){
 
@@ -4109,7 +4141,6 @@ h.offsetHeight+"px"
 )
 
 }
-
 
 updateLiveSliderPosition();
 
