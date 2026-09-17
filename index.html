@@ -202,11 +202,7 @@ body{padding-bottom:68px}
 .container{padding:14px 9px 30px}
 
 /* ===== MOBILE WELCOME ===== */
-.welcome-section{
-padding:20px 11px;
-border-radius:15px;
-margin:1px auto 15px
-}
+.welcome-section{padding:20px 11px;border-radius:15px;margin:1px auto 15px}
 .welcome-title{font-size:19px}
 .welcome-subtitle{font-size:13px}
 .welcome-text{font-size:12px;line-height:1.7}
@@ -327,7 +323,7 @@ footer{padding-bottom:90px}
 <div class="welcome-title">🏪 SiX M STORE-এ আপনাকে স্বাগতম! </div>
 <div class="welcome-subtitle">🛍️দৈনন্দিন প্রয়োজনীয় সবকিছু এখন এক জায়গায়।</div>
 <div class="welcome-text">
-<span>👍পছন্দের পণ্য অর্ডার করুন।</span>
+<span>👍 আপনার প্রয়োজনীয় পছন্দের পণ্য অর্ডার করুন।</span>
 <span>🛒সহজেই আপনার কেনাকাটা সম্পন্ন করুন।</span>
 </div>
 <div class="welcome-order">👇এখনই অর্ডার করুন!</div>
@@ -441,24 +437,18 @@ footer{padding-bottom:90px}
 function getProductsData(){return typeof categories!=="undefined"&&Array.isArray(categories)?categories:[]}
 const IMAGE_FOLDERS=["images/","./images/","image/","./image/"],IMAGE_EXTENSIONS=["",".jpg",".jpeg",".png",".webp"];
 function makeImageURL(f,n){return encodeURI(f+n)}
-function getImageCandidates(n){
-if(!n)return[];
-n=String(n).trim();
+function getImageCandidates(n){if(!n)return[];n=String(n).trim();
 const a=[],e=/\.(jpg|jpeg|png|webp)$/i.test(n);
-IMAGE_FOLDERS.forEach(f=>{if(e)a.push(makeImageURL(f,n));else IMAGE_EXTENSIONS.forEach(x=>a.push(makeImageURL(f,n+x)))});
-return a;
-}
+IMAGE_FOLDERS.forEach(f=>{if(e)a.push(makeImageURL(f,n));else IMAGE_EXTENSIONS.forEach(x=>a.push(makeImageURL(f,n+x)))});return a;}
 function createProductImage(p){
 const b=document.createElement("div");b.className="product-image-box";
 const i=document.createElement("img");i.className="product-image";i.alt=p.name||"SIX M STORE Product";i.loading="lazy";i.decoding="async";
-const f=document.createElement("div");f.className="product-icon";f.textContent=p.icon||"🛒";f.style.display="none";
-b.append(i,f);
+const f=document.createElement("div");f.className="product-icon";f.textContent=p.icon||"🛒";f.style.display="none";b.append(i,f);
 if(!p.image){i.style.display="none";f.style.display="flex";return b.outerHTML}
 const c=getImageCandidates(p.image);let x=0,l=false;
 function next(){if(l)return;if(x>=c.length){i.style.display="none";f.style.display="flex";return}i.src=c[x++]}
 i.onload=()=>{l=true;i.style.display="block";f.style.display="none"};
-i.onerror=next;next();return b.outerHTML;
-}
+i.onerror=next;next();return b.outerHTML;}
 const categorySelect=document.getElementById("categorySelect");
 function loadCategories(){
 const data=getProductsData();if(!categorySelect)return;
@@ -472,8 +462,7 @@ const a=document.createElement("button");a.className="category-chip active";a.ty
 a.onclick=()=>{categorySelect.value="all";clearFilters();displayProducts();updateCategoryChipActive(a)};b.appendChild(a);
 data.forEach((c,i)=>{
 const x=document.createElement("button");x.className="category-chip";x.type="button";x.textContent=c.name||("ক্যাটাগরি "+(i+1));
-x.onclick=()=>{categorySelect.value=i;bestSellerMode=false;wishlistMode=false;window.productFilterMode=null;resetFeatureButtons();displayProducts();updateCategoryChipActive(x);scrollToProducts()};b.appendChild(x);
-});
+x.onclick=()=>{categorySelect.value=i;bestSellerMode=false;wishlistMode=false;window.productFilterMode=null;resetFeatureButtons();displayProducts();updateCategoryChipActive(x);scrollToProducts()};b.appendChild(x);});
 }
 function updateCategoryChipActive(a){document.querySelectorAll(".category-chip").forEach(b=>b.classList.remove("active"));if(a)a.classList.add("active")}
 function categorySelectChanged(){
@@ -633,9 +622,7 @@ setTimeout(()=>{if(added)added.innerText=""},1500);saveCart();renderOrder();
 function renderOrder(){
 saveCart();const b=document.getElementById("orderItems");if(!b)return;
 if(!orderList.length)b.innerHTML='<p style="text-align:center;color:#526176;padding:15px">এখনো কোনো পণ্য অর্ডারে যোগ করা হয়নি।</p>';
-else{
-b.innerHTML="";
-orderList.forEach((x,i)=>{
+else{b.innerHTML="";orderList.forEach((x,i)=>{
 const t=x.price>0?x.price*x.qty:0,p=x.price>0?'<span class="item-price">৳ '+x.price+" × "+x.qty+" = ৳ "+t+"</span>":'<span class="price-pending">মূল্য পরে জানানো হবে</span>';
 b.innerHTML+='<div class="selected-product"><div class="selected-top"><div class="selected-info"><strong>'+escapeHTML(x.name)+'</strong><div class="item-details">🏷️ ব্র্যান্ড: '+escapeHTML(x.brand)+'<br>📦 সাইজ: '+escapeHTML(x.size)+'</div>'+p+'</div></div><div class="order-controls"><div class="quantity"><button onclick="changeQty('+i+',-1)">−</button><input type="number" min="1" value="'+x.qty+'" onchange="setQty('+i+',this.value)"><button onclick="changeQty('+i+',1)">+</button></div><button class="remove" onclick="removeItem('+i+')">🗑️</button></div></div>';
 });
@@ -669,9 +656,7 @@ let m="🛒 SIX M STORE - নতুন অর্ডার\n\n"+"👤 নাম: 
 orderList.forEach((x,i)=>{
 m+=(i+1)+". "+x.name+"\n"+"   🏷️ ব্র্যান্ড: "+x.brand+"\n"+"   📦 সাইজ: "+x.size+"\n"+"   🔢 পরিমাণ: "+x.qty+"\n";
 if(x.price>0){const t=x.price*x.qty;s+=t;m+="   💰 মূল্য: ৳"+x.price+" × "+x.qty+" = ৳"+t+"\n"}
-else{pending=true;m+="   💰 মূল্য: পরে জানানো হবে\n"}
-m+="\n";
-});
+else{pending=true;m+="   💰 মূল্য: পরে জানানো হবে\n"}m+="\n";});
 m+="💰 নির্ধারিত পণ্যের মোট: ৳"+s+"\n"+"🚚 ডেলিভারি চার্জ: ৳99\n";
 m+=pending?"⚠️ কিছু পণ্যের মূল্য পরে জানানো হবে.\n💵 চূড়ান্ত মোট মূল্য: মূল্য নিশ্চিত করার পর জানানো হবে.\n":"💵 সর্বমোট: ৳"+(s+99)+"\n";
 m+="\nধন্যবাদ SIX M STORE-এর সাথে অর্ডার করার জন্য।";
@@ -712,8 +697,8 @@ b.append(i,f);i.alt=p.name||"SIX M STORE";
 if(p.image){
 const x=getImageCandidates(p.image);let n=0;
 const load=()=>{if(n>=x.length){i.style.display="none";f.style.display="flex";return}i.src=x[n++]};
-i.onload=()=>{i.style.display="block";f.style.display="none"};i.onerror=load;load();
-}else{i.style.display="none";f.style.display="flex"}
+i.onload=()=>{i.style.display="block";f.style.display="none"};i.onerror=load;load();}
+else{i.style.display="none";f.style.display="flex"}
 const name=document.createElement("div");name.className="live-product-name";name.textContent=p.name||"পণ্য";c.append(b,name);return c;
 }
 t.innerHTML="";a.forEach(p=>t.appendChild(card(p)));a.forEach(p=>t.appendChild(card(p)));
