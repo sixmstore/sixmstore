@@ -41,24 +41,6 @@ header{background:linear-gradient(135deg,#063b8f,#0759ad 50%,#0875d1);color:#fff
 .delivery-track .green{color:#b9ffd0}
 .delivery-track .orange{color:#ffe59a}
 @keyframes deliveryRunning{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-.hero{background:linear-gradient(110deg,#dcecfb,#f5faff 48%,#e4f6ed);padding:34px 15px;border-bottom:1px solid #cbddeb}
-.hero-inner{max-width:1200px;margin:auto;display:grid;grid-template-columns:1.25fr .75fr;gap:20px;align-items:center}
-.hero-text{padding:5px}
-.hero-tag{display:inline-flex;align-items:center;gap:6px;background:#e4f6ec;color:#159947;border:1px solid #c8e9d6;border-radius:30px;padding:6px 12px;font-size:12px;font-weight:900;margin-bottom:10px}
-.hero h2{font-size:31px;line-height:1.3;color:#063b8f;margin-bottom:9px}
-.hero p{font-size:17px;font-weight:700;color:#405873;max-width:650px}
-.hero-buttons{display:flex;flex-wrap:wrap;gap:9px;margin-top:17px}
-.hero-btn{border:0;border-radius:9px;padding:11px 17px;font-size:13px;font-weight:900;box-shadow:0 4px 10px rgba(6,59,143,.16);transition:.2s}
-.hero-order,.hero-offer{background:linear-gradient(135deg,#063b8f,#0875d1);color:#fff}
-.hero-btn:hover{background:linear-gradient(135deg,#052f73,#0667bd);transform:translateY(-1px)}
-.hero-btn:active{transform:scale(.97)}
-.hero-card{background:#f8fbff;border-radius:18px;padding:22px;box-shadow:0 10px 32px rgba(6,59,143,.14);border:1px solid #bfd6e9}
-.hero-card-top{display:flex;align-items:center;gap:12px;margin-bottom:12px}
-.hero-card-icon{width:48px;height:48px;border-radius:13px;background:#e5f1fc;display:flex;align-items:center;justify-content:center;font-size:25px}
-.hero-card strong{display:block;color:#063b8f;font-size:16px}
-.hero-card small{color:#60758c;font-size:11px}
-.hero-info-row{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-top:1px solid #dce8f3;font-size:12px}
-.hero-info-row b{color:#063b8f}
 .live-product-showcase{width:100%;background:#e9f3fb;overflow:hidden;padding:9px 0;border-bottom:1px solid #c8ddeb;position:sticky;top:var(--header-height,150px);z-index:4500;box-shadow:0 3px 10px rgba(6,59,143,.1)}
 .live-product-track{display:flex;width:max-content;gap:9px;animation:liveProducts 110s linear infinite}
 .live-product-showcase:hover .live-product-track{animation-play-state:paused}
@@ -183,8 +165,6 @@ footer p{font-size:12px;opacity:.85;margin:4px 0}
 .brand{width:155px}
 .header-actions .header-action:not(.header-cart){display:none}
 .products{grid-template-columns:repeat(4,1fr)}
-.hero-inner{grid-template-columns:1fr}
-.hero-card{display:none}
 }
 @media(max-width:700px){
 body{padding-bottom:68px}
@@ -208,11 +188,6 @@ body{padding-bottom:68px}
 .live-product-card{width:82px;min-width:82px}
 .live-product-img{width:61px;height:50px}
 .live-product-name{font-size:9px;height:26px}
-.hero{padding:24px 12px}
-.hero h2{font-size:24px}
-.hero p{font-size:14px;line-height:1.7}
-.hero-buttons{margin-top:13px}
-.hero-btn{padding:9px 13px;font-size:11px}
 .container{padding:14px 9px 30px}
 .section-heading{margin:19px 0 10px}
 .section-heading h2{font-size:18px}
@@ -316,28 +291,6 @@ footer{padding-bottom:90px}
 </header>
 <section class="live-product-showcase">
 <div class="live-product-track" id="liveProductTrack"></div>
-</section>
-<section class="hero" id="homeHero">
-<div class="hero-inner">
-<div class="hero-text">
-<div class="hero-tag">🛍️ আপনার দৈনন্দিন বাজারের বিশ্বস্ত ঠিকানা</div>
-<h2>SIX M STORE-এ স্বাগতম</h2>
-<p>এক জায়গায় প্রয়োজনীয় বাজারের পণ্য খুঁজুন, পছন্দ করুন এবং সহজেই অর্ডার করুন।</p>
-<div class="hero-buttons">
-<button class="hero-btn hero-order" onclick="scrollToProducts()">🛒 এখনই কেনাকাটা করুন</button>
-<button class="hero-btn hero-offer" onclick="showSpecialOffers()">🔥 বিশেষ অফার দেখুন</button>
-</div>
-</div>
-<div class="hero-card">
-<div class="hero-card-top">
-<div class="hero-card-icon">🚚</div>
-<div><strong>সারা চট্টগ্রামে ডেলিভারি</strong><small>সহজ ও সুবিধাজনক অর্ডার</small></div>
-</div>
-<div class="hero-info-row"><span>💳 Payment</span><b>Cash On Delivery</b></div>
-<div class="hero-info-row"><span>🚚 Delivery Charge</span><b>৳৯৯</b></div>
-<div class="hero-info-row"><span>📞 Order Support</span><b>01737781096</b></div>
-</div>
-</div>
 </section>
 <div class="container">
 <div class="section-heading"><h2><span>🛍️</span> দ্রুত সেবা</h2></div>
