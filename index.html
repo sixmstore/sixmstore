@@ -51,6 +51,77 @@ header{background:linear-gradient(135deg,#063b8f,#0759ad 50%,#0875d1);color:#fff
 .live-product-name{margin-top:4px;color:#063b8f;font-size:10px;font-weight:800;line-height:1.3;height:27px;display:flex;align-items:center;justify-content:center}
 @keyframes liveProducts{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 .container{max-width:1200px;margin:auto;padding:20px 15px 45px}
+
+/* ===== PREMIUM WELCOME SECTION ===== */
+.welcome-section{
+background:linear-gradient(135deg,#fff 0%,#f2f8ff 55%,#eaf5ff 100%);
+border:1px solid #c8dced;
+border-radius:18px;
+padding:25px 18px;
+margin:3px auto 20px;
+text-align:center;
+box-shadow:0 7px 24px rgba(6,59,143,.09);
+position:relative;
+overflow:hidden
+}
+.welcome-section:before{
+content:"";
+position:absolute;
+width:150px;
+height:150px;
+border-radius:50%;
+background:rgba(8,117,209,.07);
+top:-78px;
+left:-45px
+}
+.welcome-section:after{
+content:"";
+position:absolute;
+width:130px;
+height:130px;
+border-radius:50%;
+background:rgba(32,184,88,.06);
+bottom:-65px;
+right:-35px
+}
+.welcome-inner{
+position:relative;
+z-index:1;
+max-width:850px;
+margin:auto
+}
+.welcome-title{
+font-size:25px;
+font-weight:900;
+color:#063b8f;
+line-height:1.4;
+margin-bottom:7px;
+text-shadow:0 1px 1px rgba(6,59,143,.08)
+}
+.welcome-subtitle{
+font-size:16px;
+font-weight:800;
+color:#334155;
+margin-bottom:11px
+}
+.welcome-text{
+font-size:14px;
+font-weight:700;
+color:#172033;
+line-height:1.8
+}
+.welcome-text span{display:block}
+.welcome-order{
+display:inline-block;
+margin-top:13px;
+padding:9px 22px;
+border-radius:25px;
+background:linear-gradient(135deg,#063b8f,#0875d1);
+color:#fff;
+font-size:13px;
+font-weight:900;
+box-shadow:0 5px 15px rgba(6,59,143,.22)
+}
 .section-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:24px 0 13px}
 .section-heading h2{font-size:20px;color:#172033}
 .section-heading h2 span{color:#063b8f}
@@ -189,6 +260,18 @@ body{padding-bottom:68px}
 .live-product-img{width:61px;height:50px}
 .live-product-name{font-size:9px;height:26px}
 .container{padding:14px 9px 30px}
+
+/* ===== MOBILE WELCOME ===== */
+.welcome-section{
+padding:20px 11px;
+border-radius:15px;
+margin:1px auto 15px
+}
+.welcome-title{font-size:19px}
+.welcome-subtitle{font-size:13px}
+.welcome-text{font-size:12px;line-height:1.7}
+.welcome-order{font-size:12px;padding:8px 18px;margin-top:11px}
+
 .section-heading{margin:19px 0 10px}
 .section-heading h2{font-size:18px}
 .quick-features{grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:15px}
@@ -244,6 +327,9 @@ footer{padding-bottom:90px}
 .quick-feature{font-size:10px}
 .delivery-track{font-size:10px;animation-duration:16s}
 .delivery-track span{margin-right:30px}
+.welcome-title{font-size:17px}
+.welcome-subtitle{font-size:12px}
+.welcome-text{font-size:11px}
 }
 </style>
 </head>
@@ -289,36 +375,55 @@ footer{padding-bottom:90px}
 </div>
 </div>
 </header>
+
 <section class="live-product-showcase">
 <div class="live-product-track" id="liveProductTrack"></div>
 </section>
+
 <div class="container">
-<div class="section-heading"><h2><span>🏪</span>SiX M STORE-এ আপনাকে স্বাগতম! 🛍️দৈনন্দিন প্রয়োজনীয় সবকিছু এখন এক জায়গায়।</h2></div>
-<div class="section-heading"><h2><span>🛒</span>পছন্দের পণ্য অর্ডার করুন এবং সহজেই কেনাকাটা সম্পন্ন করুন। 👉এখনই অর্ডার করুন!</h2></div>  
+
+<!-- ===== PREMIUM WELCOME ===== -->
+<div class="welcome-section">
+<div class="welcome-inner">
+<div class="welcome-title">🏪 SiX M STORE-এ আপনাকে স্বাগতম! 🛍️</div>
+<div class="welcome-subtitle">দৈনন্দিন প্রয়োজনীয় সবকিছু এখন এক জায়গায়।</div>
+<div class="welcome-text">
+<span>🛒 পছন্দের পণ্য অর্ডার করুন</span>
+<span>এবং সহজেই আপনার কেনাকাটা সম্পন্ন করুন।</span>
+</div>
+<div class="welcome-order">👉 এখনই অর্ডার করুন!</div>
+</div>
+</div>
+
 <div class="quick-features">
 <button type="button" id="specialOfferBtn" class="quick-feature" onclick="showSpecialOffers()"><span>🔥</span><div>বিশেষ অফার<br><small>সাশ্রয়ী দামে</small></div></button>
 <button type="button" id="productRequestBtn" class="quick-feature product-request-feature" onclick="openProductRequest()"><span>💬</span><div>পণ্য চাই<br><small>না থাকলে জানান</small></div></button>
 <button type="button" id="bestSellerBtn" class="quick-feature" onclick="showBestSellers()"><span>🏆</span><div>বেস্ট সেলার<br><small>জনপ্রিয় পণ্য</small></div></button>
 <button type="button" id="wishlistFeatureBtn" class="quick-feature" onclick="showWishlist()"><span>❤️</span><div>পছন্দের পণ্য<br><small>আপনার তালিকা</small></div></button>
 </div>
+
 <div class="section-heading"><h2><span>🗂️</span> ক্যাটাগরি</h2></div>
 <div class="category-selector">
 <label class="category-label">আপনার প্রয়োজনীয় ক্যাটাগরি নির্বাচন করুন</label>
 <select id="categorySelect" class="category-select" onchange="categorySelectChanged()"><option value="all">🛍️ সব পণ্য দেখুন</option></select>
 <div class="category-chips" id="categoryChips"></div>
 </div>
+
 <div class="section-heading" id="productsHeading">
 <h2><span>🛍️</span> আমাদের পণ্যসমূহ</h2>
 <button onclick="clearFilters()">সব পণ্য</button>
 </div>
+
 <div id="productsContainer"></div>
 <div id="noResult" style="display:none"><h3>😔 কোনো পণ্য পাওয়া যায়নি</h3><p>অন্য নামে আবার চেষ্টা করুন।</p></div>
+
 <div class="delivery">
 <h2>🚚 Cash On Delivery — সারা চট্টগ্রামে</h2>
 <p><strong>💰 Delivery চার্জ মাত্র = ৯৯/- টাকা</strong></p>
 <p>🛍️ পণ্য হাতে বুঝে নিয়ে মূল্য পরিশোধ করুন।</p>
 <p>⚡ দ্রুত ও সহজ ডেলিভারি সুবিধা।</p>
 </div>
+
 <div class="info" id="contactSection">
 <h2>📍 আমাদের ঠিকানা</h2>
 <div class="info-item">
@@ -331,13 +436,16 @@ footer{padding-bottom:90px}
 </div>
 </div>
 </div>
+
 <button class="order-floating" onclick="openOrder()">🛒 আপনার অর্ডার <span class="order-count" id="orderCount">0</span></button>
+
 <div class="bottom-nav">
 <button onclick="goHome()"><span>🏠</span>হোম</button>
 <button onclick="scrollToProducts()"><span>🛍️</span>পণ্য</button>
 <button onclick="showWishlist()"><span>❤️</span>পছন্দ</button>
 <button onclick="openOrder()"><span>🛒</span>অর্ডার</button>
 </div>
+
 <div id="orderPanel">
 <div class="order-content">
 <div class="order-header"><h2>🛒 আপনার অর্ডার</h2><span class="close" onclick="closeOrder()">×</span></div>
@@ -359,6 +467,7 @@ footer{padding-bottom:90px}
 </div>
 </div>
 </div>
+
 <div id="productRequestModal">
 <div class="product-request-content">
 <div class="product-request-header"><h2>💬 পণ্য চাই</h2><button type="button" class="product-request-close" onclick="closeProductRequest()">×</button></div>
@@ -380,12 +489,14 @@ footer{padding-bottom:90px}
 </div>
 </div>
 </div>
+
 <footer>
 <h2>SIX M STORE</h2>
 <p>🤝 আপনার বিশ্বাসই আমাদের মূলধন।</p>
 <p>📞 +8801782371255</p>
 <p>© 2026 SIX M STORE. All Rights Reserved.</p>
 </footer>
+
 <script src="Products.js"></script>
 <script>
 function getProductsData(){return typeof categories!=="undefined"&&Array.isArray(categories)?categories:[]}
@@ -538,7 +649,7 @@ const wanted=all.filter(p=>{
 const b=normalizeSearch(p.badge||p.label||"");
 return t==="offer"?b.includes("offer")||b.includes("অফার")||p.oldPrice||p.discount:b.includes("new")||b.includes("নতুন");
 });
-if(!wanted.length){if(ob)ob.classList.remove("active");window.productFilterMode=null;return alert(t==="offer"?"এই মুহূর্তে কোনো বিশেষ অফার যোগ করা হয়নি।":"এই মুহূর্তে নতুন পণ্য হিসেবে কোনো পণ্য চিহ্নিত করা হয়নি।")}
+if(!wanted.length){if(ob)ob.classList.remove("active");window.productFilterMode=null;return alert(t==="offer"?"এই মুহূর্তে কোনো বিশেষ অফার যোগ করা হয়নি।":"এই মুহূর্তে নতুন পণ্য হিসেবে কোনো পণ্য চিহ্নিত করা হয়নি.")}
 if(bb)bb.classList.remove("active");if(ob)ob.classList.add("active");categorySelect.value="all";document.getElementById("headerSearchInput").value="";displayProducts();
 setTimeout(()=>{
 const names=wanted.map(p=>p.name);
@@ -612,9 +723,9 @@ document.getElementById("orderPanel").addEventListener("click",e=>{if(e.target==
 function sendOrder(){
 if(!orderList.length)return alert("দয়া করে আগে অন্তত একটি পণ্য অর্ডারে যোগ করুন।");
 const n=document.getElementById("customerName").value.trim(),p=document.getElementById("customerPhone").value.trim(),a=document.getElementById("customerAddress").value.trim();
-if(!n)return alert("দয়া করে আপনার নাম লিখুন।");
-if(!p)return alert("দয়া করে আপনার মোবাইল নম্বর লিখুন।");
-if(!a)return alert("দয়া করে আপনার সম্পূর্ণ ডেলিভারি ঠিকানা লিখুন।");
+if(!n)return alert("দয়া করে আপনার নাম লিখুন.");
+if(!p)return alert("দয়া করে আপনার মোবাইল নম্বর লিখুন.");
+if(!a)return alert("দয়া করে আপনার সম্পূর্ণ ডেলিভারি ঠিকানা লিখুন.");
 let m="🛒 SIX M STORE - নতুন অর্ডার\n\n"+"👤 নাম: "+n+"\n"+"📞 মোবাইল: "+p+"\n"+"📍 ঠিকানা: "+a+"\n\n"+"📦 অর্ডারের তালিকা:\n\n",s=0,pending=false;
 orderList.forEach((x,i)=>{
 m+=(i+1)+". "+x.name+"\n"+"   🏷️ ব্র্যান্ড: "+x.brand+"\n"+"   📦 সাইজ: "+x.size+"\n"+"   🔢 পরিমাণ: "+x.qty+"\n";
@@ -623,7 +734,7 @@ else{pending=true;m+="   💰 মূল্য: পরে জানানো হ�
 m+="\n";
 });
 m+="💰 নির্ধারিত পণ্যের মোট: ৳"+s+"\n"+"🚚 ডেলিভারি চার্জ: ৳99\n";
-m+=pending?"⚠️ কিছু পণ্যের মূল্য পরে জানানো হবে।\n💵 চূড়ান্ত মোট মূল্য: মূল্য নিশ্চিত করার পর জানানো হবে।\n":"💵 সর্বমোট: ৳"+(s+99)+"\n";
+m+=pending?"⚠️ কিছু পণ্যের মূল্য পরে জানানো হবে.\n💵 চূড়ান্ত মোট মূল্য: মূল্য নিশ্চিত করার পর জানানো হবে.\n":"💵 সর্বমোট: ৳"+(s+99)+"\n";
 m+="\nধন্যবাদ SIX M STORE-এর সাথে অর্ডার করার জন্য।";
 window.location.href="https://wa.me/8801737781096?text="+encodeURIComponent(m);
 }
@@ -647,7 +758,7 @@ if(b)m+="🏷️ ব্র্যান্ড: "+b+"\n";
 if(s)m+="📦 সাইজ/ওজন: "+s+"\n";
 m+="\n👤 কাস্টমারের নাম: "+n+"\n"+"📞 মোবাইল/WhatsApp: "+ph+"\n";
 if(note)m+="📝 অতিরিক্ত তথ্য: "+note+"\n";
-m+="\n🙏 পণ্যটি SIX M STORE-এ পাওয়া গেলে জানালে খুশি হব।";
+m+="\n🙏 পণ্যটি SIX M STORE-এ পাওয়া গেলে জানালে খুশি হব.";
 window.location.href="https://wa.me/8801737781096?text="+encodeURIComponent(m);
 }
 function renderLiveProductSlider(){
